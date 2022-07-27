@@ -1,0 +1,50 @@
+author_id;author_fname;author_lname
+Classics
+1;Harper;Lee
+2;Jane;Austen
+3;F.Scott;Fitzgerald
+4;"Gabriel Garcia";Marquez
+5;Fydor;Dostoevsky
+6;Virginia;Woolf
+7;Charles;Dickens
+8;Joseph;Heller
+9;J.D;Salinger
+10;John;Steinbeck
+11;Ernest;Hemingway
+Adventure
+12;Jules;Verne
+13;Joseph;Conrad
+14;Nicholas;Monsarrat
+15;Herman;Melville
+16;Yann;Martel
+17;Tom;Wolfe
+18;Jack;London
+19;Richard;Adams
+20;Johann;Wyss
+21;Charles;Portis
+22;Rudyard;Kipling
+#mystery
+23;Agatha;Christie
+24;Raymond;Chandler
+25;Gillian;Flynn
+26;"James M.";Cain
+27;Truman;Capote
+28;Wilkie;Collins
+29;Robert;Traver
+30;"John le";Carre
+31;Josephine;Tey
+32;Dishiell;Hammett
+33;Tana;French
+34;Alan;Bradley
+#Scifi
+35;Adlous;Huxley
+36;George;Orwell
+37;Ray;Bradbury
+38;Frank;Herbert
+39;"Arthur C.";Clarke
+40;Kurt;Vonnegut
+41;Issac;Asimov
+42;William;Gibson
+43;"Orson Scott";Card
+44;Margaret;Atwood
+45;Connie;Willis
