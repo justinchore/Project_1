@@ -1,5 +1,6 @@
 7/28: 
     -Finish up writing basic queries for books, users, admin view, and orderItems
+        - Create view for cart view after user adds an orderItem!
     -Explore what kind of data is to be expected from python-mySQL connection
     -Study MVC
 
