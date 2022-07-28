@@ -17,6 +17,8 @@
 -- User's Order
     -- Order Creation Process:
         -- When the user selects a book to put into their order:
+                SELECT stock FROM Books WHERE Books.book_id = 43;
+            -- if the user's quantity is greater than the book's stock, nothing happens.
         -- Order is made, then an orderItem (with quantity) is created with the selected book
         -- Needed information to create order: 
             -- 1. User's id.
@@ -35,8 +37,26 @@
         -- Order is made, now let's connect the selected book to the order
         -- The book is: "The Long goodbye by Raymond Chandler"
             --43,"The Long Goodbye","A hard-boiled detective story about gangsters, rich people, dames, drunks, adulterers, and writers. Down-and-out drunk Terry Lennox has a problem: his millionaire wife is dead and he needs to get out of LA fast",6.00,24,2,25
-            --
+            --44,"Farewell, My Lovely","Private detective Philip Marlowe is investigating a dead-end missing person case when he sees a felon, Moose Malloy, barging into a nightclub called Florian's, looking for his ex-girlfriend Velma Valento. The club has changed owners, so no one now there knows her.",4.99,24,2,25
+
         -- The user is: justin@justin.com
+
         -- Query to set orderItem and connect to order:
+            --1. Let's change the book's stock according to the quantity given by user
+                -- book info given by the currently selected book.
+                UPDATE Books SET stock = 23 WHERE book_id = 43;
+            --2. Now Create the OrderItem:
+                INSERT INTO OrderItems (orderItem_id, order_id, book_id, quantity, book_price) VALUES(1234,1, 43, 2, 6.00);
+            --3. Show the contents of order:
+                -- Information we need: current order id. 
+                SELECT b.book_title, CONCAT(a.author_fname,' ', a.author_lname) as author, oi.quantity, oi.book_price 
+                FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a
+                ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id
+                WHERE oi.order_id = 1;
+
+-- Ask user if they want to checkout, or keep shopping
+    -- if checkout:
+    
+
 
 
