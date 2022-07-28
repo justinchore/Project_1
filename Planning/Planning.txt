@@ -1,36 +1,13 @@
-BOOK WORLD
+7/28: 
+    -Finish up writing basic queries for books, users, admin view, and orderItems
+    -Explore what kind of data is to be expected from python-mySQL connection
+    -Study MVC
 
-- A virtual book store with a cart, checkout, login, search system
+7/29:
+    -Finish up MVC studying
+    -Start user creation/user login in python
 
-- User Path:
-    - User Log in/Create account View
-        - If log in, use email address and password
-        - If creating an account, use name, email address, password (confirm), address
-        - Update account information?
-    - Books view
-        - Can change view by:
-            - genres (Science Fiction, Fantasy, Mystery, Thriller/Suspense, Romance, Historical Fiction)
-            - authors
-            - year released
-            - stock/no stock
-            - Name of book
-        - Side view -> cart? 
-
-    - Checkout!
-
-- Admin
-    - Log in
-    - Book View
-        - Add a book, delete a book, update book information
-        - Book Search
-    - Orders View
-        - Check orders, delete orders, mark order as shipped, completed
+7/30:
+    - Finish user creation/user login COMPLETLY with validations and logging.
     
-
-Tasks: 
-    - Plan database layout -> queries
-    - Finalize path of the Application
-    - Investigate MVC
-    - Start Coding
-
 
