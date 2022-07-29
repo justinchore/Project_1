@@ -51,11 +51,26 @@
                 -- Information we need: current order id. 
                 SELECT b.book_title, CONCAT(a.author_fname,' ', a.author_lname) as author, oi.quantity, oi.book_price 
                 FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a
-                ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id
+                ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id 
+                --VIEW(cart_view)
                 WHERE oi.order_id = 1;
 
 -- Ask user if they want to checkout, or keep shopping
     -- if checkout:
+        -- Checking out affects the is_paid field in order
+        -- Information needed: Total price of order, gotten from order -> orderItems, then update is_paid field.
+        -- Get total price of order: Returns a decimal value
+            SELECT SUM(quantity * book_price) as order_total FROM cart_view
+            WHERE order_id = 1; 
+        -- Checkout, then update the order is_paid and paid_date
+            UPDATE Orders SET is_paid = 1 WHERE order_id = 1
+            UPDATE Orders SET paid_date = NOW() 
+            --NOW()+1 for format
+        
+
+
+    
+
     
 
 
