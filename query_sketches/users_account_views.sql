@@ -66,6 +66,33 @@
             UPDATE Orders SET is_paid = 1 WHERE order_id = 1
             UPDATE Orders SET paid_date = NOW() 
             --NOW()+1 for format
+        -- Take user back to main menu
+    
+    -- if keep shopping, take them back to the books page (preferably where they were)
+    -- if exit, logout and shut down
+
+-- Show user all of their orders.
+    -- search by author, book_title
+    -- sort by desc date, or asc date
+
+    -- Show all of user's orders. All we need is customer_id
+        SELECT * FROM Orders WHERE customer_id = 1;
+    -- Sort by paid_date:
+        SELECT * FROM Orders WHERE customer_id ORDER BY paid_date;
+    -- Search by text of OrderItem:
+        SELECT o.order_id, o.order_date, o.is_completed, o.is_paid FROM Orders as o JOIN OrderItems as oi JOIN Books b JOIN Authors a
+        ON o.order_id = oi.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id
+        WHERE b.book_title LIKE '%ray%'
+        OR a.author_fname LIKE '%ray%' OR a.author_lname LIKE '%ray%';
+    -- Show total price of order:
+        SELECT SUM(quantity * book_price) as order_total FROM cart_view
+        WHERE order_id = 1;
+    -- Shows all items from order:
+        SELECT * FROM cart_view WHERE order_id = 1; 
+    
+
+
+
         
 
 
