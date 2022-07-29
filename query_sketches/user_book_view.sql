@@ -30,5 +30,6 @@
         -- if author name:
            SELECT * FROM books_view WHERE author_name LIKE "%Ma%";
         -- if title:
-           SELECT * FROM books_view WHERE book_title LIKE "%as%";     
+           SELECT * FROM books_view WHERE book_title LIKE "%as%";   
+             
            

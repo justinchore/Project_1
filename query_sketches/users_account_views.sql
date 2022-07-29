@@ -12,6 +12,7 @@
             SELECT * FROM Users WHERE email_address = "justin@justin.com";
             -- if user exists, check password
                 -- compare data.password with userinput
+                -- load order if any unpaid orders are present, if not create new order
                 -- if successful, direct to books menu. If failed, take user back to input. 
     
 -- User's Order
@@ -55,6 +56,19 @@
                 --VIEW(cart_view)
                 WHERE oi.order_id = 1;
 
+
+-- Customer Order View:
+    -- User selects "view cart" (cart_view)
+        SELECT b.book_title, CONCAT(a.author_fname,' ', a.author_lname) as author, oi.quantity, oi.book_price 
+        FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a
+        ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id
+
+    -- Delete orderItem:
+        -- To delete an orderItem from order:
+            -- Get orderItem.id from the list
+            --  
+    
+
 -- Ask user if they want to checkout, or keep shopping
     -- if checkout:
         -- Checking out affects the is_paid field in order
@@ -88,8 +102,22 @@
         SELECT SUM(quantity * book_price) as order_total FROM cart_view
         WHERE order_id = 1;
     -- Shows all items from order:
-        SELECT * FROM cart_view WHERE order_id = 1; 
+        SELECT * FROM cart_view WHERE order_id = 1;
+    -- If user wants to delete an item from an unpaid order ->
+
+        -- Getting current book stock and quantity in the orderItem: 
+        SELECT stock FROM Books WHERE book_id = 43;
+        SELECT quantity FROM OrderItems WHERE orderItem_id = 1234;
+        -- Setting a variable as the sum of the two queries
+        SET @new_stock := (SELECT stock FROM Books WHERE book_id = 43) + (SELECT quantity FROM OrderItems WHERE orderItem_id = 1234);
+        -- Set NEW stock amount!
+        UPDATE Books SET stocks = @new_stock;
     
+
+    
+-- If user logs out at any time, 
+    -- Save order! 
+    -- Exit
 
 
 
