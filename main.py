@@ -1,5 +1,4 @@
-import mysql.connector
-import mysql_config as c
+import os
 import controllers.UserController
 
 
@@ -26,10 +25,13 @@ import controllers.UserController
 ##Start Connection:
 
 def main():
+    os.system('cls')
     user_controller = controllers.UserController.UserController()
     while True:
         result = user_controller.welcome()
         if result == 'Exit':
+            continue
+        elif result == 'Exit Store':
             break
         
         

@@ -36,10 +36,8 @@ class User(object):
         # cursor = cnx.cursor()
         
         cursor = cnx.cursor()
-        
-        uuid_id = uuid.uuid4()
-        sql = "INSERT INTO Users(user_id, first_name, last_name, email_address, password, address)"
-        vals = ({uuid_id},'{fname}','{lname}', '{email}', '{password}', '{address}')
+        sql = "INSERT INTO Users (first_name, last_name, email_address, password, address) VALUES (%s, %s, %s, %s, %s)"
+        vals = (fname, lname, email, password, address) 
         cursor.execute(sql, vals)
             
         cnx.commit()
@@ -48,4 +46,31 @@ class User(object):
         cursor.close()
         cnx.close()
         return True
+    
+    def get_user_by_email(self, email):
+        try:
+            cnx = mysql.connector.connect(host=c.host,
+                                         database='test',
+                                         user=c.user,
+                                         password=c.password)
+            if cnx.is_connected():
+                db_Info = cnx.get_server_info()
+                print("Connected to MySQL Server version ", db_Info)
+                cursor = cnx.cursor()
+                cursor.execute("select database();")
+                record = cursor.fetchone()
+                print("You're connected to database: ", record)
+
+        except Error as e:
+            print("Error while connecting to MySQL", e)
+        else:
+            pass
+        
+        sql = f"SELECT * FROM Users WHERE email_address = '{email}'"
+        cursor.execute(sql)
+        result = cursor.fetchone()
+        cursor.close()
+        cnx.close()
+        return result
+        
         
