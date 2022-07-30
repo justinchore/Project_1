@@ -1,5 +1,7 @@
 import mysql.connector
 import mysql_config as c
+import controllers.UserController
+
 
 # class Connection(object):
 #     def __init__(self, cnx=mysql.connector.connect(user=c.user, password=c.password, host=c.host, database='test'), cursor=None) -> None:
@@ -19,59 +21,18 @@ import mysql_config as c
     
 #     def close_connection(self):
 #         self.cnx.close
-
-
-
-class UserModel(object):
-    def __init__(self, connection) -> None:
-        self.connection = connection
-        
-
-class UserView(object):
-    @staticmethod
-    def welcome_message():
-        print('//////////////////////////////////////////////////////////////')
-        print("Welcome to SOMETHING Book Store!")
-        print('//////////////////////////////////////////////////////////////')
-        print('Please select an option:')
-        print('1) Log in to your account')
-        print('2) Create an account')
-        print('3) Exit store')
-    
-    def login_message():
-        print
-
-class UserController(object):
-    def __init__(self, model, view):
-        self.model = model
-        self.view = view
-    
-    def welcome(self):
-        self.view.welcome_message()
-        welcome_input = input()
-        if welcome_input..
-        
-        
-    
-        
-        
-
-    
         
 
 ##Start Connection:
 
-cnx = mysql.connector.connect(user=c.user, password=c.password, host=c.host, database='test')
-cursor = cnx.cursor()
-cursor.close()
-cnx.close()
-user_view = UserView()
-
 def main():
+    user_controller = controllers.UserController.UserController()
     while True:
-        #welcome message()
+        result = user_controller.welcome()
+        if result == 'Exit':
+            break
         
-        break
+        
 
 
 
