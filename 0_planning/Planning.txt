@@ -1,0 +1,11 @@
+
+7/29:
+    -Finish up MVC studying
+    -Start user creation/user login in python
+
+7/30:
+    - Finish user creation/user login COMPLETLY with validations and logging.
+    
+
+NOT DONE: 
+ADMIN QUERIES
