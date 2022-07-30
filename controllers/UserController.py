@@ -55,7 +55,12 @@ class UserController(object):
         
         ##passord validation/input
         self.view.get_password()
-        password_input = input()
+        checked_password = self.password_check()
+        if checked_password == 'Exit':
+            return 'Exit'
+        print('Password checked: ', checked_password)
+        
+        
         self.view.get_address()
         address_input = input()
 
@@ -88,9 +93,6 @@ class UserController(object):
                 return capitalized_name
             
     def email_check(self):
-        #first make sure that its in a valid format -validations
-        #check for the existence of email inside database. If so, raise an exception called 'EmailAlreadyRegistered' and give user option to try again or exit to menu
-        #if not, then we can set return checked_email(lowercased)
         while True:
             try:
                 chars = input().strip().lower()
@@ -110,7 +112,25 @@ class UserController(object):
                 return 'Exit'
             else:
                 return chars
+    
+    def password_check(self):
+        while True:
+            try: 
+                chars = input()
+                if self.check_for_exit(chars):
+                    return 'Exit'
+                password_format_val_result = self.validations.pw_format_validation(chars)
                 
+                if password_format_val_result == None:
+                    raise CustomExceptions.InvalidPasswordError
+            
+            except CustomExceptions.InvalidPasswordError as ipe:
+                print(ipe.message, end="\n")
+            else:
+                #return hashed_password
+                hashed_password = self.model.hash_password(chars)
+                return hashed_password
+
     
     def check_for_exit(self, input):
         return input == 'q' or input == '/q'

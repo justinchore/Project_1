@@ -19,3 +19,7 @@ class DuplicateEmailError(Exception):
     def __init__(self):
         self.message = "There is already an account registered to this email. Please log in."
     pass
+
+class InvalidPasswordError(Exception):
+    def __init__(self):
+        self.message = "Password requirements not met. Please try again or enter '/q' to exit: "

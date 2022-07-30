@@ -17,3 +17,9 @@ class Validations(object):
         pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
         match = re.fullmatch(pattern, input)
         return match 
+    
+    @staticmethod
+    def pw_format_validation(input):
+        pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!#%*?&]{8,18}$"
+        match = re.search(pattern, input)
+        return match    

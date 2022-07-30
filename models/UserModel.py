@@ -2,6 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import mysql_config as c
 import uuid
+import bcrypt
 
 class User(object):
     def __init__(self) -> None:
@@ -72,5 +73,11 @@ class User(object):
         cursor.close()
         cnx.close()
         return result
+    
+    @staticmethod
+    def hash_password(chars):
+        bytes = chars.encode('utf-8')
+        salt = bcrypt.gensalt()
+        return bcrypt.hashpw(bytes, salt)
         
         
