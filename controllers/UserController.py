@@ -53,7 +53,7 @@ class UserController(object):
             return 'Exit'
         print('Email checked: ', checked_email)
         
-        ##passord validation/input
+        ##password validation/input
         checked_password = self.password_check()
         if checked_password == 'Exit':
             return 'Exit'
@@ -65,10 +65,26 @@ class UserController(object):
             return 'Exit'
         print('Street checked: ', checked_street)
         
-        self.view.get_address()
-        address_input = input()
+        ##city validation/input
+        checked_city = self.city_check()
+        if checked_city == 'Exit':
+            return 'Exit'
+        print('City checked: ', checked_city)
+        
+        ##state validation/input
+        checked_state = self.state_check()
+        if checked_state == 'Exit':
+            return 'Exit'
+        print('State checked: ', checked_state)
+        
+        ##zipcode validation/input
+        checked_zipcode = self.zipcode_check()
+        if checked_zipcode == 'Exit':
+            return 'Exit'
+        print('Zipcode checked: ', checked_zipcode)
 
-        result = self.model.create_user(checked_fname, checked_lname, checked_email, checked_password, address_input)
+        ###ASSEMBLE ADDRESS BEFORE PASSING DATA INTO MODEL#####
+        result = self.model.create_user(checked_fname, checked_lname, checked_email, checked_password)
         if result == True:
             print('Success')
     
@@ -146,9 +162,9 @@ class UserController(object):
                 street_val_result = self.validations.street_address_validation(chars)
                 print(street_val_result)
                 if street_val_result == None:
-                    raise CustomExceptions.InvalidEmailFormatError
+                    raise CustomExceptions.InvalidStreetFormat
                 
-            except CustomExceptions.InvalidEmailFormatError as ief:
+            except CustomExceptions.InvalidStreetFormat as ief:
                 print(ief.message, end="\n")
             else:
                 return chars
@@ -198,9 +214,22 @@ class UserController(object):
             
     
     def zipcode_check(self):
-        pass
+        while True:
+            try:
+                self.view.get_zipcode()
+                chars = input().strip()
+                if self.check_for_exit(chars):
+                    return 'Exit'
+                zipcode_val_result = self.validations.zipcode_validation(chars)
+                
+                if zipcode_val_result == None:
+                    raise CustomExceptions.InvalidZipCode
+            
+            except CustomExceptions.InvalidZipCode as izc:
+                print(izc.message, end="\n")
+            else:
+                return chars
         
-
     
     def check_for_exit(self, input):
         return input == 'q' or input == '/q'

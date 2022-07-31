@@ -30,4 +30,8 @@ class InvalidStreetFormat(Exception):
 
 class InvalidStateName(Exception):
     def __init__(self):
-        self.message = "State name is invalid. Only US zipcodes accepted."
+        self.message = "State name is invalid. Only US zipcodes accepted. Please try again or enter '/q' to exit."
+        
+class InvalidZipCode(Exception):
+    def __init__(self):
+        self.message = "Zipcode format is invalid. Please try again or enter '/q' to exit. "

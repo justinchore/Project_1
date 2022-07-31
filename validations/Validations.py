@@ -1,5 +1,7 @@
 import re
 
+###THIS CAN BE REFACORED. ONE FUNCTION, GLOBAL DICTIONARY OF REGEX EXPRESSION USED AS ARGUMENTS DEPENDING ON THE NEED####
+
 class Validations(object):
     @staticmethod
     def special_chars_validation(input):
@@ -32,6 +34,12 @@ class Validations(object):
     @staticmethod
     def state_validation(input):
         pattern = "^((A[LKSZR])|(C[AOT])|(D[EC])|(F[ML])|(G[AU])|(HI)|(I[DLNA])|(K[SY])|(LA)|(M[EHDAINSOT])|(N[EVHJMYCD])|(MP)|(O[HKR])|(P[WAR])|(RI)|(S[CD])|(T[NX])|(UT)|(V[TIA])|(W[AVIY]))$"
+        match = re.search(pattern, input)
+        return match
+    
+    @staticmethod
+    def zipcode_validation(input):
+        pattern = "^[0-9]{5}(?:-[0-9]{4})?$"
         match = re.search(pattern, input)
         return match
     
