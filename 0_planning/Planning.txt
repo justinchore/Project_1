@@ -4,5 +4,10 @@
     - Logging for loggin in
 
 7/31:
-    - When a use logs in, If there are is an order with is_paid == False, then get that order from the DB. If not, then create a new order.
-    - 
+    - When a use logs in, If there are is an order with is_paid == False, then get that order from the DB. If not, then create a new order. DONEDONE!
+    - logged in user menu:
+        - pick from genre
+        - search by author
+        - search by title
+        - order history
+        - see cart

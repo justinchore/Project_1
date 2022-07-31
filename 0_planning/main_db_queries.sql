@@ -2,7 +2,8 @@ use test;
 
 CREATE TABLE Users
 (
-user_id int NOT NULL,
+user_id int NOT NULL UNIQUE AUTO_INCREMENT,
+user_uuid BINARY(16) DEFAULT (UUID_TO_BIN(UUID())),
 first_name varchar(255) NOT NULL,
 last_name varchar(255) NOT NULL,
 email_address varchar(255) NOT NULL UNIQUE,
@@ -11,6 +12,8 @@ is_admin Bool NOT NULL,
 address varchar(255) NOT NULL,
 PRIMARY KEY (user_id)
 );
+
+DROP Table Users;
 
 #Create user
 INSERT INTO Users (user_id, first_name, last_name, email_address, password, is_admin, address)
@@ -28,22 +31,19 @@ SELECT * FROM Users WHERE email_address = "justi@justin.com";
 #Create Orders- order_id, order_date, customer_id 
 CREATE TABLE Orders
 (
-	order_id int NOT NULL,
-    order_date DATETIME NOT NULL,
+	order_id int NOT NULL UNIQUE AUTO_INCREMENT,
+    order_uuid BINARY(16) DEFAULT (UUID_TO_BIN(UUID())),
     customer_id int NOT NULL,
+    is_paid bool NOT NULL DEFAULT False,
+    paid_date DATETIME DEFAULT NULL,
     is_completed Bool NOT NULL DEFAULT False,
-    modified_date DATETIME ON UPDATE CURRENT_TIMESTAMP,
+    completed_date DATETIME DEFAULT NULL,
     PRIMARY KEY (order_id),
     FOREIGN KEY(customer_id) REFERENCES Users(user_id)
 );
 
 #adding a 'PAID" column to Orders
-ALTER TABLE Orders
-ADD is_paid bool NOT NULL 
-DEFAULT False;
-
-ALTER TABLE Orders
-ADD paid_date DATETIME DEFAULT NULL;
+DROP TABLE Orders;
 
 
 #Create an Order
@@ -57,6 +57,8 @@ SELECT * FROM Orders;
 
 CREATE TABLE OrderItems
 (
+	orderItem_id int PRIMARY KEY AUTO_INCREMENT,
+    orderItem_uuid BINARY(16) DEFAULT (UUID_TO_BIN(UUID())),
 	order_id int NOT NULL,
     book_id int NOT NULL,
     quantity int DEFAULT 1,
@@ -64,6 +66,8 @@ CREATE TABLE OrderItems
     FOREIGN KEY(order_id) REFERENCES Orders(order_id),
     FOREIGN KEY(book_id) REFERENCES Books(book_id)
 );
+
+DROP TABLE OrderItems;
 
 ALTER TABLE OrderItems
 ADD orderItem_id int PRIMARY KEY NOT NULL; 
@@ -145,12 +149,13 @@ SELECT * FROM OrderItems;
 #Fields: book name, book description, author_id, genre_id, date_added
 CREATE TABLE Books
 (
-	book_id int NOT NULL, #changed to auto increment
+	book_id int NOT NULL,
 	book_title varchar(255) NOT NULL,
     book_description varchar(1000) NOT NULL,
     book_price decimal(8,2) NOT NULL,
     author_id int NOT NULL,
     genre_id int NOT NULL, 
+    stock int NOT NULL DEFAULT 10,
     PRIMARY KEY(book_id),
     FOREIGN KEY(author_id) REFERENCES Authors(author_id),
     FOREIGN KEY(genre_id) REFERENCES Genres(genre_id)
@@ -166,6 +171,8 @@ CREATE TABLE Authors
     author_lname varchar(255) NOT NULL,
     PRIMARY KEY(author_id)
 );
+
+ALTER TABLE Authors ADD COLUMN author_uuid BINARY(16) DEFAULT (UUID_TO_BIN(UUID())) AFTER author_id;
 
 
 CREATE TABLE Genres
@@ -237,5 +244,29 @@ SELECT author_id FROM Authors WHERE author_fname = 'Kurt' AND author_lname = 'Vo
 
 
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######TESTS######
+SELECT * FROM Users;
+DROP TABLE Users;
+SELECT user_id FROM Users WHERE email;
+TRUNCATE table orderItems;
+SELECT * FROM orderItems;
+TRUNCATE table orders;
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE table orders;
+SET FOREIGN_KEY_CHECKS = 1; 
+SELECT * FROM orders;
 

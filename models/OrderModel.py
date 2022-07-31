@@ -14,9 +14,8 @@ class Order(object):
         
         cursor = cnx.cursor()
         
-        sql = "INSERT INTO Orders (customer_id) VALUES (%s)"
-        vals = (customer_id)
-        cursor.execute(sql, vals)
+        sql = f"INSERT INTO Orders (customer_id) VALUES ({customer_id})"
+        cursor.execute(sql)
         
         cnx.commit()
         logging.info(f"New order (order_id: {cursor.lastrowid}) was inserted into database...")

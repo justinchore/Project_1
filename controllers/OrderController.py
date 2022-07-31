@@ -54,7 +54,7 @@ class OrderController(object):
         if record == None:
             print('Customer does not have any open orders')
             record_id = self.order_model.create_order(id)
-            record = self.order_model.get_order_by_id(self, record_id)
+            record = self.order_model.get_order_by_id(record_id)
             print('Made a new order:', record)
             return record
         elif record == False:
