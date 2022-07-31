@@ -1,4 +1,5 @@
 import os
+from sys import settrace
 import CustomExceptions
 import validations.Validations as Validations
 import views.UserView as UserView
@@ -13,7 +14,47 @@ class UserController(object):
         self.id = None
         self.email = None
         self.name = None
+        self.is_admin = None
         self.logged_in = False
+        
+    ####GETTERS#####
+    
+    def id(self):
+        return self.id
+    
+    def email(self):
+        return self.email
+    
+    def name(self):
+        return self.name
+    
+    def is_admin(self):
+        return self.is_admin
+    
+    def logged_in(self):
+        return self.logged_in
+        
+    ####SETTERS######    
+    
+    def set_id(self, id):
+        self.id = id
+    
+    def set_email(self, email):
+        self.id = email
+    
+    def set_name(self, name):
+        self.name = name
+        
+    def set_logged_in(self):
+        self.logged_in = not self.logged_in
+        
+    def set_is_admin(self, value):
+        if value == 0:
+            self.is_admin = False
+        else:
+            self.is_admin = True
+        
+    ######################
     
     def welcome(self):
         self.view.welcome_message()
@@ -21,13 +62,13 @@ class UserController(object):
         os.system('cls')
         match welcome_input: 
             case 1:
-                self.login()
+                self.user_login()
             case 2:
                 self.user_create()
             case 3:
                 # self.view.exit_message()
                 print('Exiting...')
-                return 'Exit Store'
+                return 'Exit_Store'
                 
     
     def user_login(self):
@@ -38,13 +79,16 @@ class UserController(object):
                 self.view.login_message()
                 self.view.get_email()
                 email_input = input().lower()
-                self.view.get_password()
+                if email_input == '/q' or email_input == 'q': 
+                    return 'Exit'
+                self.view.get_login_password()
                 pw_input = input()
-                email_auth_result = self.user_model.get_user_by_email(email_input)
-                pw_auth_result = self.user_model.authenticate_pw()
-
-                if email_auth_result == None:
+                auth_result = self.user_model.get_user_by_email(email_input)
+                if auth_result == None:
                     raise CustomExceptions.EmailNotRegistered
+                print("Data from db: ", auth_result)
+                pw_auth_result = self.user_model.password_auth(pw_input, auth_result["password"])
+
                 if pw_auth_result == False:
                     raise CustomExceptions.AuthenticationFailedError
             
@@ -53,8 +97,13 @@ class UserController(object):
             except CustomExceptions.AuthenticationFailedError as afe:
                 print(afe.message, end="\n")
             else:
+                self.set_id = auth_result["user_id"]
+                self.set_email = auth_result["email_address"]
+                self.set_name = auth_result["first_name"]
+                self.set_is_admin = auth_result["is_admin"]
                 self.logged_in = True
-                print(email_auth_result)
+                self.view.login_success_msg(self.name)
+                return 'Logged_In'
                 
                 
     def user_create(self):
@@ -115,7 +164,10 @@ class UserController(object):
         ###ASSEMBLE ADDRESS BEFORE PASSING DATA INTO MODEL#####
         result = self.user_model.create_user(checked_fname, checked_lname, checked_email, checked_password, assembled_address)
         if result == True:
-            print('Success')
+            self.view.create_user_success_msg()
+            return 'Exit'
+            
+            
     
 
     def name_check(self):

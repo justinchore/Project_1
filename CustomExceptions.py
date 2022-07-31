@@ -1,3 +1,6 @@
+
+##############Account Creation#######################
+
 class InvalidCharactersError(Exception):
     def __init__(self, list):
         def generate_message():
@@ -35,3 +38,13 @@ class InvalidStateName(Exception):
 class InvalidZipCode(Exception):
     def __init__(self):
         self.message = "Zipcode format is invalid. Please try again or enter '/q' to exit. "
+        
+##############Authentication#########################
+
+class EmailNotRegistered(Exception):
+    def __init__(self):
+        self.message = "Email is not registered. Please try again or enter '/q' to exit."
+
+class AuthenticationFailedError(Exception):
+    def __init__(self):
+        self.message = "Authentication failed. Please try again or enter '/q' to exit."

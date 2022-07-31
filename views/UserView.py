@@ -1,3 +1,5 @@
+import emoji
+
 class UserView(object):
     @staticmethod
     def welcome_message():
@@ -45,3 +47,13 @@ class UserView(object):
     def get_zipcode():
         print('**************************************************************')
         print("Zipcode: ", end='')
+    @staticmethod
+    def get_login_password():
+        print('**************************************************************')
+        print("Password: ", end="")
+    @staticmethod
+    def create_user_success_msg():
+        print(emoji.emojize("Registration success :thumbs_up: Please Log in to your account."))
+    @staticmethod
+    def login_success_msg(name):
+        print(emoji.emojize(f"Welcome {name}!"))

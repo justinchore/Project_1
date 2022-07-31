@@ -57,7 +57,7 @@ class User(object):
             if cnx.is_connected():
                 db_Info = cnx.get_server_info()
                 print("Connected to MySQL Server version ", db_Info)
-                cursor = cnx.cursor()
+                cursor = cnx.cursor(dictionary=True)
                 cursor.execute("select database();")
                 record = cursor.fetchone()
                 print("You're connected to database: ", record)
@@ -79,5 +79,10 @@ class User(object):
         bytes = chars.encode('utf-8')
         salt = bcrypt.gensalt()
         return bcrypt.hashpw(bytes, salt)
+    
+    @staticmethod
+    def password_auth(attempt, pw_string):
+        password_str_byte = pw_string.encode('utf-8')
+        return bcrypt.checkpw(attempt.encode('utf-8'), password_str_byte)
         
         
