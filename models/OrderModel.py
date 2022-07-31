@@ -8,11 +8,10 @@ class Order(object):
         self.type = "Order"
         
     def create_order(self, customer_id):
-        result = self.connect_to_db()
-        if result == False:
+        cnx = self.connect_to_db()
+        if cnx == False: #connection didnt happen
             return False
         
-        cnx = result[0]
         cursor = cnx.cursor()
         
         sql = "INSERT INTO Orders (customer_id) VALUES (%s)"
@@ -20,7 +19,7 @@ class Order(object):
         cursor.execute(sql, vals)
         
         cnx.commit()
-        logging.info(f"New order (order_id: {cursor.lastrowid}) was inserted inton database...")
+        logging.info(f"New order (order_id: {cursor.lastrowid}) was inserted into database...")
         print("1 record inserted, ID: ", cursor.lastrowid)
         
         record_id = cursor.lastrowid
@@ -31,7 +30,7 @@ class Order(object):
     
     def find_unpaid_order(self, customer_id):
         cnx = self.connect_to_db()
-        if cnx == False:
+        if cnx == False: #connection didnt happen
             return False
         cursor = cnx.cursor(dictionary=True)
         sql = f"SELECT * FROM Orders WHERE customer_id = {customer_id} AND is_paid = {False}"
@@ -41,10 +40,7 @@ class Order(object):
         cursor.close()
         cnx.close()
         
-        if record != None:
-            return record
-        else:
-            return False
+        return record
         
     def get_order_by_id(self, order_id):
         cnx = self.connect_to_db()

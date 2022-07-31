@@ -6,6 +6,7 @@ import CustomExceptions
 import validations.Validations as Validations
 import views.UserView as UserView
 import models.UserModel as User
+import controllers.OrderController as OrderController
 
 class UserController(object):
     def __init__(self):
@@ -13,6 +14,7 @@ class UserController(object):
         self.view = UserView.UserView()
         self.user_model = User.User()
         self.validations = Validations.Validations()
+        self.order_controller = OrderController.OrderController()
         self.id = None
         self.email = None
         self.name = None
@@ -43,7 +45,7 @@ class UserController(object):
         self.id = id
     
     def set_email(self, email):
-        self.id = email
+        self.email = email
     
     def set_name(self, name):
         self.name = name
@@ -107,6 +109,7 @@ class UserController(object):
                 self.set_name(auth_result["first_name"])
                 self.set_is_admin(auth_result["is_admin"])
                 self.set_logged_in()
+                self.order_controller.customer_initial_order_check(self.id)
                 self.view.login_success_msg(self.name)
                 return 'Logged_In'
                 
