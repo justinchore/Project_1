@@ -1,4 +1,5 @@
 import os
+import emoji
 from sys import settrace
 import CustomExceptions
 import validations.Validations as Validations
@@ -62,9 +63,11 @@ class UserController(object):
         os.system('cls')
         match welcome_input: 
             case 1:
-                self.user_login()
+                result = self.user_login()
+                return result
             case 2:
-                self.user_create()
+                result = self.user_create()
+                return result
             case 3:
                 # self.view.exit_message()
                 print('Exiting...')

@@ -27,14 +27,17 @@ import controllers.UserController
 def main():
     os.system('cls')
     user_controller = controllers.UserController.UserController()
-    while True:
+    while not user_controller.logged_in:
         result = user_controller.welcome()
         if result == 'Exit':
             continue
         elif result == 'Exit_Store':
             return 
         elif result == 'Logged_In':
-            return 
+            continue
+    while user_controller.logged_in:
+        print("YOU ARE LOGGED IN NOW")
+        return
         
         
 

@@ -1,4 +1,5 @@
 import emoji
+import os
 
 class UserView(object):
     @staticmethod
@@ -15,7 +16,7 @@ class UserView(object):
     
     @staticmethod
     def login_message():
-        print('Account Log in')
+        print(emoji.emojize(':boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:  Account Log in:boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:'))
     def get_firstname():
         print('**************************************************************')
         print("First name: ", end='')
@@ -53,7 +54,8 @@ class UserView(object):
         print("Password: ", end="")
     @staticmethod
     def create_user_success_msg():
-        print(emoji.emojize("Registration success :thumbs_up: Please Log in to your account."))
+        print(emoji.emojize("Registration success :thumbs_up:! Please Log in to your account."))
     @staticmethod
     def login_success_msg(name):
-        print(emoji.emojize(f":confetti_ball::confetti_ball::confetti_ball::confetti_ball: Welcome {name}! :confetti_ball::confetti_ball::confetti_ball::confetti_ball:"))
+        # os.system('cls')
+        print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))

@@ -1,4 +1,4 @@
-
+import emoji
 ##############Account Creation#######################
 
 class InvalidCharactersError(Exception):
