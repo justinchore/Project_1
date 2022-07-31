@@ -3,6 +3,7 @@ from mysql.connector import Error
 import mysql_config as c
 import uuid
 import bcrypt
+import logging
 
 class User(object):
     def __init__(self) -> None:
@@ -42,6 +43,7 @@ class User(object):
         cursor.execute(sql, vals)
             
         cnx.commit()
+        logging.info(f"New user (id: {cursor.lastrowid}) was inserted into database...")
         print('1 record inserted, ID: ', cursor.lastrowid)
         
         cursor.close()
@@ -61,6 +63,7 @@ class User(object):
                 cursor.execute("select database();")
                 record = cursor.fetchone()
                 print("You're connected to database: ", record)
+                logging.info("Accessed database in get_user_by_email function...")
 
         except Error as e:
             print("Error while connecting to MySQL", e)

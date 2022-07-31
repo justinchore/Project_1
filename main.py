@@ -1,4 +1,5 @@
 import os
+import logging
 import controllers.UserController
 
 
@@ -25,6 +26,8 @@ import controllers.UserController
 ##Start Connection:
 
 def main():
+    logging.basicConfig(filename="BookStore.log", level=logging.DEBUG, format='%(asctime)s :: %(message)s')
+    
     os.system('cls')
     user_controller = controllers.UserController.UserController()
     while not user_controller.logged_in:
