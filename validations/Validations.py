@@ -25,6 +25,13 @@ class Validations(object):
     
     @staticmethod
     def street_address_validation(input):
-        pattern = "^(\d+) ?([A-Za-z](?= ))? (.*?) ([^ ]+?) ?((?<= )APT)? ?((?<= )\d*)?$"
+        pattern = "^(\d+) ?([A-Za-z](?= ))? (.*?) ([^ ]+?) ?((?<= )APT|AVE|UNIT)? ?((?<= )\d*)?$"
         match = re.search(pattern, input)
         return match
+    
+    @staticmethod
+    def state_validation(input):
+        pattern = "^((A[LKSZR])|(C[AOT])|(D[EC])|(F[ML])|(G[AU])|(HI)|(I[DLNA])|(K[SY])|(LA)|(M[EHDAINSOT])|(N[EVHJMYCD])|(MP)|(O[HKR])|(P[WAR])|(RI)|(S[CD])|(T[NX])|(UT)|(V[TIA])|(W[AVIY]))$"
+        match = re.search(pattern, input)
+        return match
+    

@@ -31,3 +31,15 @@ class UserView(object):
     def get_street():
         print('**************************************************************')
         print('Street Address: \n - Format Examples:\n  - 1234 Address St \n  - 12345 6th st APT/UNIT 23\n  - 12 N Address Ave \nEnter Street Address: ' , end='')
+    @staticmethod
+    def get_city():
+        print('**************************************************************')
+        print("City: ", end='')
+    @staticmethod
+    def get_state():
+        print('**************************************************************')
+        print("State(2 Letters): ", end='')
+    @staticmethod
+    def get_zipcode():
+        print('**************************************************************')
+        print("Zipcode: ", end='')

@@ -152,16 +152,50 @@ class UserController(object):
                 print(ief.message, end="\n")
             else:
                 return chars
-                
-                    
-                
-                
     
     def city_check(self):
-        pass
+        while True:
+            try:
+                self.view.get_city()
+                chars = input().strip()
+                if self.check_for_exit(chars):
+                    return 'Exit'
+                city_val_result1 = self.validations.special_chars_validation(chars)
+                city_val_result2 = self.validations.no_numbers_validation(chars)
+                
+                if len(city_val_result1) != 0:
+                    raise CustomExceptions.InvalidCharactersError(city_val_result1)
+                if len(city_val_result2) != 0:
+                    raise CustomExceptions.InvalidNumbersError(city_val_result2)
+            
+            except CustomExceptions.InvalidCharactersError as ice:
+                print(ice.message, end="")
+            except CustomExceptions.InvalidNumbersError as ine:
+                print(ine.message, end="")
+            else:
+                capitalized_city = chars.capitalize()
+                return capitalized_city
+                
+                
     
     def state_check(self):
-        pass
+        while True:
+            try:
+                self.view.get_state()
+                chars = input().strip()
+                if self.check_for_exit(chars):
+                    return 'Exit'
+                state_val_result = self.validations.state_validation(chars)
+                
+                if state_val_result == None:
+                    raise CustomExceptions.InvalidStateName
+            
+            except CustomExceptions.InvalidStateName as isn:
+                print(isn.message, end="\n")
+            else:
+                uppered_chars = chars.upper()
+                return uppered_chars
+            
     
     def zipcode_check(self):
         pass

@@ -27,3 +27,7 @@ class InvalidPasswordError(Exception):
 class InvalidStreetFormat(Exception):
     def __init__(self):
         self.message = "Street address is not in a valid format. Please try again or enter '/q' to exit. "
+
+class InvalidStateName(Exception):
+    def __init__(self):
+        self.message = "State name is invalid. Only US zipcodes accepted."
