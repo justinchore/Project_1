@@ -40,6 +40,8 @@ def main():
             continue
     while user_controller.logged_in:
         print("YOU ARE LOGGED IN NOW")
+        ##Retrieve/Create Order
+        
         return
         
         
