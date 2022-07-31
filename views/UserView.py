@@ -17,6 +17,7 @@ class UserView(object):
     @staticmethod
     def login_message():
         print(emoji.emojize(':boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:  Account Log in:boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:'))
+    @staticmethod
     def get_firstname():
         print('**************************************************************')
         print("First name: ", end='')

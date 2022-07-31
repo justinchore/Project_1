@@ -38,8 +38,8 @@ class User(object):
         # cursor = cnx.cursor()
         
         cursor = cnx.cursor()
-        sql = "INSERT INTO Users (first_name, last_name, email_address, password, address) VALUES (%s, %s, %s, %s, %s)"
-        vals = (fname, lname, email, password, address) 
+        sql = "INSERT INTO Users (first_name, last_name, email_address, is_admin, password, address) VALUES (%s, %s, %s, %s, %s, %s)"
+        vals = (fname, lname, email, False, password, address) 
         cursor.execute(sql, vals)
             
         cnx.commit()
