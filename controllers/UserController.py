@@ -1,5 +1,6 @@
 import os
 import emoji
+import logging
 from sys import settrace
 import CustomExceptions
 import validations.Validations as Validations
@@ -17,6 +18,7 @@ class UserController(object):
         self.name = None
         self.is_admin = None
         self.logged_in = False
+        self.current_order = None
         
     ####GETTERS#####
     

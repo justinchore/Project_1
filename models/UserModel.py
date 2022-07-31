@@ -87,5 +87,7 @@ class User(object):
     def password_auth(attempt, pw_string):
         password_str_byte = pw_string.encode('utf-8')
         return bcrypt.checkpw(attempt.encode('utf-8'), password_str_byte)
+
+
         
         
