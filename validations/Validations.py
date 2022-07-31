@@ -1,5 +1,4 @@
 import re
-import bcrypt
 
 class Validations(object):
     @staticmethod
@@ -22,4 +21,10 @@ class Validations(object):
     def pw_format_validation(input):
         pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!#%*?&]{8,18}$"
         match = re.search(pattern, input)
-        return match    
+        return match 
+    
+    @staticmethod
+    def street_address_validation(input):
+        pattern = "^(\d+) ?([A-Za-z](?= ))? (.*?) ([^ ]+?) ?((?<= )APT)? ?((?<= )\d*)?$"
+        match = re.search(pattern, input)
+        return match

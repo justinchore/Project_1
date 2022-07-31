@@ -54,17 +54,21 @@ class UserController(object):
         print('Email checked: ', checked_email)
         
         ##passord validation/input
-        self.view.get_password()
         checked_password = self.password_check()
         if checked_password == 'Exit':
             return 'Exit'
         print('Password checked: ', checked_password)
         
+        ##street_address validation/input
+        checked_street = self.street_check()
+        if checked_street == 'Exit':
+            return 'Exit'
+        print('Street checked: ', checked_street)
         
         self.view.get_address()
         address_input = input()
 
-        result = self.model.create_user(checked_fname, checked_lname, checked_email, password_input, address_input)
+        result = self.model.create_user(checked_fname, checked_lname, checked_email, checked_password, address_input)
         if result == True:
             print('Success')
     
@@ -116,6 +120,7 @@ class UserController(object):
     def password_check(self):
         while True:
             try: 
+                self.view.get_password()
                 chars = input()
                 if self.check_for_exit(chars):
                     return 'Exit'
@@ -130,6 +135,37 @@ class UserController(object):
                 #return hashed_password
                 hashed_password = self.model.hash_password(chars)
                 return hashed_password
+            
+    def street_check(self):
+        while True:
+            try:
+                self.view.get_street()
+                chars = input()
+                if self.check_for_exit(chars):
+                    return 'Exit'
+                street_val_result = self.validations.street_address_validation(chars)
+                print(street_val_result)
+                if street_val_result == None:
+                    raise CustomExceptions.InvalidEmailFormatError
+                
+            except CustomExceptions.InvalidEmailFormatError as ief:
+                print(ief.message, end="\n")
+            else:
+                return chars
+                
+                    
+                
+                
+    
+    def city_check(self):
+        pass
+    
+    def state_check(self):
+        pass
+    
+    def zipcode_check(self):
+        pass
+        
 
     
     def check_for_exit(self, input):

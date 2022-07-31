@@ -22,4 +22,8 @@ class DuplicateEmailError(Exception):
 
 class InvalidPasswordError(Exception):
     def __init__(self):
-        self.message = "Password requirements not met. Please try again or enter '/q' to exit: "
+        self.message = "Password requirements not met. Please try again or enter '/q' to exit. "
+        
+class InvalidStreetFormat(Exception):
+    def __init__(self):
+        self.message = "Street address is not in a valid format. Please try again or enter '/q' to exit. "
