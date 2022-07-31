@@ -97,11 +97,11 @@ class UserController(object):
             except CustomExceptions.AuthenticationFailedError as afe:
                 print(afe.message, end="\n")
             else:
-                self.set_id = auth_result["user_id"]
-                self.set_email = auth_result["email_address"]
-                self.set_name = auth_result["first_name"]
-                self.set_is_admin = auth_result["is_admin"]
-                self.logged_in = True
+                self.set_id(auth_result["user_id"])
+                self.set_email(auth_result["email_address"])
+                self.set_name(auth_result["first_name"])
+                self.set_is_admin(auth_result["is_admin"])
+                self.set_logged_in()
                 self.view.login_success_msg(self.name)
                 return 'Logged_In'
                 

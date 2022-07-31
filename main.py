@@ -31,8 +31,10 @@ def main():
         result = user_controller.welcome()
         if result == 'Exit':
             continue
-        elif result == 'Exit Store':
-            break
+        elif result == 'Exit_Store':
+            return 
+        elif result == 'Logged_In':
+            return 
         
         
 

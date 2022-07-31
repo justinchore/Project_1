@@ -56,4 +56,4 @@ class UserView(object):
         print(emoji.emojize("Registration success :thumbs_up: Please Log in to your account."))
     @staticmethod
     def login_success_msg(name):
-        print(emoji.emojize(f"Welcome {name}!"))
+        print(emoji.emojize(f":confetti_ball::confetti_ball::confetti_ball::confetti_ball: Welcome {name}! :confetti_ball::confetti_ball::confetti_ball::confetti_ball:"))
