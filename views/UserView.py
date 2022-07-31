@@ -12,6 +12,8 @@ class UserView(object):
     ######Views for getting user information for creation/login
     
     @staticmethod
+    def login_message():
+        print('Account Log in')
     def get_firstname():
         print('**************************************************************')
         print("First name: ", end='')

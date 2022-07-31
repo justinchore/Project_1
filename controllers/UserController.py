@@ -8,8 +8,12 @@ class UserController(object):
     def __init__(self):
         self.type = 'UserController'
         self.view = UserView.UserView()
-        self.model = User.User()
+        self.user_model = User.User()
         self.validations = Validations.Validations()
+        self.id = None
+        self.email = None
+        self.name = None
+        self.logged_in = False
     
     def welcome(self):
         self.view.welcome_message()
@@ -27,9 +31,32 @@ class UserController(object):
                 
     
     def user_login(self):
-        pass
-            
+        os.system('cls')
+        ##email address
+        while True:
+            try:
+                self.view.login_message()
+                self.view.get_email()
+                email_input = input().lower()
+                self.view.get_password()
+                pw_input = input()
+                email_auth_result = self.user_model.get_user_by_email(email_input)
+                pw_auth_result = self.user_model.authenticate_pw()
 
+                if email_auth_result == None:
+                    raise CustomExceptions.EmailNotRegistered
+                if pw_auth_result == False:
+                    raise CustomExceptions.AuthenticationFailedError
+            
+            except CustomExceptions.EmailNotRegistered as enr:
+                print(enr.message, end="\n")
+            except CustomExceptions.AuthenticationFailedError as afe:
+                print(afe.message, end="\n")
+            else:
+                self.logged_in = True
+                print(email_auth_result)
+                
+                
     def user_create(self):
         os.system('cls')
         ##firstname validation/input
@@ -82,9 +109,11 @@ class UserController(object):
         if checked_zipcode == 'Exit':
             return 'Exit'
         print('Zipcode checked: ', checked_zipcode)
+        
+        assembled_address = f"{checked_street} {checked_city}, {checked_state} {checked_zipcode}"
 
         ###ASSEMBLE ADDRESS BEFORE PASSING DATA INTO MODEL#####
-        result = self.model.create_user(checked_fname, checked_lname, checked_email, checked_password)
+        result = self.user_model.create_user(checked_fname, checked_lname, checked_email, checked_password, assembled_address)
         if result == True:
             print('Success')
     
@@ -122,7 +151,7 @@ class UserController(object):
                 
                 if email_format_val_result == None:
                     raise CustomExceptions.InvalidEmailFormatError
-                if self.model.get_user_by_email(chars):
+                if self.user_model.get_user_by_email(chars):
                     raise CustomExceptions.DuplicateEmailError
                 
             except CustomExceptions.InvalidEmailFormatError as ief:
@@ -149,7 +178,7 @@ class UserController(object):
                 print(ipe.message, end="\n")
             else:
                 #return hashed_password
-                hashed_password = self.model.hash_password(chars)
+                hashed_password = self.user_model.hash_password(chars)
                 return hashed_password
             
     def street_check(self):
