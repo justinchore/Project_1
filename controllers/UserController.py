@@ -184,9 +184,11 @@ class UserController(object):
             if menu_choice == 'q' or menu_choice =='q':
                 print('Exiting Store...')
                 return 'Exit Store'
-            elif menu_choice in [1, 2, 3, 4]:
-                self.book_controller.book_menu(menu_choice)
-            elif menu_choice == 5:
+            elif int(menu_choice) in [1, 2, 3, 4]:
+                result = self.book_controller.book_menu(menu_choice)
+                if result == 'Exit Store':
+                    return 'Exit Store'
+            elif menu_choice == '5':
                 # self.order_controller(customer_order)
                 pass
             else:

@@ -23,12 +23,13 @@ class Book(object):
     def get_all_genres(self):
         try:
             cnx = self.connect_to_db()
-            cursor = cnx.cursor
+            cursor = cnx.cursor()
             sql = "SELECT * FROM Genres"
             cursor.execute(sql)
             records = cursor.fetchall()
             return records
         except Error as e:
             msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
+            return 'DB Error'
             
         

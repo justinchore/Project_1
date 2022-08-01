@@ -6,9 +6,9 @@ class BookView(object):
     def show_books():
         pass
     @staticmethod
-    def book_error(msg):
+    def show_book_error(msg):
         print(emoji.emojize(f":warning: {msg}"))
     @staticmethod
-    def book_genres(genres):
-        for g in genres:
-            print(g)
+    def show_book_genres(genres):
+        for idx, g in enumerate(genres):
+            print(idx+1, '.' , g[1])
