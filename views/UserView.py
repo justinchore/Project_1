@@ -58,12 +58,17 @@ class UserView(object):
         print(emoji.emojize("Registration success :thumbs_up:! Please Log in to your account."))
     @staticmethod
     def login_success_msg(name):
-        # os.system('cls')
+        os.system('cls')
         print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))
-    def logged_in_menu():
+    @staticmethod
+    def show_logged_in_menu():
         print(emoji.emojize('Please select from the choices below :down_arrow: '))
-        print('1) Browse books by genre')
-        print('2) Search books by author')
-        print('3) Search books by title')
-        print('4) Browse all books')
+        print(emoji.emojize('1) Browse books by genre :glasses:'))
+        print(emoji.emojize('2) Search books by author :glasses:'))
+        print(emoji.emojize('3) Search books by title :glasses:'))
+        print(emoji.emojize('4) Browse all books :books:'))
+        print(emoji.emojize('5) View/edit cart :shopping_cart:'))
+    @staticmethod
+    def invalid_selection():
+        print(emoji.emojize(":warning: Invalid menu selection. Please try again or enter '/q' to exit."))
         

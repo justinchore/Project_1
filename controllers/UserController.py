@@ -16,6 +16,7 @@ class UserController(object):
         self.user_model = User.User()
         self.validations = Validations.Validations()
         self.order_controller = OrderController.OrderController()
+        self.book_controller = BookController.BookController()
         self.id = None
         self.email = None
         self.name = None
@@ -111,7 +112,6 @@ class UserController(object):
                 self.set_is_admin(auth_result["is_admin"])
                 self.set_logged_in()
                 self.order_controller.customer_initial_order_check(self.id)
-                self.view.login_success_msg(self.name)
                 return 'Logged_In'
                 
                 
@@ -177,7 +177,24 @@ class UserController(object):
             return 'Exit'
     
     def logged_in_menu(self):
-        self.view.show_logged_in_menu()
+        self.view.login_success_msg(self.name)
+        while True:
+            self.view.show_logged_in_menu()
+            menu_choice = input()
+            if menu_choice == 'q' or menu_choice =='q':
+                print('Exiting Store...')
+                return 'Exit Store'
+            elif menu_choice in [1, 2, 3, 4]:
+                self.book_controller.book_menu(menu_choice)
+            elif menu_choice == 5:
+                # self.order_controller(customer_order)
+                pass
+            else:
+                os.system('cls')
+                self.view.invalid_selection()
+                continue
+        
+                
     
     #################CREATION/LOGIN CHECK METHODS################
     def name_check(self):

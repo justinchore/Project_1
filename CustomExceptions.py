@@ -48,3 +48,9 @@ class EmailNotRegistered(Exception):
 class AuthenticationFailedError(Exception):
     def __init__(self):
         self.message = "Authentication failed. Please try again or enter '/q' to exit."
+
+#############MENU ERRORS#############################
+
+class DatabaseError(Exception):
+    def __init__(self, message):
+        self.message = message
