@@ -60,3 +60,10 @@ class UserView(object):
     def login_success_msg(name):
         # os.system('cls')
         print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))
+    def logged_in_menu():
+        print(emoji.emojize('Please select from the choices below :down_arrow: '))
+        print('1) Browse books by genre')
+        print('2) Search books by author')
+        print('3) Search books by title')
+        print('4) Browse all books')
+        

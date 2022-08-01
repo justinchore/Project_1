@@ -7,6 +7,7 @@ import validations.Validations as Validations
 import views.UserView as UserView
 import models.UserModel as User
 import controllers.OrderController as OrderController
+import controllers.BookController as BookController
 
 class UserController(object):
     def __init__(self):
@@ -174,10 +175,11 @@ class UserController(object):
         if result == True:
             self.view.create_user_success_msg()
             return 'Exit'
-            
-            
     
-
+    def logged_in_menu(self):
+        self.view.show_logged_in_menu()
+    
+    #################CREATION/LOGIN CHECK METHODS################
     def name_check(self):
         while True:
             try: 

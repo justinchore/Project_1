@@ -41,6 +41,12 @@ def main():
     while user_controller.logged_in:
         print("YOU ARE LOGGED IN NOW")
         ##Retrieve/Create Order
+        ##Show Logged in user Menu
+        result = user_controller.logged_in_menu()
+        if result == 'Exit':
+            continue
+        elif result == 'Exit_Store':
+            return
         
         return
         

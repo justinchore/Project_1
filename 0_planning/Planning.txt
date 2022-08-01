@@ -1,13 +1,20 @@
 
-7/30:
-    - Logging for user_creation 
-    - Logging for loggin in
-
 7/31:
     - When a use logs in, If there are is an order with is_paid == False, then get that order from the DB. If not, then create a new order. DONEDONE!
     - logged in user menu:
         - pick from genre
+            - Show all genres to user
+                get genre_id from user choice
+            - select * from books where genre id = user choice
         - search by author
+            - Get user input, use LIKe to find
         - search by title
+             - Get user input, use LIKE to find
+        - browse:
+            - Page number attribute
+        - present books, and list them by numbers
+        - detailed view of selection
+        - enable adding book as a orderItem (stock update)
+        
         - order history
         - see cart
