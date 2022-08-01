@@ -52,5 +52,5 @@ class AuthenticationFailedError(Exception):
 #############MENU ERRORS#############################
 
 class DatabaseError(Exception):
-    def __init__(self, message):
-        self.message = message
+    def __init__(self):
+        self.message = "Database Error. Please Try again or enter 'q' to exit"
