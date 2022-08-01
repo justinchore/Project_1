@@ -27,7 +27,8 @@ class Book(object):
             sql = "SELECT * FROM Genres"
             cursor.execute(sql)
             records = cursor.fetchall()
-            print('Genres from model: ', records)
+            cursor.close()
+            cnx.close()
             return records
         except Error as e:
             msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)

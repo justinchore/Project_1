@@ -13,14 +13,19 @@ class BookController(object):
         self.book_model = Book.Book()
         
         self.genres = None
+        self.genre_interface_dict = None
         self.validations = Validations.Validations()
     
     ###GETTERS######
     def genres(self):
         return self.genres
+    def genre_interface_dict(self):
+        return self.genre_interface_dict
     ###SETTERS#####
     def set_genres(self, genre_dict):
         self.genres = genre_dict
+    def set_genre_interface_dict(self, genre_interface_dict):
+        self.genre_interface_dict = genre_interface_dict
     
     def book_menu(self, menu_choice):
         menu_choice = int(menu_choice)
@@ -50,19 +55,37 @@ class BookController(object):
                 pass
     
     def book_genres(self, records):
-        print('From book controller -> book_genres', records)
-        #convert tuple to dict
-        genre_dict = {}
-        genre_interface_dict = {}
-        #key = Genre, value = id
-        for idx, r in enumerate(records):
-            genre_dict[r[1]] = r[0]
-            genre_interface_dict[idx+1] = r[1]
-        #set created dictionary as a class attribute
-        self.set_genres(genre_dict)
-        print(genre_interface_dict)
-        #prompt user for genre selection or back
-        self.view.show_book_genres(records)
-        user_input = input()
+        while True:
+            try:
+                records = self.book_model.get_all_genres()
+                genre_dict = {}
+                genre_interface_dict = {}
+                #key = Genre, value = id
+                for idx, r in enumerate(records):
+                    genre_dict[r[1]] = r[0]
+                    genre_interface_dict[idx+1] = r[1]
+                #set created dictionary as a class attribute
+                self.set_genres(genre_dict)
+                self.set_genre_interface_dict(genre_interface_dict)
+                #prompt user for genre selection or back
+                self.view.show_book_genres(records)
+                user_input = input()
+                if user_input == '/b':
+                    return 'Back'
+                elif user_input == '/c':
+                    print('cart view not implemented')
+                    return 'Back'
+                elif int(user_input) not in self.genre_interface_dict:
+                    raise CustomExceptions.InvalidSelectionError
+                else:
+                    user_input = int(user_input)
+                    print('You have chosen ', genre_interface_dict[user_input])
+                    break
+            except CustomExceptions.InvalidSelectionError as ise:
+                print(ise.message)
+                os.system('cls')
+                
+                
+            
         
             
