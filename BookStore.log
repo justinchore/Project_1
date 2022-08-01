@@ -3340,3 +3340,2254 @@
 2022-08-01 13:46:02,975 :: # _do_auth(): user: root
 2022-08-01 13:46:02,975 :: # _do_auth(): password: Ithinksoso1916
 2022-08-01 13:46:02,975 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:47:48,615 :: # _do_auth(): user: root
+2022-08-01 13:47:48,615 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:47:48,615 :: # _do_auth(): user: root
+2022-08-01 13:47:48,615 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:47:48,615 :: package: mysql.connector.plugins
+2022-08-01 13:47:48,615 :: plugin_name: caching_sha2_password
+2022-08-01 13:47:48,617 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 13:47:48,617 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:47:48,618 :: Accessed database in get_user_by_email function...
+2022-08-01 13:47:48,825 :: # _do_auth(): user: root
+2022-08-01 13:47:48,825 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:47:48,825 :: # _do_auth(): user: root
+2022-08-01 13:47:48,825 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:47:48,825 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:47:50,195 :: # _do_auth(): user: root
+2022-08-01 13:47:50,195 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:47:50,195 :: # _do_auth(): user: root
+2022-08-01 13:47:50,196 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:47:50,196 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:53:12,223 :: # _do_auth(): user: root
+2022-08-01 13:53:12,223 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:53:12,224 :: # _do_auth(): user: root
+2022-08-01 13:53:12,224 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:53:12,224 :: package: mysql.connector.plugins
+2022-08-01 13:53:12,224 :: plugin_name: caching_sha2_password
+2022-08-01 13:53:12,227 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 13:53:12,227 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:53:12,229 :: Accessed database in get_user_by_email function...
+2022-08-01 13:53:12,436 :: # _do_auth(): user: root
+2022-08-01 13:53:12,436 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:53:12,436 :: # _do_auth(): user: root
+2022-08-01 13:53:12,436 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:53:12,436 :: new_auth_plugin: caching_sha2_password
+2022-08-01 13:53:14,135 :: # _do_auth(): user: root
+2022-08-01 13:53:14,135 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 13:53:14,135 :: # _do_auth(): user: root
+2022-08-01 13:53:14,135 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 13:53:14,135 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:06:57,132 :: # _do_auth(): user: root
+2022-08-01 14:06:57,132 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:06:57,132 :: # _do_auth(): user: root
+2022-08-01 14:06:57,132 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:06:57,132 :: package: mysql.connector.plugins
+2022-08-01 14:06:57,132 :: plugin_name: caching_sha2_password
+2022-08-01 14:06:57,134 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 14:06:57,134 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:06:57,135 :: Accessed database in get_user_by_email function...
+2022-08-01 14:06:57,342 :: # _do_auth(): user: root
+2022-08-01 14:06:57,342 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:06:57,342 :: # _do_auth(): user: root
+2022-08-01 14:06:57,342 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:06:57,343 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:09:40,389 :: # _do_auth(): user: root
+2022-08-01 14:09:40,389 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:09:40,389 :: # _do_auth(): user: root
+2022-08-01 14:09:40,389 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:09:40,389 :: package: mysql.connector.plugins
+2022-08-01 14:09:40,389 :: plugin_name: caching_sha2_password
+2022-08-01 14:09:40,391 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 14:09:40,391 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:09:40,393 :: Accessed database in get_user_by_email function...
+2022-08-01 14:09:40,599 :: # _do_auth(): user: root
+2022-08-01 14:09:40,599 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:09:40,599 :: # _do_auth(): user: root
+2022-08-01 14:09:40,599 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:09:40,600 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,574 :: # _do_auth(): user: root
+2022-08-01 14:10:37,575 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,575 :: # _do_auth(): user: root
+2022-08-01 14:10:37,575 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,575 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,594 :: # _do_auth(): user: root
+2022-08-01 14:10:37,594 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,594 :: # _do_auth(): user: root
+2022-08-01 14:10:37,594 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,594 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,615 :: # _do_auth(): user: root
+2022-08-01 14:10:37,615 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,615 :: # _do_auth(): user: root
+2022-08-01 14:10:37,615 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,616 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,639 :: # _do_auth(): user: root
+2022-08-01 14:10:37,639 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,639 :: # _do_auth(): user: root
+2022-08-01 14:10:37,639 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,639 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,662 :: # _do_auth(): user: root
+2022-08-01 14:10:37,662 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,662 :: # _do_auth(): user: root
+2022-08-01 14:10:37,663 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,663 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,689 :: # _do_auth(): user: root
+2022-08-01 14:10:37,692 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,692 :: # _do_auth(): user: root
+2022-08-01 14:10:37,692 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,692 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,713 :: # _do_auth(): user: root
+2022-08-01 14:10:37,713 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,713 :: # _do_auth(): user: root
+2022-08-01 14:10:37,713 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,713 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,732 :: # _do_auth(): user: root
+2022-08-01 14:10:37,733 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,733 :: # _do_auth(): user: root
+2022-08-01 14:10:37,733 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,733 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,756 :: # _do_auth(): user: root
+2022-08-01 14:10:37,756 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,756 :: # _do_auth(): user: root
+2022-08-01 14:10:37,756 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,756 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,780 :: # _do_auth(): user: root
+2022-08-01 14:10:37,781 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,781 :: # _do_auth(): user: root
+2022-08-01 14:10:37,781 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,781 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,804 :: # _do_auth(): user: root
+2022-08-01 14:10:37,804 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,804 :: # _do_auth(): user: root
+2022-08-01 14:10:37,804 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,804 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,829 :: # _do_auth(): user: root
+2022-08-01 14:10:37,829 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,830 :: # _do_auth(): user: root
+2022-08-01 14:10:37,830 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,830 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,852 :: # _do_auth(): user: root
+2022-08-01 14:10:37,853 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,853 :: # _do_auth(): user: root
+2022-08-01 14:10:37,853 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,853 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,873 :: # _do_auth(): user: root
+2022-08-01 14:10:37,873 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,873 :: # _do_auth(): user: root
+2022-08-01 14:10:37,873 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,873 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,898 :: # _do_auth(): user: root
+2022-08-01 14:10:37,899 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,899 :: # _do_auth(): user: root
+2022-08-01 14:10:37,899 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,899 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,923 :: # _do_auth(): user: root
+2022-08-01 14:10:37,923 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,923 :: # _do_auth(): user: root
+2022-08-01 14:10:37,923 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,923 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,949 :: # _do_auth(): user: root
+2022-08-01 14:10:37,949 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,949 :: # _do_auth(): user: root
+2022-08-01 14:10:37,949 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,949 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,975 :: # _do_auth(): user: root
+2022-08-01 14:10:37,975 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,975 :: # _do_auth(): user: root
+2022-08-01 14:10:37,975 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,975 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:37,996 :: # _do_auth(): user: root
+2022-08-01 14:10:37,996 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:37,996 :: # _do_auth(): user: root
+2022-08-01 14:10:37,996 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:37,996 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,019 :: # _do_auth(): user: root
+2022-08-01 14:10:38,019 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,019 :: # _do_auth(): user: root
+2022-08-01 14:10:38,019 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,020 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,042 :: # _do_auth(): user: root
+2022-08-01 14:10:38,042 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,042 :: # _do_auth(): user: root
+2022-08-01 14:10:38,042 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,043 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,066 :: # _do_auth(): user: root
+2022-08-01 14:10:38,066 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,066 :: # _do_auth(): user: root
+2022-08-01 14:10:38,066 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,066 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,093 :: # _do_auth(): user: root
+2022-08-01 14:10:38,093 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,093 :: # _do_auth(): user: root
+2022-08-01 14:10:38,093 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,093 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,115 :: # _do_auth(): user: root
+2022-08-01 14:10:38,116 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,116 :: # _do_auth(): user: root
+2022-08-01 14:10:38,116 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,116 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,135 :: # _do_auth(): user: root
+2022-08-01 14:10:38,136 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,136 :: # _do_auth(): user: root
+2022-08-01 14:10:38,136 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,136 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,161 :: # _do_auth(): user: root
+2022-08-01 14:10:38,161 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,161 :: # _do_auth(): user: root
+2022-08-01 14:10:38,161 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,161 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,184 :: # _do_auth(): user: root
+2022-08-01 14:10:38,184 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,184 :: # _do_auth(): user: root
+2022-08-01 14:10:38,184 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,185 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,207 :: # _do_auth(): user: root
+2022-08-01 14:10:38,207 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,207 :: # _do_auth(): user: root
+2022-08-01 14:10:38,208 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,208 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,234 :: # _do_auth(): user: root
+2022-08-01 14:10:38,235 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,235 :: # _do_auth(): user: root
+2022-08-01 14:10:38,235 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,235 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,256 :: # _do_auth(): user: root
+2022-08-01 14:10:38,256 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,256 :: # _do_auth(): user: root
+2022-08-01 14:10:38,256 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,256 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,279 :: # _do_auth(): user: root
+2022-08-01 14:10:38,279 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,279 :: # _do_auth(): user: root
+2022-08-01 14:10:38,279 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,280 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,301 :: # _do_auth(): user: root
+2022-08-01 14:10:38,301 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,301 :: # _do_auth(): user: root
+2022-08-01 14:10:38,301 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,301 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,326 :: # _do_auth(): user: root
+2022-08-01 14:10:38,326 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,326 :: # _do_auth(): user: root
+2022-08-01 14:10:38,327 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,327 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,351 :: # _do_auth(): user: root
+2022-08-01 14:10:38,351 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,351 :: # _do_auth(): user: root
+2022-08-01 14:10:38,351 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,351 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,375 :: # _do_auth(): user: root
+2022-08-01 14:10:38,375 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,376 :: # _do_auth(): user: root
+2022-08-01 14:10:38,376 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,376 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,395 :: # _do_auth(): user: root
+2022-08-01 14:10:38,396 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,396 :: # _do_auth(): user: root
+2022-08-01 14:10:38,396 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,396 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,418 :: # _do_auth(): user: root
+2022-08-01 14:10:38,418 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,418 :: # _do_auth(): user: root
+2022-08-01 14:10:38,418 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,418 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,440 :: # _do_auth(): user: root
+2022-08-01 14:10:38,441 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,441 :: # _do_auth(): user: root
+2022-08-01 14:10:38,441 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,441 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,464 :: # _do_auth(): user: root
+2022-08-01 14:10:38,464 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,464 :: # _do_auth(): user: root
+2022-08-01 14:10:38,464 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,464 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,488 :: # _do_auth(): user: root
+2022-08-01 14:10:38,488 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,488 :: # _do_auth(): user: root
+2022-08-01 14:10:38,488 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,488 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,511 :: # _do_auth(): user: root
+2022-08-01 14:10:38,511 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,511 :: # _do_auth(): user: root
+2022-08-01 14:10:38,511 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,511 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,535 :: # _do_auth(): user: root
+2022-08-01 14:10:38,535 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,535 :: # _do_auth(): user: root
+2022-08-01 14:10:38,535 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,535 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,556 :: # _do_auth(): user: root
+2022-08-01 14:10:38,557 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,557 :: # _do_auth(): user: root
+2022-08-01 14:10:38,557 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,557 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,580 :: # _do_auth(): user: root
+2022-08-01 14:10:38,580 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,580 :: # _do_auth(): user: root
+2022-08-01 14:10:38,580 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,580 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,603 :: # _do_auth(): user: root
+2022-08-01 14:10:38,603 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,603 :: # _do_auth(): user: root
+2022-08-01 14:10:38,603 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,603 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,627 :: # _do_auth(): user: root
+2022-08-01 14:10:38,627 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,627 :: # _do_auth(): user: root
+2022-08-01 14:10:38,627 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,627 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,648 :: # _do_auth(): user: root
+2022-08-01 14:10:38,649 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,649 :: # _do_auth(): user: root
+2022-08-01 14:10:38,649 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,649 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,674 :: # _do_auth(): user: root
+2022-08-01 14:10:38,674 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,674 :: # _do_auth(): user: root
+2022-08-01 14:10:38,674 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,674 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,697 :: # _do_auth(): user: root
+2022-08-01 14:10:38,698 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,698 :: # _do_auth(): user: root
+2022-08-01 14:10:38,698 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,698 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,721 :: # _do_auth(): user: root
+2022-08-01 14:10:38,722 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,722 :: # _do_auth(): user: root
+2022-08-01 14:10:38,722 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,722 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,746 :: # _do_auth(): user: root
+2022-08-01 14:10:38,746 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,746 :: # _do_auth(): user: root
+2022-08-01 14:10:38,746 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,746 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,770 :: # _do_auth(): user: root
+2022-08-01 14:10:38,770 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,770 :: # _do_auth(): user: root
+2022-08-01 14:10:38,770 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,770 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,794 :: # _do_auth(): user: root
+2022-08-01 14:10:38,795 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,795 :: # _do_auth(): user: root
+2022-08-01 14:10:38,795 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,795 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,822 :: # _do_auth(): user: root
+2022-08-01 14:10:38,822 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,822 :: # _do_auth(): user: root
+2022-08-01 14:10:38,822 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,822 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,844 :: # _do_auth(): user: root
+2022-08-01 14:10:38,844 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,844 :: # _do_auth(): user: root
+2022-08-01 14:10:38,844 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,844 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,868 :: # _do_auth(): user: root
+2022-08-01 14:10:38,868 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,868 :: # _do_auth(): user: root
+2022-08-01 14:10:38,868 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,868 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,890 :: # _do_auth(): user: root
+2022-08-01 14:10:38,890 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,890 :: # _do_auth(): user: root
+2022-08-01 14:10:38,890 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,890 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,914 :: # _do_auth(): user: root
+2022-08-01 14:10:38,914 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,914 :: # _do_auth(): user: root
+2022-08-01 14:10:38,914 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,914 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,938 :: # _do_auth(): user: root
+2022-08-01 14:10:38,938 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,938 :: # _do_auth(): user: root
+2022-08-01 14:10:38,938 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,938 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,966 :: # _do_auth(): user: root
+2022-08-01 14:10:38,966 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,966 :: # _do_auth(): user: root
+2022-08-01 14:10:38,966 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,966 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:38,989 :: # _do_auth(): user: root
+2022-08-01 14:10:38,989 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:38,989 :: # _do_auth(): user: root
+2022-08-01 14:10:38,989 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:38,990 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,017 :: # _do_auth(): user: root
+2022-08-01 14:10:39,017 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,017 :: # _do_auth(): user: root
+2022-08-01 14:10:39,017 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,017 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,040 :: # _do_auth(): user: root
+2022-08-01 14:10:39,041 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,041 :: # _do_auth(): user: root
+2022-08-01 14:10:39,041 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,041 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,073 :: # _do_auth(): user: root
+2022-08-01 14:10:39,073 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,073 :: # _do_auth(): user: root
+2022-08-01 14:10:39,073 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,073 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,095 :: # _do_auth(): user: root
+2022-08-01 14:10:39,096 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,096 :: # _do_auth(): user: root
+2022-08-01 14:10:39,096 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,096 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,118 :: # _do_auth(): user: root
+2022-08-01 14:10:39,118 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,118 :: # _do_auth(): user: root
+2022-08-01 14:10:39,118 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,119 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,141 :: # _do_auth(): user: root
+2022-08-01 14:10:39,141 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,141 :: # _do_auth(): user: root
+2022-08-01 14:10:39,141 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,141 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,162 :: # _do_auth(): user: root
+2022-08-01 14:10:39,163 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,163 :: # _do_auth(): user: root
+2022-08-01 14:10:39,163 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,163 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,187 :: # _do_auth(): user: root
+2022-08-01 14:10:39,187 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,187 :: # _do_auth(): user: root
+2022-08-01 14:10:39,187 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,187 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,213 :: # _do_auth(): user: root
+2022-08-01 14:10:39,213 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,214 :: # _do_auth(): user: root
+2022-08-01 14:10:39,214 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,214 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,238 :: # _do_auth(): user: root
+2022-08-01 14:10:39,239 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,239 :: # _do_auth(): user: root
+2022-08-01 14:10:39,239 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,239 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,261 :: # _do_auth(): user: root
+2022-08-01 14:10:39,261 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,261 :: # _do_auth(): user: root
+2022-08-01 14:10:39,261 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,261 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,287 :: # _do_auth(): user: root
+2022-08-01 14:10:39,287 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,287 :: # _do_auth(): user: root
+2022-08-01 14:10:39,288 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,288 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,311 :: # _do_auth(): user: root
+2022-08-01 14:10:39,311 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,311 :: # _do_auth(): user: root
+2022-08-01 14:10:39,311 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,311 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,333 :: # _do_auth(): user: root
+2022-08-01 14:10:39,334 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,334 :: # _do_auth(): user: root
+2022-08-01 14:10:39,334 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,334 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,357 :: # _do_auth(): user: root
+2022-08-01 14:10:39,357 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,357 :: # _do_auth(): user: root
+2022-08-01 14:10:39,357 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,357 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,379 :: # _do_auth(): user: root
+2022-08-01 14:10:39,380 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,380 :: # _do_auth(): user: root
+2022-08-01 14:10:39,380 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,380 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,406 :: # _do_auth(): user: root
+2022-08-01 14:10:39,406 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,406 :: # _do_auth(): user: root
+2022-08-01 14:10:39,406 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,406 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,433 :: # _do_auth(): user: root
+2022-08-01 14:10:39,433 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,433 :: # _do_auth(): user: root
+2022-08-01 14:10:39,433 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,433 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,457 :: # _do_auth(): user: root
+2022-08-01 14:10:39,458 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,458 :: # _do_auth(): user: root
+2022-08-01 14:10:39,458 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,458 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,482 :: # _do_auth(): user: root
+2022-08-01 14:10:39,483 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,483 :: # _do_auth(): user: root
+2022-08-01 14:10:39,483 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,483 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,506 :: # _do_auth(): user: root
+2022-08-01 14:10:39,506 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,506 :: # _do_auth(): user: root
+2022-08-01 14:10:39,506 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,506 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,532 :: # _do_auth(): user: root
+2022-08-01 14:10:39,532 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,532 :: # _do_auth(): user: root
+2022-08-01 14:10:39,532 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,532 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,558 :: # _do_auth(): user: root
+2022-08-01 14:10:39,558 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,558 :: # _do_auth(): user: root
+2022-08-01 14:10:39,558 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,559 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,583 :: # _do_auth(): user: root
+2022-08-01 14:10:39,583 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,583 :: # _do_auth(): user: root
+2022-08-01 14:10:39,583 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,583 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,607 :: # _do_auth(): user: root
+2022-08-01 14:10:39,607 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,608 :: # _do_auth(): user: root
+2022-08-01 14:10:39,608 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,608 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,629 :: # _do_auth(): user: root
+2022-08-01 14:10:39,629 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,629 :: # _do_auth(): user: root
+2022-08-01 14:10:39,629 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,629 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,653 :: # _do_auth(): user: root
+2022-08-01 14:10:39,653 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,653 :: # _do_auth(): user: root
+2022-08-01 14:10:39,653 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,653 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,676 :: # _do_auth(): user: root
+2022-08-01 14:10:39,676 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,676 :: # _do_auth(): user: root
+2022-08-01 14:10:39,676 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,676 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,703 :: # _do_auth(): user: root
+2022-08-01 14:10:39,703 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,703 :: # _do_auth(): user: root
+2022-08-01 14:10:39,703 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,703 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,727 :: # _do_auth(): user: root
+2022-08-01 14:10:39,727 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,727 :: # _do_auth(): user: root
+2022-08-01 14:10:39,727 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,727 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,751 :: # _do_auth(): user: root
+2022-08-01 14:10:39,751 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,751 :: # _do_auth(): user: root
+2022-08-01 14:10:39,751 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,752 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,775 :: # _do_auth(): user: root
+2022-08-01 14:10:39,776 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,776 :: # _do_auth(): user: root
+2022-08-01 14:10:39,776 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,776 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,803 :: # _do_auth(): user: root
+2022-08-01 14:10:39,803 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,804 :: # _do_auth(): user: root
+2022-08-01 14:10:39,804 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,804 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,828 :: # _do_auth(): user: root
+2022-08-01 14:10:39,828 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,828 :: # _do_auth(): user: root
+2022-08-01 14:10:39,828 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,828 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,850 :: # _do_auth(): user: root
+2022-08-01 14:10:39,850 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,850 :: # _do_auth(): user: root
+2022-08-01 14:10:39,850 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,850 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,872 :: # _do_auth(): user: root
+2022-08-01 14:10:39,872 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,872 :: # _do_auth(): user: root
+2022-08-01 14:10:39,872 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,872 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,896 :: # _do_auth(): user: root
+2022-08-01 14:10:39,896 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,896 :: # _do_auth(): user: root
+2022-08-01 14:10:39,896 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,897 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,919 :: # _do_auth(): user: root
+2022-08-01 14:10:39,920 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,920 :: # _do_auth(): user: root
+2022-08-01 14:10:39,920 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,920 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,944 :: # _do_auth(): user: root
+2022-08-01 14:10:39,944 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,944 :: # _do_auth(): user: root
+2022-08-01 14:10:39,944 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,944 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,967 :: # _do_auth(): user: root
+2022-08-01 14:10:39,967 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,967 :: # _do_auth(): user: root
+2022-08-01 14:10:39,967 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,967 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:39,993 :: # _do_auth(): user: root
+2022-08-01 14:10:39,993 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:39,994 :: # _do_auth(): user: root
+2022-08-01 14:10:39,994 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:39,994 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,018 :: # _do_auth(): user: root
+2022-08-01 14:10:40,018 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,019 :: # _do_auth(): user: root
+2022-08-01 14:10:40,019 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,019 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,044 :: # _do_auth(): user: root
+2022-08-01 14:10:40,044 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,044 :: # _do_auth(): user: root
+2022-08-01 14:10:40,044 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,044 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,067 :: # _do_auth(): user: root
+2022-08-01 14:10:40,067 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,067 :: # _do_auth(): user: root
+2022-08-01 14:10:40,067 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,067 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,089 :: # _do_auth(): user: root
+2022-08-01 14:10:40,089 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,089 :: # _do_auth(): user: root
+2022-08-01 14:10:40,089 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,090 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,113 :: # _do_auth(): user: root
+2022-08-01 14:10:40,113 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,113 :: # _do_auth(): user: root
+2022-08-01 14:10:40,113 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,113 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,136 :: # _do_auth(): user: root
+2022-08-01 14:10:40,136 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,136 :: # _do_auth(): user: root
+2022-08-01 14:10:40,137 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,137 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,158 :: # _do_auth(): user: root
+2022-08-01 14:10:40,158 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,158 :: # _do_auth(): user: root
+2022-08-01 14:10:40,158 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,159 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,182 :: # _do_auth(): user: root
+2022-08-01 14:10:40,182 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,182 :: # _do_auth(): user: root
+2022-08-01 14:10:40,182 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,182 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,205 :: # _do_auth(): user: root
+2022-08-01 14:10:40,205 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,205 :: # _do_auth(): user: root
+2022-08-01 14:10:40,206 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,206 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,229 :: # _do_auth(): user: root
+2022-08-01 14:10:40,230 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,230 :: # _do_auth(): user: root
+2022-08-01 14:10:40,230 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,230 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,256 :: # _do_auth(): user: root
+2022-08-01 14:10:40,256 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,256 :: # _do_auth(): user: root
+2022-08-01 14:10:40,256 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,256 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,281 :: # _do_auth(): user: root
+2022-08-01 14:10:40,281 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,281 :: # _do_auth(): user: root
+2022-08-01 14:10:40,281 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,281 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,303 :: # _do_auth(): user: root
+2022-08-01 14:10:40,303 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,303 :: # _do_auth(): user: root
+2022-08-01 14:10:40,303 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,303 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,326 :: # _do_auth(): user: root
+2022-08-01 14:10:40,326 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,326 :: # _do_auth(): user: root
+2022-08-01 14:10:40,326 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,327 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,352 :: # _do_auth(): user: root
+2022-08-01 14:10:40,352 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,352 :: # _do_auth(): user: root
+2022-08-01 14:10:40,352 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,352 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,377 :: # _do_auth(): user: root
+2022-08-01 14:10:40,377 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,377 :: # _do_auth(): user: root
+2022-08-01 14:10:40,377 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,377 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,400 :: # _do_auth(): user: root
+2022-08-01 14:10:40,401 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,401 :: # _do_auth(): user: root
+2022-08-01 14:10:40,401 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,401 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,423 :: # _do_auth(): user: root
+2022-08-01 14:10:40,423 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,423 :: # _do_auth(): user: root
+2022-08-01 14:10:40,423 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,423 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,449 :: # _do_auth(): user: root
+2022-08-01 14:10:40,449 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,449 :: # _do_auth(): user: root
+2022-08-01 14:10:40,449 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,449 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,472 :: # _do_auth(): user: root
+2022-08-01 14:10:40,473 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,473 :: # _do_auth(): user: root
+2022-08-01 14:10:40,473 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,473 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,498 :: # _do_auth(): user: root
+2022-08-01 14:10:40,498 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,498 :: # _do_auth(): user: root
+2022-08-01 14:10:40,498 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,498 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,521 :: # _do_auth(): user: root
+2022-08-01 14:10:40,522 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,522 :: # _do_auth(): user: root
+2022-08-01 14:10:40,522 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,522 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,542 :: # _do_auth(): user: root
+2022-08-01 14:10:40,542 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,542 :: # _do_auth(): user: root
+2022-08-01 14:10:40,542 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,542 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,566 :: # _do_auth(): user: root
+2022-08-01 14:10:40,567 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,567 :: # _do_auth(): user: root
+2022-08-01 14:10:40,567 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,567 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,589 :: # _do_auth(): user: root
+2022-08-01 14:10:40,589 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,589 :: # _do_auth(): user: root
+2022-08-01 14:10:40,590 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,590 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,616 :: # _do_auth(): user: root
+2022-08-01 14:10:40,616 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,617 :: # _do_auth(): user: root
+2022-08-01 14:10:40,617 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,617 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,641 :: # _do_auth(): user: root
+2022-08-01 14:10:40,641 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,642 :: # _do_auth(): user: root
+2022-08-01 14:10:40,642 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,642 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,667 :: # _do_auth(): user: root
+2022-08-01 14:10:40,667 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,667 :: # _do_auth(): user: root
+2022-08-01 14:10:40,667 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,668 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,693 :: # _do_auth(): user: root
+2022-08-01 14:10:40,693 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,693 :: # _do_auth(): user: root
+2022-08-01 14:10:40,693 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,693 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,716 :: # _do_auth(): user: root
+2022-08-01 14:10:40,717 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,717 :: # _do_auth(): user: root
+2022-08-01 14:10:40,717 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,717 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,740 :: # _do_auth(): user: root
+2022-08-01 14:10:40,740 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,740 :: # _do_auth(): user: root
+2022-08-01 14:10:40,741 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,741 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,767 :: # _do_auth(): user: root
+2022-08-01 14:10:40,767 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,768 :: # _do_auth(): user: root
+2022-08-01 14:10:40,768 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,768 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,790 :: # _do_auth(): user: root
+2022-08-01 14:10:40,791 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,791 :: # _do_auth(): user: root
+2022-08-01 14:10:40,791 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,791 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,815 :: # _do_auth(): user: root
+2022-08-01 14:10:40,815 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,815 :: # _do_auth(): user: root
+2022-08-01 14:10:40,815 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,816 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,842 :: # _do_auth(): user: root
+2022-08-01 14:10:40,842 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,842 :: # _do_auth(): user: root
+2022-08-01 14:10:40,842 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,842 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,868 :: # _do_auth(): user: root
+2022-08-01 14:10:40,868 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,868 :: # _do_auth(): user: root
+2022-08-01 14:10:40,868 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,869 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,894 :: # _do_auth(): user: root
+2022-08-01 14:10:40,894 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,895 :: # _do_auth(): user: root
+2022-08-01 14:10:40,895 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,895 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,920 :: # _do_auth(): user: root
+2022-08-01 14:10:40,920 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,920 :: # _do_auth(): user: root
+2022-08-01 14:10:40,920 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,920 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,944 :: # _do_auth(): user: root
+2022-08-01 14:10:40,944 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,944 :: # _do_auth(): user: root
+2022-08-01 14:10:40,944 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,944 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,969 :: # _do_auth(): user: root
+2022-08-01 14:10:40,969 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,969 :: # _do_auth(): user: root
+2022-08-01 14:10:40,969 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,969 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:40,994 :: # _do_auth(): user: root
+2022-08-01 14:10:40,994 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:40,994 :: # _do_auth(): user: root
+2022-08-01 14:10:40,994 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:40,994 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,026 :: # _do_auth(): user: root
+2022-08-01 14:10:41,027 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,027 :: # _do_auth(): user: root
+2022-08-01 14:10:41,027 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,027 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,051 :: # _do_auth(): user: root
+2022-08-01 14:10:41,052 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,052 :: # _do_auth(): user: root
+2022-08-01 14:10:41,052 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,052 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,083 :: # _do_auth(): user: root
+2022-08-01 14:10:41,083 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,084 :: # _do_auth(): user: root
+2022-08-01 14:10:41,084 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,084 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,108 :: # _do_auth(): user: root
+2022-08-01 14:10:41,109 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,109 :: # _do_auth(): user: root
+2022-08-01 14:10:41,109 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,109 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,135 :: # _do_auth(): user: root
+2022-08-01 14:10:41,136 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,136 :: # _do_auth(): user: root
+2022-08-01 14:10:41,136 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,136 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,161 :: # _do_auth(): user: root
+2022-08-01 14:10:41,162 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,162 :: # _do_auth(): user: root
+2022-08-01 14:10:41,162 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,162 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,188 :: # _do_auth(): user: root
+2022-08-01 14:10:41,188 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,188 :: # _do_auth(): user: root
+2022-08-01 14:10:41,188 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,188 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,211 :: # _do_auth(): user: root
+2022-08-01 14:10:41,211 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,211 :: # _do_auth(): user: root
+2022-08-01 14:10:41,211 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,212 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,239 :: # _do_auth(): user: root
+2022-08-01 14:10:41,239 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,239 :: # _do_auth(): user: root
+2022-08-01 14:10:41,239 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,239 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,261 :: # _do_auth(): user: root
+2022-08-01 14:10:41,262 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,262 :: # _do_auth(): user: root
+2022-08-01 14:10:41,262 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,262 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,284 :: # _do_auth(): user: root
+2022-08-01 14:10:41,284 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,285 :: # _do_auth(): user: root
+2022-08-01 14:10:41,285 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,285 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,310 :: # _do_auth(): user: root
+2022-08-01 14:10:41,310 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,310 :: # _do_auth(): user: root
+2022-08-01 14:10:41,310 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,310 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,333 :: # _do_auth(): user: root
+2022-08-01 14:10:41,333 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,334 :: # _do_auth(): user: root
+2022-08-01 14:10:41,334 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,334 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,357 :: # _do_auth(): user: root
+2022-08-01 14:10:41,357 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,357 :: # _do_auth(): user: root
+2022-08-01 14:10:41,357 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,357 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,381 :: # _do_auth(): user: root
+2022-08-01 14:10:41,381 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,381 :: # _do_auth(): user: root
+2022-08-01 14:10:41,381 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,382 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,407 :: # _do_auth(): user: root
+2022-08-01 14:10:41,407 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,407 :: # _do_auth(): user: root
+2022-08-01 14:10:41,407 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,407 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,431 :: # _do_auth(): user: root
+2022-08-01 14:10:41,431 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,431 :: # _do_auth(): user: root
+2022-08-01 14:10:41,431 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,431 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,454 :: # _do_auth(): user: root
+2022-08-01 14:10:41,454 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,454 :: # _do_auth(): user: root
+2022-08-01 14:10:41,454 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,454 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,477 :: # _do_auth(): user: root
+2022-08-01 14:10:41,477 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,477 :: # _do_auth(): user: root
+2022-08-01 14:10:41,477 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,478 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,504 :: # _do_auth(): user: root
+2022-08-01 14:10:41,504 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,504 :: # _do_auth(): user: root
+2022-08-01 14:10:41,504 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,504 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,528 :: # _do_auth(): user: root
+2022-08-01 14:10:41,528 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,528 :: # _do_auth(): user: root
+2022-08-01 14:10:41,528 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,529 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,556 :: # _do_auth(): user: root
+2022-08-01 14:10:41,556 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,556 :: # _do_auth(): user: root
+2022-08-01 14:10:41,556 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,556 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,577 :: # _do_auth(): user: root
+2022-08-01 14:10:41,577 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,577 :: # _do_auth(): user: root
+2022-08-01 14:10:41,578 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,578 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,602 :: # _do_auth(): user: root
+2022-08-01 14:10:41,602 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,602 :: # _do_auth(): user: root
+2022-08-01 14:10:41,602 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,602 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,627 :: # _do_auth(): user: root
+2022-08-01 14:10:41,627 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,627 :: # _do_auth(): user: root
+2022-08-01 14:10:41,627 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,628 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,655 :: # _do_auth(): user: root
+2022-08-01 14:10:41,655 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,655 :: # _do_auth(): user: root
+2022-08-01 14:10:41,655 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,656 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,681 :: # _do_auth(): user: root
+2022-08-01 14:10:41,681 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,681 :: # _do_auth(): user: root
+2022-08-01 14:10:41,681 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,682 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,705 :: # _do_auth(): user: root
+2022-08-01 14:10:41,705 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,705 :: # _do_auth(): user: root
+2022-08-01 14:10:41,705 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,706 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,734 :: # _do_auth(): user: root
+2022-08-01 14:10:41,734 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,734 :: # _do_auth(): user: root
+2022-08-01 14:10:41,734 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,735 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,759 :: # _do_auth(): user: root
+2022-08-01 14:10:41,759 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,759 :: # _do_auth(): user: root
+2022-08-01 14:10:41,760 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,760 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,787 :: # _do_auth(): user: root
+2022-08-01 14:10:41,787 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,788 :: # _do_auth(): user: root
+2022-08-01 14:10:41,788 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,788 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,812 :: # _do_auth(): user: root
+2022-08-01 14:10:41,812 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,813 :: # _do_auth(): user: root
+2022-08-01 14:10:41,813 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,813 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,837 :: # _do_auth(): user: root
+2022-08-01 14:10:41,837 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,837 :: # _do_auth(): user: root
+2022-08-01 14:10:41,837 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,838 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,863 :: # _do_auth(): user: root
+2022-08-01 14:10:41,863 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,863 :: # _do_auth(): user: root
+2022-08-01 14:10:41,863 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,863 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,888 :: # _do_auth(): user: root
+2022-08-01 14:10:41,888 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,888 :: # _do_auth(): user: root
+2022-08-01 14:10:41,888 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,888 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,913 :: # _do_auth(): user: root
+2022-08-01 14:10:41,913 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,913 :: # _do_auth(): user: root
+2022-08-01 14:10:41,913 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,913 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,939 :: # _do_auth(): user: root
+2022-08-01 14:10:41,939 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,939 :: # _do_auth(): user: root
+2022-08-01 14:10:41,939 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,939 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,962 :: # _do_auth(): user: root
+2022-08-01 14:10:41,962 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,962 :: # _do_auth(): user: root
+2022-08-01 14:10:41,962 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,962 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:41,987 :: # _do_auth(): user: root
+2022-08-01 14:10:41,987 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:41,987 :: # _do_auth(): user: root
+2022-08-01 14:10:41,987 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:41,987 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,012 :: # _do_auth(): user: root
+2022-08-01 14:10:42,012 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,012 :: # _do_auth(): user: root
+2022-08-01 14:10:42,012 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,012 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,040 :: # _do_auth(): user: root
+2022-08-01 14:10:42,041 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,041 :: # _do_auth(): user: root
+2022-08-01 14:10:42,041 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,041 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,064 :: # _do_auth(): user: root
+2022-08-01 14:10:42,064 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,065 :: # _do_auth(): user: root
+2022-08-01 14:10:42,065 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,065 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,090 :: # _do_auth(): user: root
+2022-08-01 14:10:42,090 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,090 :: # _do_auth(): user: root
+2022-08-01 14:10:42,090 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,090 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,116 :: # _do_auth(): user: root
+2022-08-01 14:10:42,117 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,117 :: # _do_auth(): user: root
+2022-08-01 14:10:42,117 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,117 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,141 :: # _do_auth(): user: root
+2022-08-01 14:10:42,141 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,141 :: # _do_auth(): user: root
+2022-08-01 14:10:42,141 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,141 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,165 :: # _do_auth(): user: root
+2022-08-01 14:10:42,165 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,165 :: # _do_auth(): user: root
+2022-08-01 14:10:42,165 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,165 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,189 :: # _do_auth(): user: root
+2022-08-01 14:10:42,189 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,189 :: # _do_auth(): user: root
+2022-08-01 14:10:42,189 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,189 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,212 :: # _do_auth(): user: root
+2022-08-01 14:10:42,212 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,212 :: # _do_auth(): user: root
+2022-08-01 14:10:42,212 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,212 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,237 :: # _do_auth(): user: root
+2022-08-01 14:10:42,237 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,237 :: # _do_auth(): user: root
+2022-08-01 14:10:42,237 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,238 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,260 :: # _do_auth(): user: root
+2022-08-01 14:10:42,261 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,261 :: # _do_auth(): user: root
+2022-08-01 14:10:42,261 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,261 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,289 :: # _do_auth(): user: root
+2022-08-01 14:10:42,290 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,290 :: # _do_auth(): user: root
+2022-08-01 14:10:42,290 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,290 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,313 :: # _do_auth(): user: root
+2022-08-01 14:10:42,314 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,314 :: # _do_auth(): user: root
+2022-08-01 14:10:42,314 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,314 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,339 :: # _do_auth(): user: root
+2022-08-01 14:10:42,340 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,340 :: # _do_auth(): user: root
+2022-08-01 14:10:42,340 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,340 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,362 :: # _do_auth(): user: root
+2022-08-01 14:10:42,362 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,362 :: # _do_auth(): user: root
+2022-08-01 14:10:42,362 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,362 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,387 :: # _do_auth(): user: root
+2022-08-01 14:10:42,387 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,387 :: # _do_auth(): user: root
+2022-08-01 14:10:42,387 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,388 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,411 :: # _do_auth(): user: root
+2022-08-01 14:10:42,412 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,412 :: # _do_auth(): user: root
+2022-08-01 14:10:42,412 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,412 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,437 :: # _do_auth(): user: root
+2022-08-01 14:10:42,437 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,437 :: # _do_auth(): user: root
+2022-08-01 14:10:42,437 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,437 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,466 :: # _do_auth(): user: root
+2022-08-01 14:10:42,466 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,466 :: # _do_auth(): user: root
+2022-08-01 14:10:42,466 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,467 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,493 :: # _do_auth(): user: root
+2022-08-01 14:10:42,494 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,494 :: # _do_auth(): user: root
+2022-08-01 14:10:42,494 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,494 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,520 :: # _do_auth(): user: root
+2022-08-01 14:10:42,521 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,521 :: # _do_auth(): user: root
+2022-08-01 14:10:42,521 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,521 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,548 :: # _do_auth(): user: root
+2022-08-01 14:10:42,548 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,548 :: # _do_auth(): user: root
+2022-08-01 14:10:42,548 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,548 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,573 :: # _do_auth(): user: root
+2022-08-01 14:10:42,573 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,573 :: # _do_auth(): user: root
+2022-08-01 14:10:42,573 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,574 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,599 :: # _do_auth(): user: root
+2022-08-01 14:10:42,599 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,599 :: # _do_auth(): user: root
+2022-08-01 14:10:42,600 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,600 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,626 :: # _do_auth(): user: root
+2022-08-01 14:10:42,626 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,626 :: # _do_auth(): user: root
+2022-08-01 14:10:42,626 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,627 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,650 :: # _do_auth(): user: root
+2022-08-01 14:10:42,650 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,650 :: # _do_auth(): user: root
+2022-08-01 14:10:42,650 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,651 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,677 :: # _do_auth(): user: root
+2022-08-01 14:10:42,677 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,677 :: # _do_auth(): user: root
+2022-08-01 14:10:42,677 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,677 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,709 :: # _do_auth(): user: root
+2022-08-01 14:10:42,709 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,709 :: # _do_auth(): user: root
+2022-08-01 14:10:42,709 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,709 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,736 :: # _do_auth(): user: root
+2022-08-01 14:10:42,736 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,737 :: # _do_auth(): user: root
+2022-08-01 14:10:42,737 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,737 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,761 :: # _do_auth(): user: root
+2022-08-01 14:10:42,762 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,762 :: # _do_auth(): user: root
+2022-08-01 14:10:42,762 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,762 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,784 :: # _do_auth(): user: root
+2022-08-01 14:10:42,784 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,784 :: # _do_auth(): user: root
+2022-08-01 14:10:42,784 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,784 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,806 :: # _do_auth(): user: root
+2022-08-01 14:10:42,806 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,806 :: # _do_auth(): user: root
+2022-08-01 14:10:42,806 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,806 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,833 :: # _do_auth(): user: root
+2022-08-01 14:10:42,833 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,833 :: # _do_auth(): user: root
+2022-08-01 14:10:42,833 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,833 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,855 :: # _do_auth(): user: root
+2022-08-01 14:10:42,855 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,856 :: # _do_auth(): user: root
+2022-08-01 14:10:42,856 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,856 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,875 :: # _do_auth(): user: root
+2022-08-01 14:10:42,875 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,876 :: # _do_auth(): user: root
+2022-08-01 14:10:42,876 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,876 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,896 :: # _do_auth(): user: root
+2022-08-01 14:10:42,896 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,896 :: # _do_auth(): user: root
+2022-08-01 14:10:42,896 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,897 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,918 :: # _do_auth(): user: root
+2022-08-01 14:10:42,918 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,918 :: # _do_auth(): user: root
+2022-08-01 14:10:42,918 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,918 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,938 :: # _do_auth(): user: root
+2022-08-01 14:10:42,938 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,938 :: # _do_auth(): user: root
+2022-08-01 14:10:42,938 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,938 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,958 :: # _do_auth(): user: root
+2022-08-01 14:10:42,958 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,958 :: # _do_auth(): user: root
+2022-08-01 14:10:42,958 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,958 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:42,979 :: # _do_auth(): user: root
+2022-08-01 14:10:42,979 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:42,979 :: # _do_auth(): user: root
+2022-08-01 14:10:42,980 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:42,980 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,000 :: # _do_auth(): user: root
+2022-08-01 14:10:43,001 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,001 :: # _do_auth(): user: root
+2022-08-01 14:10:43,001 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,001 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,019 :: # _do_auth(): user: root
+2022-08-01 14:10:43,019 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,019 :: # _do_auth(): user: root
+2022-08-01 14:10:43,019 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,019 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,037 :: # _do_auth(): user: root
+2022-08-01 14:10:43,037 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,037 :: # _do_auth(): user: root
+2022-08-01 14:10:43,037 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,037 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,055 :: # _do_auth(): user: root
+2022-08-01 14:10:43,055 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,055 :: # _do_auth(): user: root
+2022-08-01 14:10:43,055 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,055 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,075 :: # _do_auth(): user: root
+2022-08-01 14:10:43,076 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,076 :: # _do_auth(): user: root
+2022-08-01 14:10:43,076 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,076 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,097 :: # _do_auth(): user: root
+2022-08-01 14:10:43,097 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,097 :: # _do_auth(): user: root
+2022-08-01 14:10:43,097 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,097 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,116 :: # _do_auth(): user: root
+2022-08-01 14:10:43,116 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,116 :: # _do_auth(): user: root
+2022-08-01 14:10:43,116 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,116 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,135 :: # _do_auth(): user: root
+2022-08-01 14:10:43,135 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,135 :: # _do_auth(): user: root
+2022-08-01 14:10:43,135 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,135 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,153 :: # _do_auth(): user: root
+2022-08-01 14:10:43,153 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,153 :: # _do_auth(): user: root
+2022-08-01 14:10:43,153 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,154 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,173 :: # _do_auth(): user: root
+2022-08-01 14:10:43,173 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,173 :: # _do_auth(): user: root
+2022-08-01 14:10:43,173 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,173 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,191 :: # _do_auth(): user: root
+2022-08-01 14:10:43,191 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,191 :: # _do_auth(): user: root
+2022-08-01 14:10:43,191 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,191 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,210 :: # _do_auth(): user: root
+2022-08-01 14:10:43,211 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,211 :: # _do_auth(): user: root
+2022-08-01 14:10:43,211 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,211 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,229 :: # _do_auth(): user: root
+2022-08-01 14:10:43,229 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,229 :: # _do_auth(): user: root
+2022-08-01 14:10:43,229 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,229 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,248 :: # _do_auth(): user: root
+2022-08-01 14:10:43,248 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,248 :: # _do_auth(): user: root
+2022-08-01 14:10:43,248 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,248 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,268 :: # _do_auth(): user: root
+2022-08-01 14:10:43,268 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,268 :: # _do_auth(): user: root
+2022-08-01 14:10:43,268 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,269 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,288 :: # _do_auth(): user: root
+2022-08-01 14:10:43,288 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,288 :: # _do_auth(): user: root
+2022-08-01 14:10:43,288 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,288 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,310 :: # _do_auth(): user: root
+2022-08-01 14:10:43,310 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,310 :: # _do_auth(): user: root
+2022-08-01 14:10:43,310 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,310 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,332 :: # _do_auth(): user: root
+2022-08-01 14:10:43,333 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,333 :: # _do_auth(): user: root
+2022-08-01 14:10:43,333 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,333 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,357 :: # _do_auth(): user: root
+2022-08-01 14:10:43,357 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,357 :: # _do_auth(): user: root
+2022-08-01 14:10:43,357 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,357 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,378 :: # _do_auth(): user: root
+2022-08-01 14:10:43,379 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,379 :: # _do_auth(): user: root
+2022-08-01 14:10:43,379 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,379 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,399 :: # _do_auth(): user: root
+2022-08-01 14:10:43,399 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,399 :: # _do_auth(): user: root
+2022-08-01 14:10:43,399 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,399 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,418 :: # _do_auth(): user: root
+2022-08-01 14:10:43,418 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,418 :: # _do_auth(): user: root
+2022-08-01 14:10:43,418 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,418 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,438 :: # _do_auth(): user: root
+2022-08-01 14:10:43,438 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,438 :: # _do_auth(): user: root
+2022-08-01 14:10:43,439 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,439 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,458 :: # _do_auth(): user: root
+2022-08-01 14:10:43,458 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,458 :: # _do_auth(): user: root
+2022-08-01 14:10:43,459 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,459 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,480 :: # _do_auth(): user: root
+2022-08-01 14:10:43,481 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,481 :: # _do_auth(): user: root
+2022-08-01 14:10:43,481 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,481 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,501 :: # _do_auth(): user: root
+2022-08-01 14:10:43,501 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,501 :: # _do_auth(): user: root
+2022-08-01 14:10:43,501 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,502 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,521 :: # _do_auth(): user: root
+2022-08-01 14:10:43,522 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,522 :: # _do_auth(): user: root
+2022-08-01 14:10:43,522 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,522 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,540 :: # _do_auth(): user: root
+2022-08-01 14:10:43,540 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,540 :: # _do_auth(): user: root
+2022-08-01 14:10:43,540 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,540 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,560 :: # _do_auth(): user: root
+2022-08-01 14:10:43,560 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,560 :: # _do_auth(): user: root
+2022-08-01 14:10:43,560 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,560 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,582 :: # _do_auth(): user: root
+2022-08-01 14:10:43,582 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,582 :: # _do_auth(): user: root
+2022-08-01 14:10:43,582 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,582 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,603 :: # _do_auth(): user: root
+2022-08-01 14:10:43,603 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,603 :: # _do_auth(): user: root
+2022-08-01 14:10:43,603 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,603 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,624 :: # _do_auth(): user: root
+2022-08-01 14:10:43,624 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,624 :: # _do_auth(): user: root
+2022-08-01 14:10:43,624 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,624 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,644 :: # _do_auth(): user: root
+2022-08-01 14:10:43,644 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,644 :: # _do_auth(): user: root
+2022-08-01 14:10:43,644 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,645 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,666 :: # _do_auth(): user: root
+2022-08-01 14:10:43,666 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,666 :: # _do_auth(): user: root
+2022-08-01 14:10:43,666 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,667 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,687 :: # _do_auth(): user: root
+2022-08-01 14:10:43,687 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,687 :: # _do_auth(): user: root
+2022-08-01 14:10:43,687 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,688 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,709 :: # _do_auth(): user: root
+2022-08-01 14:10:43,709 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,709 :: # _do_auth(): user: root
+2022-08-01 14:10:43,709 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,709 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,729 :: # _do_auth(): user: root
+2022-08-01 14:10:43,729 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,729 :: # _do_auth(): user: root
+2022-08-01 14:10:43,729 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,730 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,749 :: # _do_auth(): user: root
+2022-08-01 14:10:43,750 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,750 :: # _do_auth(): user: root
+2022-08-01 14:10:43,750 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,750 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,770 :: # _do_auth(): user: root
+2022-08-01 14:10:43,770 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,770 :: # _do_auth(): user: root
+2022-08-01 14:10:43,770 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,770 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,790 :: # _do_auth(): user: root
+2022-08-01 14:10:43,790 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,790 :: # _do_auth(): user: root
+2022-08-01 14:10:43,790 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,791 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,814 :: # _do_auth(): user: root
+2022-08-01 14:10:43,815 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,815 :: # _do_auth(): user: root
+2022-08-01 14:10:43,815 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,815 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,837 :: # _do_auth(): user: root
+2022-08-01 14:10:43,837 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,837 :: # _do_auth(): user: root
+2022-08-01 14:10:43,837 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,837 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,858 :: # _do_auth(): user: root
+2022-08-01 14:10:43,858 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,858 :: # _do_auth(): user: root
+2022-08-01 14:10:43,858 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,858 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,878 :: # _do_auth(): user: root
+2022-08-01 14:10:43,878 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,878 :: # _do_auth(): user: root
+2022-08-01 14:10:43,878 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,878 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,900 :: # _do_auth(): user: root
+2022-08-01 14:10:43,900 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,900 :: # _do_auth(): user: root
+2022-08-01 14:10:43,900 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,900 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,922 :: # _do_auth(): user: root
+2022-08-01 14:10:43,922 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,922 :: # _do_auth(): user: root
+2022-08-01 14:10:43,922 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,922 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,943 :: # _do_auth(): user: root
+2022-08-01 14:10:43,943 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,943 :: # _do_auth(): user: root
+2022-08-01 14:10:43,943 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,944 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,966 :: # _do_auth(): user: root
+2022-08-01 14:10:43,966 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,966 :: # _do_auth(): user: root
+2022-08-01 14:10:43,966 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,966 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:43,987 :: # _do_auth(): user: root
+2022-08-01 14:10:43,987 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:43,987 :: # _do_auth(): user: root
+2022-08-01 14:10:43,987 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:43,987 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,006 :: # _do_auth(): user: root
+2022-08-01 14:10:44,006 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,006 :: # _do_auth(): user: root
+2022-08-01 14:10:44,006 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,006 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,027 :: # _do_auth(): user: root
+2022-08-01 14:10:44,027 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,027 :: # _do_auth(): user: root
+2022-08-01 14:10:44,027 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,027 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,049 :: # _do_auth(): user: root
+2022-08-01 14:10:44,049 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,049 :: # _do_auth(): user: root
+2022-08-01 14:10:44,049 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,049 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,070 :: # _do_auth(): user: root
+2022-08-01 14:10:44,070 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,070 :: # _do_auth(): user: root
+2022-08-01 14:10:44,070 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,070 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,091 :: # _do_auth(): user: root
+2022-08-01 14:10:44,091 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,091 :: # _do_auth(): user: root
+2022-08-01 14:10:44,091 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,091 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,110 :: # _do_auth(): user: root
+2022-08-01 14:10:44,111 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,111 :: # _do_auth(): user: root
+2022-08-01 14:10:44,111 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,111 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,132 :: # _do_auth(): user: root
+2022-08-01 14:10:44,132 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,132 :: # _do_auth(): user: root
+2022-08-01 14:10:44,132 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,132 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,153 :: # _do_auth(): user: root
+2022-08-01 14:10:44,153 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,153 :: # _do_auth(): user: root
+2022-08-01 14:10:44,153 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,153 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,172 :: # _do_auth(): user: root
+2022-08-01 14:10:44,172 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,172 :: # _do_auth(): user: root
+2022-08-01 14:10:44,173 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,173 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,192 :: # _do_auth(): user: root
+2022-08-01 14:10:44,192 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,192 :: # _do_auth(): user: root
+2022-08-01 14:10:44,192 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,192 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,210 :: # _do_auth(): user: root
+2022-08-01 14:10:44,210 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,210 :: # _do_auth(): user: root
+2022-08-01 14:10:44,210 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,211 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,228 :: # _do_auth(): user: root
+2022-08-01 14:10:44,229 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,229 :: # _do_auth(): user: root
+2022-08-01 14:10:44,229 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,229 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,246 :: # _do_auth(): user: root
+2022-08-01 14:10:44,246 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,246 :: # _do_auth(): user: root
+2022-08-01 14:10:44,246 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,246 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,263 :: # _do_auth(): user: root
+2022-08-01 14:10:44,264 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,264 :: # _do_auth(): user: root
+2022-08-01 14:10:44,264 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,264 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,281 :: # _do_auth(): user: root
+2022-08-01 14:10:44,281 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,281 :: # _do_auth(): user: root
+2022-08-01 14:10:44,281 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,281 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,298 :: # _do_auth(): user: root
+2022-08-01 14:10:44,299 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,299 :: # _do_auth(): user: root
+2022-08-01 14:10:44,299 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,299 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,316 :: # _do_auth(): user: root
+2022-08-01 14:10:44,316 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,316 :: # _do_auth(): user: root
+2022-08-01 14:10:44,317 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,317 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,334 :: # _do_auth(): user: root
+2022-08-01 14:10:44,334 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,334 :: # _do_auth(): user: root
+2022-08-01 14:10:44,334 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,335 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,353 :: # _do_auth(): user: root
+2022-08-01 14:10:44,353 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,353 :: # _do_auth(): user: root
+2022-08-01 14:10:44,353 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,353 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,371 :: # _do_auth(): user: root
+2022-08-01 14:10:44,371 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,371 :: # _do_auth(): user: root
+2022-08-01 14:10:44,371 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,371 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,391 :: # _do_auth(): user: root
+2022-08-01 14:10:44,391 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,391 :: # _do_auth(): user: root
+2022-08-01 14:10:44,391 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,391 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,408 :: # _do_auth(): user: root
+2022-08-01 14:10:44,408 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,408 :: # _do_auth(): user: root
+2022-08-01 14:10:44,408 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,409 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,427 :: # _do_auth(): user: root
+2022-08-01 14:10:44,427 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,427 :: # _do_auth(): user: root
+2022-08-01 14:10:44,427 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,427 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,445 :: # _do_auth(): user: root
+2022-08-01 14:10:44,445 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,445 :: # _do_auth(): user: root
+2022-08-01 14:10:44,445 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,445 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,463 :: # _do_auth(): user: root
+2022-08-01 14:10:44,463 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,463 :: # _do_auth(): user: root
+2022-08-01 14:10:44,463 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,463 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,481 :: # _do_auth(): user: root
+2022-08-01 14:10:44,481 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,481 :: # _do_auth(): user: root
+2022-08-01 14:10:44,481 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,481 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,499 :: # _do_auth(): user: root
+2022-08-01 14:10:44,505 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,505 :: # _do_auth(): user: root
+2022-08-01 14:10:44,505 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,505 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,523 :: # _do_auth(): user: root
+2022-08-01 14:10:44,523 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,523 :: # _do_auth(): user: root
+2022-08-01 14:10:44,523 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,523 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,540 :: # _do_auth(): user: root
+2022-08-01 14:10:44,541 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,541 :: # _do_auth(): user: root
+2022-08-01 14:10:44,541 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,541 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,560 :: # _do_auth(): user: root
+2022-08-01 14:10:44,560 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,560 :: # _do_auth(): user: root
+2022-08-01 14:10:44,560 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,560 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,577 :: # _do_auth(): user: root
+2022-08-01 14:10:44,578 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,578 :: # _do_auth(): user: root
+2022-08-01 14:10:44,578 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,578 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,595 :: # _do_auth(): user: root
+2022-08-01 14:10:44,595 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,595 :: # _do_auth(): user: root
+2022-08-01 14:10:44,595 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,595 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,613 :: # _do_auth(): user: root
+2022-08-01 14:10:44,614 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,614 :: # _do_auth(): user: root
+2022-08-01 14:10:44,614 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,614 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,632 :: # _do_auth(): user: root
+2022-08-01 14:10:44,632 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,632 :: # _do_auth(): user: root
+2022-08-01 14:10:44,632 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,632 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,649 :: # _do_auth(): user: root
+2022-08-01 14:10:44,650 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,650 :: # _do_auth(): user: root
+2022-08-01 14:10:44,650 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,650 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,667 :: # _do_auth(): user: root
+2022-08-01 14:10:44,667 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,667 :: # _do_auth(): user: root
+2022-08-01 14:10:44,667 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,667 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,685 :: # _do_auth(): user: root
+2022-08-01 14:10:44,685 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,685 :: # _do_auth(): user: root
+2022-08-01 14:10:44,685 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,686 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,704 :: # _do_auth(): user: root
+2022-08-01 14:10:44,704 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,704 :: # _do_auth(): user: root
+2022-08-01 14:10:44,704 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,704 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,723 :: # _do_auth(): user: root
+2022-08-01 14:10:44,723 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,723 :: # _do_auth(): user: root
+2022-08-01 14:10:44,723 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,723 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,740 :: # _do_auth(): user: root
+2022-08-01 14:10:44,740 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,740 :: # _do_auth(): user: root
+2022-08-01 14:10:44,740 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,741 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,757 :: # _do_auth(): user: root
+2022-08-01 14:10:44,758 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,758 :: # _do_auth(): user: root
+2022-08-01 14:10:44,758 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,758 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,776 :: # _do_auth(): user: root
+2022-08-01 14:10:44,776 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,776 :: # _do_auth(): user: root
+2022-08-01 14:10:44,776 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,776 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,793 :: # _do_auth(): user: root
+2022-08-01 14:10:44,793 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,793 :: # _do_auth(): user: root
+2022-08-01 14:10:44,793 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,793 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,811 :: # _do_auth(): user: root
+2022-08-01 14:10:44,811 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,811 :: # _do_auth(): user: root
+2022-08-01 14:10:44,811 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,811 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,828 :: # _do_auth(): user: root
+2022-08-01 14:10:44,828 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,828 :: # _do_auth(): user: root
+2022-08-01 14:10:44,828 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,828 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,846 :: # _do_auth(): user: root
+2022-08-01 14:10:44,846 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,846 :: # _do_auth(): user: root
+2022-08-01 14:10:44,846 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,846 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,864 :: # _do_auth(): user: root
+2022-08-01 14:10:44,864 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,864 :: # _do_auth(): user: root
+2022-08-01 14:10:44,864 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,864 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,881 :: # _do_auth(): user: root
+2022-08-01 14:10:44,881 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,881 :: # _do_auth(): user: root
+2022-08-01 14:10:44,882 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,882 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,899 :: # _do_auth(): user: root
+2022-08-01 14:10:44,899 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,899 :: # _do_auth(): user: root
+2022-08-01 14:10:44,899 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,900 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,917 :: # _do_auth(): user: root
+2022-08-01 14:10:44,917 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,917 :: # _do_auth(): user: root
+2022-08-01 14:10:44,917 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,917 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,935 :: # _do_auth(): user: root
+2022-08-01 14:10:44,935 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,935 :: # _do_auth(): user: root
+2022-08-01 14:10:44,935 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,935 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,952 :: # _do_auth(): user: root
+2022-08-01 14:10:44,952 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,952 :: # _do_auth(): user: root
+2022-08-01 14:10:44,952 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,952 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,969 :: # _do_auth(): user: root
+2022-08-01 14:10:44,969 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,969 :: # _do_auth(): user: root
+2022-08-01 14:10:44,970 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,970 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:44,987 :: # _do_auth(): user: root
+2022-08-01 14:10:44,987 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:44,987 :: # _do_auth(): user: root
+2022-08-01 14:10:44,987 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:44,987 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,005 :: # _do_auth(): user: root
+2022-08-01 14:10:45,005 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,005 :: # _do_auth(): user: root
+2022-08-01 14:10:45,005 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,005 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,023 :: # _do_auth(): user: root
+2022-08-01 14:10:45,023 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,023 :: # _do_auth(): user: root
+2022-08-01 14:10:45,023 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,024 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,042 :: # _do_auth(): user: root
+2022-08-01 14:10:45,042 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,042 :: # _do_auth(): user: root
+2022-08-01 14:10:45,042 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,042 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,062 :: # _do_auth(): user: root
+2022-08-01 14:10:45,062 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,062 :: # _do_auth(): user: root
+2022-08-01 14:10:45,062 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,062 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,080 :: # _do_auth(): user: root
+2022-08-01 14:10:45,081 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,081 :: # _do_auth(): user: root
+2022-08-01 14:10:45,081 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,081 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,098 :: # _do_auth(): user: root
+2022-08-01 14:10:45,098 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,098 :: # _do_auth(): user: root
+2022-08-01 14:10:45,098 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,098 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,115 :: # _do_auth(): user: root
+2022-08-01 14:10:45,115 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,115 :: # _do_auth(): user: root
+2022-08-01 14:10:45,116 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,116 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,133 :: # _do_auth(): user: root
+2022-08-01 14:10:45,134 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,134 :: # _do_auth(): user: root
+2022-08-01 14:10:45,134 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,134 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,151 :: # _do_auth(): user: root
+2022-08-01 14:10:45,151 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,151 :: # _do_auth(): user: root
+2022-08-01 14:10:45,151 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,152 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,169 :: # _do_auth(): user: root
+2022-08-01 14:10:45,169 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,169 :: # _do_auth(): user: root
+2022-08-01 14:10:45,169 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,170 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,187 :: # _do_auth(): user: root
+2022-08-01 14:10:45,188 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,188 :: # _do_auth(): user: root
+2022-08-01 14:10:45,188 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,188 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,205 :: # _do_auth(): user: root
+2022-08-01 14:10:45,206 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,206 :: # _do_auth(): user: root
+2022-08-01 14:10:45,206 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,206 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,223 :: # _do_auth(): user: root
+2022-08-01 14:10:45,223 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,223 :: # _do_auth(): user: root
+2022-08-01 14:10:45,223 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,223 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,241 :: # _do_auth(): user: root
+2022-08-01 14:10:45,241 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,241 :: # _do_auth(): user: root
+2022-08-01 14:10:45,241 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,241 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,261 :: # _do_auth(): user: root
+2022-08-01 14:10:45,261 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,261 :: # _do_auth(): user: root
+2022-08-01 14:10:45,261 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,261 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,278 :: # _do_auth(): user: root
+2022-08-01 14:10:45,278 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,278 :: # _do_auth(): user: root
+2022-08-01 14:10:45,279 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,279 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,297 :: # _do_auth(): user: root
+2022-08-01 14:10:45,297 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,297 :: # _do_auth(): user: root
+2022-08-01 14:10:45,297 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,298 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,315 :: # _do_auth(): user: root
+2022-08-01 14:10:45,315 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,315 :: # _do_auth(): user: root
+2022-08-01 14:10:45,315 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,315 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,333 :: # _do_auth(): user: root
+2022-08-01 14:10:45,333 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,333 :: # _do_auth(): user: root
+2022-08-01 14:10:45,333 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,333 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,351 :: # _do_auth(): user: root
+2022-08-01 14:10:45,351 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,351 :: # _do_auth(): user: root
+2022-08-01 14:10:45,351 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,351 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,369 :: # _do_auth(): user: root
+2022-08-01 14:10:45,369 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,369 :: # _do_auth(): user: root
+2022-08-01 14:10:45,369 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,369 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,386 :: # _do_auth(): user: root
+2022-08-01 14:10:45,386 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,386 :: # _do_auth(): user: root
+2022-08-01 14:10:45,386 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,387 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,404 :: # _do_auth(): user: root
+2022-08-01 14:10:45,404 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,404 :: # _do_auth(): user: root
+2022-08-01 14:10:45,404 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,404 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,422 :: # _do_auth(): user: root
+2022-08-01 14:10:45,422 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,422 :: # _do_auth(): user: root
+2022-08-01 14:10:45,422 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,422 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,440 :: # _do_auth(): user: root
+2022-08-01 14:10:45,440 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,440 :: # _do_auth(): user: root
+2022-08-01 14:10:45,440 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,440 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,458 :: # _do_auth(): user: root
+2022-08-01 14:10:45,458 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,458 :: # _do_auth(): user: root
+2022-08-01 14:10:45,458 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,458 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,475 :: # _do_auth(): user: root
+2022-08-01 14:10:45,476 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,476 :: # _do_auth(): user: root
+2022-08-01 14:10:45,476 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,476 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,494 :: # _do_auth(): user: root
+2022-08-01 14:10:45,494 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,494 :: # _do_auth(): user: root
+2022-08-01 14:10:45,494 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,494 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,511 :: # _do_auth(): user: root
+2022-08-01 14:10:45,511 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,511 :: # _do_auth(): user: root
+2022-08-01 14:10:45,511 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,511 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,528 :: # _do_auth(): user: root
+2022-08-01 14:10:45,528 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,528 :: # _do_auth(): user: root
+2022-08-01 14:10:45,528 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,529 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,546 :: # _do_auth(): user: root
+2022-08-01 14:10:45,546 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,546 :: # _do_auth(): user: root
+2022-08-01 14:10:45,546 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,546 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,563 :: # _do_auth(): user: root
+2022-08-01 14:10:45,563 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,563 :: # _do_auth(): user: root
+2022-08-01 14:10:45,563 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,563 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,582 :: # _do_auth(): user: root
+2022-08-01 14:10:45,583 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,583 :: # _do_auth(): user: root
+2022-08-01 14:10:45,583 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,583 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,600 :: # _do_auth(): user: root
+2022-08-01 14:10:45,600 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,600 :: # _do_auth(): user: root
+2022-08-01 14:10:45,600 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,601 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,618 :: # _do_auth(): user: root
+2022-08-01 14:10:45,619 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,619 :: # _do_auth(): user: root
+2022-08-01 14:10:45,619 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,619 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,636 :: # _do_auth(): user: root
+2022-08-01 14:10:45,637 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,637 :: # _do_auth(): user: root
+2022-08-01 14:10:45,637 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,637 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,656 :: # _do_auth(): user: root
+2022-08-01 14:10:45,656 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,656 :: # _do_auth(): user: root
+2022-08-01 14:10:45,656 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,656 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,674 :: # _do_auth(): user: root
+2022-08-01 14:10:45,674 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,674 :: # _do_auth(): user: root
+2022-08-01 14:10:45,674 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,674 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,692 :: # _do_auth(): user: root
+2022-08-01 14:10:45,693 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,693 :: # _do_auth(): user: root
+2022-08-01 14:10:45,693 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,693 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,710 :: # _do_auth(): user: root
+2022-08-01 14:10:45,710 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,710 :: # _do_auth(): user: root
+2022-08-01 14:10:45,710 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,710 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,728 :: # _do_auth(): user: root
+2022-08-01 14:10:45,729 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,729 :: # _do_auth(): user: root
+2022-08-01 14:10:45,729 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,729 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,746 :: # _do_auth(): user: root
+2022-08-01 14:10:45,746 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,747 :: # _do_auth(): user: root
+2022-08-01 14:10:45,747 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,747 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,764 :: # _do_auth(): user: root
+2022-08-01 14:10:45,764 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,764 :: # _do_auth(): user: root
+2022-08-01 14:10:45,764 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,764 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,781 :: # _do_auth(): user: root
+2022-08-01 14:10:45,781 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,781 :: # _do_auth(): user: root
+2022-08-01 14:10:45,781 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,782 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,800 :: # _do_auth(): user: root
+2022-08-01 14:10:45,800 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,800 :: # _do_auth(): user: root
+2022-08-01 14:10:45,800 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,800 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,817 :: # _do_auth(): user: root
+2022-08-01 14:10:45,818 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,818 :: # _do_auth(): user: root
+2022-08-01 14:10:45,818 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,818 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,835 :: # _do_auth(): user: root
+2022-08-01 14:10:45,836 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,836 :: # _do_auth(): user: root
+2022-08-01 14:10:45,836 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,836 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,854 :: # _do_auth(): user: root
+2022-08-01 14:10:45,854 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,854 :: # _do_auth(): user: root
+2022-08-01 14:10:45,854 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,854 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,873 :: # _do_auth(): user: root
+2022-08-01 14:10:45,873 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,873 :: # _do_auth(): user: root
+2022-08-01 14:10:45,873 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,873 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,891 :: # _do_auth(): user: root
+2022-08-01 14:10:45,891 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,891 :: # _do_auth(): user: root
+2022-08-01 14:10:45,891 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,892 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,909 :: # _do_auth(): user: root
+2022-08-01 14:10:45,909 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,910 :: # _do_auth(): user: root
+2022-08-01 14:10:45,910 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,910 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,927 :: # _do_auth(): user: root
+2022-08-01 14:10:45,927 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,927 :: # _do_auth(): user: root
+2022-08-01 14:10:45,927 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,928 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,945 :: # _do_auth(): user: root
+2022-08-01 14:10:45,945 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,945 :: # _do_auth(): user: root
+2022-08-01 14:10:45,945 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,945 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,963 :: # _do_auth(): user: root
+2022-08-01 14:10:45,963 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,963 :: # _do_auth(): user: root
+2022-08-01 14:10:45,963 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,963 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:45,983 :: # _do_auth(): user: root
+2022-08-01 14:10:45,983 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:45,983 :: # _do_auth(): user: root
+2022-08-01 14:10:45,983 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:45,984 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,004 :: # _do_auth(): user: root
+2022-08-01 14:10:46,005 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,005 :: # _do_auth(): user: root
+2022-08-01 14:10:46,005 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,005 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,025 :: # _do_auth(): user: root
+2022-08-01 14:10:46,026 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,026 :: # _do_auth(): user: root
+2022-08-01 14:10:46,026 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,026 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,049 :: # _do_auth(): user: root
+2022-08-01 14:10:46,050 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,050 :: # _do_auth(): user: root
+2022-08-01 14:10:46,050 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,050 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,071 :: # _do_auth(): user: root
+2022-08-01 14:10:46,071 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,071 :: # _do_auth(): user: root
+2022-08-01 14:10:46,071 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,071 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,093 :: # _do_auth(): user: root
+2022-08-01 14:10:46,093 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,093 :: # _do_auth(): user: root
+2022-08-01 14:10:46,093 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,093 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,114 :: # _do_auth(): user: root
+2022-08-01 14:10:46,115 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,115 :: # _do_auth(): user: root
+2022-08-01 14:10:46,115 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,115 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,137 :: # _do_auth(): user: root
+2022-08-01 14:10:46,137 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,137 :: # _do_auth(): user: root
+2022-08-01 14:10:46,137 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,137 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,158 :: # _do_auth(): user: root
+2022-08-01 14:10:46,158 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,158 :: # _do_auth(): user: root
+2022-08-01 14:10:46,159 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,159 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,179 :: # _do_auth(): user: root
+2022-08-01 14:10:46,179 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,179 :: # _do_auth(): user: root
+2022-08-01 14:10:46,179 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,179 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,201 :: # _do_auth(): user: root
+2022-08-01 14:10:46,201 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,201 :: # _do_auth(): user: root
+2022-08-01 14:10:46,201 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,201 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,223 :: # _do_auth(): user: root
+2022-08-01 14:10:46,223 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,223 :: # _do_auth(): user: root
+2022-08-01 14:10:46,223 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,223 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,242 :: # _do_auth(): user: root
+2022-08-01 14:10:46,242 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,242 :: # _do_auth(): user: root
+2022-08-01 14:10:46,242 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,242 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,265 :: # _do_auth(): user: root
+2022-08-01 14:10:46,265 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,265 :: # _do_auth(): user: root
+2022-08-01 14:10:46,265 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,265 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,285 :: # _do_auth(): user: root
+2022-08-01 14:10:46,286 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,286 :: # _do_auth(): user: root
+2022-08-01 14:10:46,286 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,286 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,305 :: # _do_auth(): user: root
+2022-08-01 14:10:46,305 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,305 :: # _do_auth(): user: root
+2022-08-01 14:10:46,305 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,306 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,328 :: # _do_auth(): user: root
+2022-08-01 14:10:46,329 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,329 :: # _do_auth(): user: root
+2022-08-01 14:10:46,329 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,329 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,350 :: # _do_auth(): user: root
+2022-08-01 14:10:46,351 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,351 :: # _do_auth(): user: root
+2022-08-01 14:10:46,351 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,351 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,370 :: # _do_auth(): user: root
+2022-08-01 14:10:46,370 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,370 :: # _do_auth(): user: root
+2022-08-01 14:10:46,370 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,370 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,389 :: # _do_auth(): user: root
+2022-08-01 14:10:46,389 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,389 :: # _do_auth(): user: root
+2022-08-01 14:10:46,389 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,390 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,410 :: # _do_auth(): user: root
+2022-08-01 14:10:46,410 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,410 :: # _do_auth(): user: root
+2022-08-01 14:10:46,410 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,410 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,431 :: # _do_auth(): user: root
+2022-08-01 14:10:46,431 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,431 :: # _do_auth(): user: root
+2022-08-01 14:10:46,432 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,432 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,452 :: # _do_auth(): user: root
+2022-08-01 14:10:46,452 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,452 :: # _do_auth(): user: root
+2022-08-01 14:10:46,452 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,452 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,471 :: # _do_auth(): user: root
+2022-08-01 14:10:46,471 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,471 :: # _do_auth(): user: root
+2022-08-01 14:10:46,471 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,471 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,489 :: # _do_auth(): user: root
+2022-08-01 14:10:46,489 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,489 :: # _do_auth(): user: root
+2022-08-01 14:10:46,489 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,489 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,507 :: # _do_auth(): user: root
+2022-08-01 14:10:46,508 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,508 :: # _do_auth(): user: root
+2022-08-01 14:10:46,508 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,508 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,528 :: # _do_auth(): user: root
+2022-08-01 14:10:46,528 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,528 :: # _do_auth(): user: root
+2022-08-01 14:10:46,528 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,529 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,550 :: # _do_auth(): user: root
+2022-08-01 14:10:46,550 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,550 :: # _do_auth(): user: root
+2022-08-01 14:10:46,550 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,550 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,571 :: # _do_auth(): user: root
+2022-08-01 14:10:46,571 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,571 :: # _do_auth(): user: root
+2022-08-01 14:10:46,571 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,571 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,590 :: # _do_auth(): user: root
+2022-08-01 14:10:46,590 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,591 :: # _do_auth(): user: root
+2022-08-01 14:10:46,591 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,591 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,610 :: # _do_auth(): user: root
+2022-08-01 14:10:46,610 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,610 :: # _do_auth(): user: root
+2022-08-01 14:10:46,610 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,611 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,628 :: # _do_auth(): user: root
+2022-08-01 14:10:46,628 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,628 :: # _do_auth(): user: root
+2022-08-01 14:10:46,628 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,628 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,649 :: # _do_auth(): user: root
+2022-08-01 14:10:46,649 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,649 :: # _do_auth(): user: root
+2022-08-01 14:10:46,649 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,649 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,670 :: # _do_auth(): user: root
+2022-08-01 14:10:46,670 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,670 :: # _do_auth(): user: root
+2022-08-01 14:10:46,670 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,670 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,690 :: # _do_auth(): user: root
+2022-08-01 14:10:46,690 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,690 :: # _do_auth(): user: root
+2022-08-01 14:10:46,690 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,690 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,710 :: # _do_auth(): user: root
+2022-08-01 14:10:46,710 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,710 :: # _do_auth(): user: root
+2022-08-01 14:10:46,710 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,710 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,730 :: # _do_auth(): user: root
+2022-08-01 14:10:46,731 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,731 :: # _do_auth(): user: root
+2022-08-01 14:10:46,731 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,731 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,751 :: # _do_auth(): user: root
+2022-08-01 14:10:46,751 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,751 :: # _do_auth(): user: root
+2022-08-01 14:10:46,751 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,751 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,771 :: # _do_auth(): user: root
+2022-08-01 14:10:46,771 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,771 :: # _do_auth(): user: root
+2022-08-01 14:10:46,771 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,771 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,790 :: # _do_auth(): user: root
+2022-08-01 14:10:46,791 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,791 :: # _do_auth(): user: root
+2022-08-01 14:10:46,791 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,791 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,811 :: # _do_auth(): user: root
+2022-08-01 14:10:46,811 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,811 :: # _do_auth(): user: root
+2022-08-01 14:10:46,811 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,811 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,832 :: # _do_auth(): user: root
+2022-08-01 14:10:46,832 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,832 :: # _do_auth(): user: root
+2022-08-01 14:10:46,832 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,832 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,851 :: # _do_auth(): user: root
+2022-08-01 14:10:46,852 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,852 :: # _do_auth(): user: root
+2022-08-01 14:10:46,852 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,852 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,869 :: # _do_auth(): user: root
+2022-08-01 14:10:46,870 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,870 :: # _do_auth(): user: root
+2022-08-01 14:10:46,870 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,870 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,888 :: # _do_auth(): user: root
+2022-08-01 14:10:46,888 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,888 :: # _do_auth(): user: root
+2022-08-01 14:10:46,888 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,888 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,906 :: # _do_auth(): user: root
+2022-08-01 14:10:46,906 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,906 :: # _do_auth(): user: root
+2022-08-01 14:10:46,906 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,906 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,924 :: # _do_auth(): user: root
+2022-08-01 14:10:46,924 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,924 :: # _do_auth(): user: root
+2022-08-01 14:10:46,924 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,924 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,942 :: # _do_auth(): user: root
+2022-08-01 14:10:46,942 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,942 :: # _do_auth(): user: root
+2022-08-01 14:10:46,942 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,942 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,959 :: # _do_auth(): user: root
+2022-08-01 14:10:46,959 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,959 :: # _do_auth(): user: root
+2022-08-01 14:10:46,959 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,959 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,976 :: # _do_auth(): user: root
+2022-08-01 14:10:46,976 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,976 :: # _do_auth(): user: root
+2022-08-01 14:10:46,976 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,976 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:46,993 :: # _do_auth(): user: root
+2022-08-01 14:10:46,993 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:46,993 :: # _do_auth(): user: root
+2022-08-01 14:10:46,993 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:46,993 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,011 :: # _do_auth(): user: root
+2022-08-01 14:10:47,011 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,011 :: # _do_auth(): user: root
+2022-08-01 14:10:47,011 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,011 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,028 :: # _do_auth(): user: root
+2022-08-01 14:10:47,028 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,028 :: # _do_auth(): user: root
+2022-08-01 14:10:47,028 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,028 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,045 :: # _do_auth(): user: root
+2022-08-01 14:10:47,045 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,045 :: # _do_auth(): user: root
+2022-08-01 14:10:47,045 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,045 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,065 :: # _do_auth(): user: root
+2022-08-01 14:10:47,065 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,066 :: # _do_auth(): user: root
+2022-08-01 14:10:47,066 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,066 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,085 :: # _do_auth(): user: root
+2022-08-01 14:10:47,085 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,085 :: # _do_auth(): user: root
+2022-08-01 14:10:47,085 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,085 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,102 :: # _do_auth(): user: root
+2022-08-01 14:10:47,102 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,102 :: # _do_auth(): user: root
+2022-08-01 14:10:47,102 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,102 :: new_auth_plugin: caching_sha2_password
+2022-08-01 14:10:47,119 :: # _do_auth(): user: root
+2022-08-01 14:10:47,119 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 14:10:47,120 :: # _do_auth(): user: root
+2022-08-01 14:10:47,120 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 14:10:47,120 :: new_auth_plugin: caching_sha2_password

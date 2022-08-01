@@ -186,9 +186,11 @@ class UserController(object):
                 return 'Exit Store'
             elif int(menu_choice) in [1, 2, 3, 4]:
                 result = self.book_controller.book_menu(menu_choice)
-                if result == 'Exit Store':
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit Store':
                     return 'Exit Store'
-            elif menu_choice == '5':
+            elif menu_choice == '/c':
                 # self.order_controller(customer_order)
                 pass
             else:
