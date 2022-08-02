@@ -198,6 +198,12 @@ class UserController(object):
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store'
+            elif int(menu_choice) == 5:
+                result = self.order_controller.customer_orders(self.id)
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    return 'Exit_Store'
             elif menu_choice == '/c':
                 # self.order_controller(customer_order)
                 pass

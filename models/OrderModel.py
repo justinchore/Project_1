@@ -91,8 +91,7 @@ class Order(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-        
-            sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} ORDER_BY order_id DESC"
+            sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} ORDER BY order_id DESC"
             cursor.execute(sql)
             records = cursor.fetchall()
             cursor.close()
@@ -102,9 +101,23 @@ class Order(object):
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error' 
-            
-        
     
+    def get_orderitems(self, order_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = f"SELECT b.book_title, CONCAT(a.author_fname,' ',a.author_lname) as author, oi.quantity, oi.book_price FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id WHERE o.order_id = {order_id}"
+            cursor.execute(sql)
+            records = cursor.fetchall()
+            cursor.close()
+            cnx.close()
+            return records
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error' 
+        
+        
     def connect_to_db(self):
         try:
             cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)

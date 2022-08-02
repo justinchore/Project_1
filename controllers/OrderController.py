@@ -74,11 +74,51 @@ class OrderController(object):
         elif orderitem_id == 'DB Error':
             return 'DB Error'
         
-    def customer_orders(self):
-        orders = self.order_model.get_user_orders(self.customer_id)
-        print(orders)
-        if len(orders) > 0:
-            self.view.show_customers_order(orders)
-        user_input = input().strip()
+    def customer_orders(self, id):
+        while True:
+            try:
+                orders = self.order_model.get_user_orders(id)
+                print(orders)
+                if orders == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                orderid_set = set()
+                for o in orders: 
+                    orderid_set.add(o['order_id'])
+                self.view.show_customer_orders(orders)
+                user_input = input().strip()
+                if user_input.isalpha():
+                    raise CustomExceptions.InvalidSelectionError
+                elif user_input == '/b':
+                    return 'BACK'
+                elif user_input == '/q':
+                    return 'Exit_Store'
+                elif int(user_input) not in orderid_set:
+                    raise CustomExceptions.InvalidSelectionError
+                else: 
+                    input_order_id = int(user_input)
+                    self.order_details(input_order_id)
+                
+                
+            except CustomExceptions.InvalidSelectionError as ise:
+                self.view.invalid_selection()
+            except CustomExceptions.DatabaseError as dbe:
+                print(dbe.message)
+                return 'BACK'
+    
+    def order_details(self, order_id):
+        while True:
+            try:
+                print('in order details: order_id: ', order_id)
+                orders = self.order_model.get_orderitems(order_id)
+                if orders == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                self.view.show_order_orderitems(orders)
+                user_input = input()
+            except CustomExceptions.DatabaseError as dbe:
+                print(dbe.message)
+                
+                
+        
+
         
             

@@ -62,11 +62,12 @@ class UserView(object):
         print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))
     @staticmethod
     def show_logged_in_menu():
-        print(emoji.emojize('Please select from the choices below :down_arrow: '))
-        print(emoji.emojize('1) Browse books by genre :glasses:'))
-        print(emoji.emojize('2) Search books by author :glasses:'))
-        print(emoji.emojize('3) Search books by title :glasses:'))
-        print(emoji.emojize('4) Browse all books :books:'))
+        print(emoji.emojize('Please select from the choices below:down_arrow: '))
+        print(emoji.emojize('1) Browse books by genre:glasses:'))
+        print(emoji.emojize('2) Search books by author:glasses:'))
+        print(emoji.emojize('3) Search books by title:glasses:'))
+        print(emoji.emojize('4) Browse all books:books:'))
+        print(emoji.emojize('5) Order History:linked_paperclips:'))
         print('\n')
         print(emoji.emojize("/c: cart:shopping_cart:"))
         print(emoji.emojize("/q: exit store:victory_hand:"))
