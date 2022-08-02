@@ -33,11 +33,11 @@ class Book(object):
         except Error as e:
             msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
             return 'DB Error'
-    def get_books_by_genre(self, data):
+    def get_books_by_genre(self, data, page_number, books_per_page):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-            sql = f"SELECT * FROM books_view WHERE genre_id = {data}"
+            sql = f"SELECT * FROM books_view WHERE genre_id = {data} LIMIT {books_per_page} OFFSET {books_per_page * page_number}"
             cursor.execute(sql)
             records = cursor.fetchall()
             cursor.close()
@@ -45,6 +45,7 @@ class Book(object):
             return records
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
             return 'DB Error'
     def get_books_by_author(self, data):
         pass

@@ -54,3 +54,7 @@ class AuthenticationFailedError(Exception):
 class DatabaseError(Exception):
     def __init__(self):
         self.message = "Database Error. Please Try again or enter 'q' to exit"
+
+class InvalidSelectionError(Exception):
+    def __init__(self):
+        self.message = "Invalid Selection. Please try again."

@@ -184,6 +184,10 @@ class UserController(object):
             if menu_choice == 'q' or menu_choice =='q':
                 print('Exiting Store...')
                 return 'Exit Store'
+            elif menu_choice.isalpha() == True:
+                os.system('cls')
+                self.view.invalid_selection()
+                continue
             elif int(menu_choice) in [1, 2, 3, 4]:
                 result = self.book_controller.book_menu(menu_choice)
                 if result == 'BACK':

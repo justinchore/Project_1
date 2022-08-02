@@ -11,17 +11,27 @@ class BookController(object):
         self.type = "BookController"
         self.view = BookView.BookView()
         self.book_model = Book.Book()
-        
+        self.page_number = 1
+        self.books_per_page = 10
+        self.browsing = True
         self.genres = None
         self.genre_interface_dict = None
         self.validations = Validations.Validations()
     
     ###GETTERS######
+    def page_number(self):
+        return self.page_number
+    def books_per_page(self):
+        return self.books_per_page
     def genres(self):
         return self.genres
     def genre_interface_dict(self):
         return self.genre_interface_dict
     ###SETTERS#####
+    def set_browing(self):
+        self.browsing = not self.browsing
+    def set_page_number(self, amount):
+        self.page_number = self.page_number + amount
     def set_genres(self, genre_dict):
         self.genres = genre_dict
     def set_genre_interface_dict(self, genre_interface_dict):
@@ -57,6 +67,7 @@ class BookController(object):
     def book_genres(self, records):
         while True:
             try:
+                os.system('cls')
                 records = self.book_model.get_all_genres()
                 genre_dict = {}
                 genre_interface_dict = {}
@@ -71,10 +82,12 @@ class BookController(object):
                 self.view.show_book_genres(records)
                 user_input = input()
                 if user_input == '/b':
-                    return 'Back'
+                    return 'BACK'
                 elif user_input == '/c':
                     print('cart view not implemented')
-                    return 'Back'
+                    return 'BACK'
+                elif user_input.isalpha() == True:
+                    raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) not in self.genre_interface_dict:
                     raise CustomExceptions.InvalidSelectionError
                 else:
@@ -82,23 +95,33 @@ class BookController(object):
                     genre_name = genre_interface_dict[user_input]
                     print('You have chosen ', genre_name)
                     selected_genre_id = self.genres[genre_name]
-                    result = self.filter_books(genre_name, 'GENRE')
+                    result = self.filter_books(selected_genre_id, 'GENRE')
                     if result == 'DB Error':
                         continue
+                    if result == 'BACK':
+                        continue
             except CustomExceptions.InvalidSelectionError as ise:
-                print(ise.message)
                 os.system('cls')
+                print(ise.message)
                 
     def filter_books(self, filter_data, filter_type):
         match filter_type:
             case 'GENRE':
                 try:
-                    result = self.book_model.get_books_by_genre(filter_data)
-                    if result == 'DB Error':
-                        raise CustomExceptions.DatabaseError
-                    self.view.show_books(result)
+                    while self.browsing == True: 
+                        result = self.book_model.get_books_by_genre
+                        (filter_data, self.page_number, self.books_per_page)
+                        if result == 'DB Error':
+                            raise CustomExceptions.DatabaseError
+                        books_length = len(result)
+                        self.view.show_books(result, self.page_number)
+                        user_input = input()
+                        if user_input == '/n':
+                            self.set_page_number = 2
+                        else: 
+                            return 'BACK'
                 except CustomExceptions.DatabaseError as dbe:
-                    self.view.book_error(dbe.message)
+                    self.view.show_book_error(dbe.message)
                     return 'Back'
             case 'AUTHOR':
                 books = self.book_model.get_books_by_author(filter_data) 

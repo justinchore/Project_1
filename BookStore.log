@@ -5697,3 +5697,441 @@
 2022-08-01 14:47:01,610 :: # _do_auth(): user: root
 2022-08-01 14:47:01,610 :: # _do_auth(): password: Ithinksoso1916
 2022-08-01 14:47:01,610 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:08:56,598 :: # _do_auth(): user: root
+2022-08-01 17:08:56,599 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:08:56,599 :: # _do_auth(): user: root
+2022-08-01 17:08:56,599 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:08:56,599 :: package: mysql.connector.plugins
+2022-08-01 17:08:56,599 :: plugin_name: caching_sha2_password
+2022-08-01 17:08:56,602 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:08:56,602 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:08:56,604 :: Accessed database in get_user_by_email function...
+2022-08-01 17:08:56,815 :: # _do_auth(): user: root
+2022-08-01 17:08:56,816 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:08:56,816 :: # _do_auth(): user: root
+2022-08-01 17:08:56,816 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:08:56,816 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:08:58,727 :: # _do_auth(): user: root
+2022-08-01 17:08:58,728 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:08:58,728 :: # _do_auth(): user: root
+2022-08-01 17:08:58,728 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:08:58,728 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:08:58,751 :: # _do_auth(): user: root
+2022-08-01 17:08:58,751 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:08:58,751 :: # _do_auth(): user: root
+2022-08-01 17:08:58,751 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:08:58,751 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:04,912 :: # _do_auth(): user: root
+2022-08-01 17:09:04,913 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:04,913 :: # _do_auth(): user: root
+2022-08-01 17:09:04,913 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:04,913 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:55,442 :: # _do_auth(): user: root
+2022-08-01 17:09:55,442 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:55,442 :: # _do_auth(): user: root
+2022-08-01 17:09:55,442 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:55,442 :: package: mysql.connector.plugins
+2022-08-01 17:09:55,442 :: plugin_name: caching_sha2_password
+2022-08-01 17:09:55,444 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:09:55,444 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:55,446 :: Accessed database in get_user_by_email function...
+2022-08-01 17:09:55,653 :: # _do_auth(): user: root
+2022-08-01 17:09:55,653 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:55,653 :: # _do_auth(): user: root
+2022-08-01 17:09:55,653 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:55,654 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:57,337 :: # _do_auth(): user: root
+2022-08-01 17:09:57,337 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:57,337 :: # _do_auth(): user: root
+2022-08-01 17:09:57,337 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:57,337 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:57,360 :: # _do_auth(): user: root
+2022-08-01 17:09:57,360 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:57,360 :: # _do_auth(): user: root
+2022-08-01 17:09:57,360 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:57,360 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:09:58,898 :: # _do_auth(): user: root
+2022-08-01 17:09:58,898 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:09:58,898 :: # _do_auth(): user: root
+2022-08-01 17:09:58,898 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:09:58,898 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:24,689 :: # _do_auth(): user: root
+2022-08-01 17:10:24,690 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:24,690 :: # _do_auth(): user: root
+2022-08-01 17:10:24,690 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:24,690 :: package: mysql.connector.plugins
+2022-08-01 17:10:24,690 :: plugin_name: caching_sha2_password
+2022-08-01 17:10:24,691 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:10:24,692 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:24,694 :: Accessed database in get_user_by_email function...
+2022-08-01 17:10:24,903 :: # _do_auth(): user: root
+2022-08-01 17:10:24,903 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:24,903 :: # _do_auth(): user: root
+2022-08-01 17:10:24,903 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:24,903 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:25,733 :: # _do_auth(): user: root
+2022-08-01 17:10:25,733 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:25,733 :: # _do_auth(): user: root
+2022-08-01 17:10:25,733 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:25,733 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:25,754 :: # _do_auth(): user: root
+2022-08-01 17:10:25,754 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:25,754 :: # _do_auth(): user: root
+2022-08-01 17:10:25,754 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:25,755 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:27,511 :: # _do_auth(): user: root
+2022-08-01 17:10:27,511 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:27,512 :: # _do_auth(): user: root
+2022-08-01 17:10:27,512 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:27,512 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:10:27,534 :: # _do_auth(): user: root
+2022-08-01 17:10:27,535 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:10:27,535 :: # _do_auth(): user: root
+2022-08-01 17:10:27,535 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:10:27,535 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:11:57,182 :: # _do_auth(): user: root
+2022-08-01 17:11:57,182 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:11:57,182 :: # _do_auth(): user: root
+2022-08-01 17:11:57,182 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:11:57,182 :: package: mysql.connector.plugins
+2022-08-01 17:11:57,182 :: plugin_name: caching_sha2_password
+2022-08-01 17:11:57,183 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:11:57,184 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:11:57,185 :: Accessed database in get_user_by_email function...
+2022-08-01 17:11:57,396 :: # _do_auth(): user: root
+2022-08-01 17:11:57,396 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:11:57,396 :: # _do_auth(): user: root
+2022-08-01 17:11:57,396 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:11:57,396 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:11:59,270 :: # _do_auth(): user: root
+2022-08-01 17:11:59,270 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:11:59,270 :: # _do_auth(): user: root
+2022-08-01 17:11:59,270 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:11:59,270 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:11:59,293 :: # _do_auth(): user: root
+2022-08-01 17:11:59,293 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:11:59,293 :: # _do_auth(): user: root
+2022-08-01 17:11:59,293 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:11:59,293 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:12:00,984 :: # _do_auth(): user: root
+2022-08-01 17:12:00,984 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:12:00,984 :: # _do_auth(): user: root
+2022-08-01 17:12:00,984 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:12:00,984 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:12:01,006 :: # _do_auth(): user: root
+2022-08-01 17:12:01,007 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:12:01,007 :: # _do_auth(): user: root
+2022-08-01 17:12:01,007 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:12:01,007 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:20,647 :: # _do_auth(): user: root
+2022-08-01 17:13:20,647 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:20,647 :: # _do_auth(): user: root
+2022-08-01 17:13:20,647 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:20,647 :: package: mysql.connector.plugins
+2022-08-01 17:13:20,647 :: plugin_name: caching_sha2_password
+2022-08-01 17:13:20,649 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:13:20,649 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:20,650 :: Accessed database in get_user_by_email function...
+2022-08-01 17:13:20,864 :: # _do_auth(): user: root
+2022-08-01 17:13:20,864 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:20,864 :: # _do_auth(): user: root
+2022-08-01 17:13:20,864 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:20,864 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:23,317 :: # _do_auth(): user: root
+2022-08-01 17:13:23,317 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:23,317 :: # _do_auth(): user: root
+2022-08-01 17:13:23,317 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:23,318 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:23,340 :: # _do_auth(): user: root
+2022-08-01 17:13:23,340 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:23,340 :: # _do_auth(): user: root
+2022-08-01 17:13:23,340 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:23,340 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:24,287 :: # _do_auth(): user: root
+2022-08-01 17:13:24,287 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:24,287 :: # _do_auth(): user: root
+2022-08-01 17:13:24,287 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:24,287 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:24,324 :: # _do_auth(): user: root
+2022-08-01 17:13:24,324 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:24,324 :: # _do_auth(): user: root
+2022-08-01 17:13:24,324 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:24,325 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:48,504 :: # _do_auth(): user: root
+2022-08-01 17:13:48,505 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:48,505 :: # _do_auth(): user: root
+2022-08-01 17:13:48,505 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:48,505 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:13:48,526 :: # _do_auth(): user: root
+2022-08-01 17:13:48,526 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:13:48,526 :: # _do_auth(): user: root
+2022-08-01 17:13:48,526 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:13:48,527 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:18:54,739 :: # _do_auth(): user: root
+2022-08-01 17:18:54,739 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:18:54,739 :: # _do_auth(): user: root
+2022-08-01 17:18:54,739 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:18:54,739 :: package: mysql.connector.plugins
+2022-08-01 17:18:54,739 :: plugin_name: caching_sha2_password
+2022-08-01 17:18:54,741 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:18:54,741 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:18:54,743 :: Accessed database in get_user_by_email function...
+2022-08-01 17:18:54,948 :: # _do_auth(): user: root
+2022-08-01 17:18:54,948 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:18:54,948 :: # _do_auth(): user: root
+2022-08-01 17:18:54,948 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:18:54,948 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:18:58,980 :: # _do_auth(): user: root
+2022-08-01 17:18:58,980 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:18:58,980 :: # _do_auth(): user: root
+2022-08-01 17:18:58,980 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:18:58,980 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:18:59,000 :: # _do_auth(): user: root
+2022-08-01 17:18:59,000 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:18:59,000 :: # _do_auth(): user: root
+2022-08-01 17:18:59,000 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:18:59,000 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:19:44,028 :: # _do_auth(): user: root
+2022-08-01 17:19:44,028 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:19:44,028 :: # _do_auth(): user: root
+2022-08-01 17:19:44,028 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:19:44,029 :: package: mysql.connector.plugins
+2022-08-01 17:19:44,029 :: plugin_name: caching_sha2_password
+2022-08-01 17:19:44,031 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:19:44,031 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:19:44,032 :: Accessed database in get_user_by_email function...
+2022-08-01 17:19:44,240 :: # _do_auth(): user: root
+2022-08-01 17:19:44,240 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:19:44,240 :: # _do_auth(): user: root
+2022-08-01 17:19:44,240 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:19:44,240 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:19:46,140 :: # _do_auth(): user: root
+2022-08-01 17:19:46,140 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:19:46,140 :: # _do_auth(): user: root
+2022-08-01 17:19:46,140 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:19:46,140 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:19:46,161 :: # _do_auth(): user: root
+2022-08-01 17:19:46,161 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:19:46,161 :: # _do_auth(): user: root
+2022-08-01 17:19:46,161 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:19:46,162 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:19:48,491 :: # _do_auth(): user: root
+2022-08-01 17:19:48,491 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:19:48,491 :: # _do_auth(): user: root
+2022-08-01 17:19:48,491 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:19:48,491 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:06,369 :: # _do_auth(): user: root
+2022-08-01 17:20:06,369 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:06,369 :: # _do_auth(): user: root
+2022-08-01 17:20:06,369 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:06,369 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:06,394 :: # _do_auth(): user: root
+2022-08-01 17:20:06,394 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:06,394 :: # _do_auth(): user: root
+2022-08-01 17:20:06,394 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:06,394 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:11,542 :: # _do_auth(): user: root
+2022-08-01 17:20:11,543 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:11,543 :: # _do_auth(): user: root
+2022-08-01 17:20:11,543 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:11,543 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:11,572 :: # _do_auth(): user: root
+2022-08-01 17:20:11,572 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:11,572 :: # _do_auth(): user: root
+2022-08-01 17:20:11,572 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:11,572 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:16,156 :: # _do_auth(): user: root
+2022-08-01 17:20:16,157 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:16,157 :: # _do_auth(): user: root
+2022-08-01 17:20:16,157 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:16,157 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:20:16,184 :: # _do_auth(): user: root
+2022-08-01 17:20:16,184 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:20:16,184 :: # _do_auth(): user: root
+2022-08-01 17:20:16,184 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:20:16,184 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:49,949 :: # _do_auth(): user: root
+2022-08-01 17:22:49,949 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:49,949 :: # _do_auth(): user: root
+2022-08-01 17:22:49,949 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:49,950 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:49,975 :: # _do_auth(): user: root
+2022-08-01 17:22:49,975 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:49,975 :: # _do_auth(): user: root
+2022-08-01 17:22:49,975 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:49,976 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:52,600 :: # _do_auth(): user: root
+2022-08-01 17:22:52,600 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:52,601 :: # _do_auth(): user: root
+2022-08-01 17:22:52,601 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:52,601 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:52,626 :: # _do_auth(): user: root
+2022-08-01 17:22:52,627 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:52,627 :: # _do_auth(): user: root
+2022-08-01 17:22:52,627 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:52,627 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:53,778 :: # _do_auth(): user: root
+2022-08-01 17:22:53,778 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:53,778 :: # _do_auth(): user: root
+2022-08-01 17:22:53,778 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:53,779 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:53,805 :: # _do_auth(): user: root
+2022-08-01 17:22:53,806 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:53,806 :: # _do_auth(): user: root
+2022-08-01 17:22:53,806 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:53,806 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:55,153 :: # _do_auth(): user: root
+2022-08-01 17:22:55,153 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:55,153 :: # _do_auth(): user: root
+2022-08-01 17:22:55,153 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:55,154 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:22:55,180 :: # _do_auth(): user: root
+2022-08-01 17:22:55,181 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:22:55,181 :: # _do_auth(): user: root
+2022-08-01 17:22:55,181 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:22:55,181 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:07,105 :: # _do_auth(): user: root
+2022-08-01 17:23:07,105 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:07,105 :: # _do_auth(): user: root
+2022-08-01 17:23:07,105 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:07,105 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:07,131 :: # _do_auth(): user: root
+2022-08-01 17:23:07,131 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:07,131 :: # _do_auth(): user: root
+2022-08-01 17:23:07,131 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:07,132 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:31,091 :: # _do_auth(): user: root
+2022-08-01 17:23:31,091 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:31,092 :: # _do_auth(): user: root
+2022-08-01 17:23:31,092 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:31,092 :: package: mysql.connector.plugins
+2022-08-01 17:23:31,092 :: plugin_name: caching_sha2_password
+2022-08-01 17:23:31,093 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:23:31,093 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:31,095 :: Accessed database in get_user_by_email function...
+2022-08-01 17:23:31,305 :: # _do_auth(): user: root
+2022-08-01 17:23:31,306 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:31,306 :: # _do_auth(): user: root
+2022-08-01 17:23:31,306 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:31,306 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:45,780 :: # _do_auth(): user: root
+2022-08-01 17:23:45,780 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:45,780 :: # _do_auth(): user: root
+2022-08-01 17:23:45,780 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:45,780 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:23:45,803 :: # _do_auth(): user: root
+2022-08-01 17:23:45,803 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:23:45,803 :: # _do_auth(): user: root
+2022-08-01 17:23:45,803 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:23:45,803 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:37,169 :: # _do_auth(): user: root
+2022-08-01 17:25:37,169 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:37,169 :: # _do_auth(): user: root
+2022-08-01 17:25:37,169 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:37,169 :: package: mysql.connector.plugins
+2022-08-01 17:25:37,169 :: plugin_name: caching_sha2_password
+2022-08-01 17:25:37,172 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:25:37,172 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:37,173 :: Accessed database in get_user_by_email function...
+2022-08-01 17:25:37,382 :: # _do_auth(): user: root
+2022-08-01 17:25:37,383 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:37,383 :: # _do_auth(): user: root
+2022-08-01 17:25:37,383 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:37,383 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:56,323 :: # _do_auth(): user: root
+2022-08-01 17:25:56,323 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:56,323 :: # _do_auth(): user: root
+2022-08-01 17:25:56,323 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:56,323 :: package: mysql.connector.plugins
+2022-08-01 17:25:56,323 :: plugin_name: caching_sha2_password
+2022-08-01 17:25:56,325 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:25:56,325 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:56,326 :: Accessed database in get_user_by_email function...
+2022-08-01 17:25:56,532 :: # _do_auth(): user: root
+2022-08-01 17:25:56,533 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:56,533 :: # _do_auth(): user: root
+2022-08-01 17:25:56,533 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:56,533 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:59,065 :: # _do_auth(): user: root
+2022-08-01 17:25:59,065 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:59,065 :: # _do_auth(): user: root
+2022-08-01 17:25:59,065 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:59,065 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:25:59,088 :: # _do_auth(): user: root
+2022-08-01 17:25:59,088 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:25:59,088 :: # _do_auth(): user: root
+2022-08-01 17:25:59,088 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:25:59,089 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:26:05,043 :: # _do_auth(): user: root
+2022-08-01 17:26:05,045 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:26:05,045 :: # _do_auth(): user: root
+2022-08-01 17:26:05,045 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:26:05,045 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:26:05,074 :: # _do_auth(): user: root
+2022-08-01 17:26:05,074 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:26:05,074 :: # _do_auth(): user: root
+2022-08-01 17:26:05,074 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:26:05,074 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:26:10,105 :: # _do_auth(): user: root
+2022-08-01 17:26:10,105 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:26:10,105 :: # _do_auth(): user: root
+2022-08-01 17:26:10,105 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:26:10,106 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:26:10,136 :: # _do_auth(): user: root
+2022-08-01 17:26:10,137 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:26:10,137 :: # _do_auth(): user: root
+2022-08-01 17:26:10,137 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:26:10,137 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:28:55,589 :: # _do_auth(): user: root
+2022-08-01 17:28:55,589 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:28:55,589 :: # _do_auth(): user: root
+2022-08-01 17:28:55,589 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:28:55,589 :: package: mysql.connector.plugins
+2022-08-01 17:28:55,589 :: plugin_name: caching_sha2_password
+2022-08-01 17:28:55,591 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:28:55,591 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:28:55,593 :: Accessed database in get_user_by_email function...
+2022-08-01 17:28:55,803 :: # _do_auth(): user: root
+2022-08-01 17:28:55,803 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:28:55,803 :: # _do_auth(): user: root
+2022-08-01 17:28:55,804 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:28:55,804 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:10,662 :: # _do_auth(): user: root
+2022-08-01 17:30:10,662 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:10,662 :: # _do_auth(): user: root
+2022-08-01 17:30:10,662 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:10,662 :: package: mysql.connector.plugins
+2022-08-01 17:30:10,662 :: plugin_name: caching_sha2_password
+2022-08-01 17:30:10,664 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-01 17:30:10,664 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:10,665 :: Accessed database in get_user_by_email function...
+2022-08-01 17:30:10,872 :: # _do_auth(): user: root
+2022-08-01 17:30:10,872 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:10,872 :: # _do_auth(): user: root
+2022-08-01 17:30:10,872 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:10,873 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:14,098 :: # _do_auth(): user: root
+2022-08-01 17:30:14,098 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:14,098 :: # _do_auth(): user: root
+2022-08-01 17:30:14,098 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:14,099 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:14,121 :: # _do_auth(): user: root
+2022-08-01 17:30:14,122 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:14,122 :: # _do_auth(): user: root
+2022-08-01 17:30:14,122 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:14,122 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:55,988 :: # _do_auth(): user: root
+2022-08-01 17:30:55,988 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:55,988 :: # _do_auth(): user: root
+2022-08-01 17:30:55,988 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:55,988 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:59,365 :: # _do_auth(): user: root
+2022-08-01 17:30:59,366 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:59,366 :: # _do_auth(): user: root
+2022-08-01 17:30:59,366 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:59,366 :: new_auth_plugin: caching_sha2_password
+2022-08-01 17:30:59,393 :: # _do_auth(): user: root
+2022-08-01 17:30:59,393 :: # _do_auth(): self._auth_plugin: 
+2022-08-01 17:30:59,394 :: # _do_auth(): user: root
+2022-08-01 17:30:59,394 :: # _do_auth(): password: Ithinksoso1916
+2022-08-01 17:30:59,394 :: new_auth_plugin: caching_sha2_password
