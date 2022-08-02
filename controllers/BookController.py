@@ -79,12 +79,36 @@ class BookController(object):
                     raise CustomExceptions.InvalidSelectionError
                 else:
                     user_input = int(user_input)
-                    print('You have chosen ', genre_interface_dict[user_input])
-                    break
+                    genre_name = genre_interface_dict[user_input]
+                    print('You have chosen ', genre_name)
+                    selected_genre_id = self.genres[genre_name]
+                    result = self.filter_books(genre_name, 'GENRE')
+                    if result == 'DB Error':
+                        continue
             except CustomExceptions.InvalidSelectionError as ise:
                 print(ise.message)
                 os.system('cls')
                 
+    def filter_books(self, filter_data, filter_type):
+        match filter_type:
+            case 'GENRE':
+                try:
+                    result = self.book_model.get_books_by_genre(filter_data)
+                    if result == 'DB Error':
+                        raise CustomExceptions.DatabaseError
+                    self.view.show_books(result)
+                except CustomExceptions.DatabaseError as dbe:
+                    self.view.book_error(dbe.message)
+                    return 'Back'
+            case 'AUTHOR':
+                books = self.book_model.get_books_by_author(filter_data) 
+            case 'AUTHOR_SEARCH':
+                books = self.book_model.search_books_by_author(filter_data)
+            case 'TITLE_SEARCH':
+                books = self.book_model.search_books_by_title(filter_data)
+            case 'ALL':
+                books = self.book_model.get_all_books()
+        
                 
             
         
