@@ -5,16 +5,14 @@
         - pick from genre
             - Show all genres to user
                 get genre_id from user choice
-            - select * from books where genre id = user choice
-        - search by author
-            - Get user input, use LIKe to find
-        - search by title
-             - Get user input, use LIKE to find
-        - browse:
-            - Page number attribute
+            - select * from books where genre id = user choice (DONEDONEDONE)=
         - present books, and list them by numbers
         - detailed view of selection
         - enable adding book as a orderItem (stock update)
-        
-        - order history
-        - see cart
+8/2:
+    - customer order history
+    - see cart
+    - edit cart
+    - search by author
+    - search by title
+    - browse
