@@ -16,3 +16,4 @@
     - search by author
     - search by title
     - browse
+    - figure out exit handling

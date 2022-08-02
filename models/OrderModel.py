@@ -31,13 +31,23 @@ class Order(object):
         try: 
             cnx = self.connect_to_db()
             cursor = cnx.cursor()
-            sql = "INSERT INTO OrderItems (order_id, book_id, quantity, book_price) VALUES (%s, %s, %s, %s)"
-            values = (order_id, book_id, quantity, book_price)
-            cursor.execute(sql, values)
-            cnx.commit()
-            logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
-            print('1 record inserted, ID: ', cursor.lastrowid)
-            
+            #Check for same book inside order
+            sql = f"SELECT order_id, quantity From OrderItems WHERE book_id = {book_id}"
+            cursor.execute(sql)
+            record = cursor.fetchone()
+            if record != None:
+                prev_quantity = record[1]
+                sql1 = f"UPDATE OrderItems SET quantity = {prev_quantity + quantity}"
+                cursor.execute(sql1)
+                logging.info("Duplicate book found in orderItems. Updated the quantity instead of creating new order")
+            else: 
+                sql2 = "INSERT INTO OrderItems (order_id, book_id, quantity, book_price) VALUES (%s, %s, %s, %s)"
+                values = (order_id, book_id, quantity, book_price)
+                cursor.execute(sql2, values)
+                logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
+                print('1 record inserted, ID: ', cursor.lastrowid)
+                
+            cnx.commit()         
             cursor.close()
             cnx.close()
             return True

@@ -92,6 +92,8 @@ class BookController(object):
                 #prompt user for genre selection or back
                 self.view.show_book_genres(records)
                 user_input = input()
+                if user_input == '/q':
+                    return 'Exit_Store'
                 if user_input == '/b':
                     return 'BACK'
                 elif user_input == '/c':
@@ -110,7 +112,7 @@ class BookController(object):
                     if result == 'DB Error':
                         continue
                     if result == 'BACK':
-                        return 'BACK'
+                        continue
                     if result == 'Exit_Store':
                         return 'Exit_Store'
             except CustomExceptions.InvalidSelectionError as ise:
@@ -175,6 +177,7 @@ class BookController(object):
                         if user_input == '/b':
                             return 'BACK'
                         elif user_input == '/q':
+                            print('Exiting...')
                             return 'Exit_Store'
                         elif int(user_input) not in book_ids_list:
                             raise CustomExceptions.InvalidSelectionError
@@ -193,8 +196,6 @@ class BookController(object):
                     return 'Back'
                 except CustomExceptions.InvalidSelectionError as ise:
                     self.view.invalid_selection()
-            case 'AUTHOR':
-                books = self.book_model.get_books_by_author(filter_data) 
             case 'AUTHOR_SEARCH':
                 books = self.book_model.search_books_by_author(filter_data)
             case 'TITLE_SEARCH':
@@ -210,7 +211,7 @@ class BookController(object):
                 book_stock = book["stock"]
                 book_price = book["book_price"]
                 self.view.show_book_details(book)
-                user_input = input()
+                user_input = input().strip()
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':

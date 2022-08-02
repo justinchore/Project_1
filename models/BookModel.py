@@ -48,8 +48,6 @@ class Book(object):
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error'
-    def get_books_by_author(self, data):
-        pass
     def search_books_by_author(self, data):
         pass
     def search_books_by_title(self, data):

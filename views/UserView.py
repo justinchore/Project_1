@@ -67,8 +67,9 @@ class UserView(object):
         print(emoji.emojize('2) Search books by author :glasses:'))
         print(emoji.emojize('3) Search books by title :glasses:'))
         print(emoji.emojize('4) Browse all books :books:'))
-        
-        print(emoji.emojize("Access cart:shopping_cart:: /c"))
+        print('\n')
+        print(emoji.emojize("/c: cart:shopping_cart:"))
+        print(emoji.emojize("/q: exit store:victory_hand:"))
     @staticmethod
     def invalid_selection():
         print(emoji.emojize(":warning: Invalid menu selection. Please try again or enter '/q' to exit."))

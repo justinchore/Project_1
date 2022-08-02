@@ -43,8 +43,9 @@ class BookView(object):
         for idx, g in enumerate(genres):
             print(f"{idx+1}.{g[1]}")
         print(' ')
-        print(emoji.emojize("enter /c to acccess cart :shopping_cart:"))
-        print(emoji.emojize("enter /b to go :BACK_arrow:"))
+        print(emoji.emojize("/c: cart:shopping_cart:"))
+        print(emoji.emojize("/b: go back:BACK_arrow:"))
+        print(emoji.emojize("/q: exit store:victory_hand:"))
         print(' ')
         print('Select a genre number: ', end='')
     @staticmethod
