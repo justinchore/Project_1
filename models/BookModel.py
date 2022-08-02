@@ -63,13 +63,27 @@ class Book(object):
             cursor = cnx.cursor(dictionary=True)
             sql = f"SELECT * FROM books_view WHERE book_id = {id}"
             cursor.execute(sql)
-            record = cursor.fetchOne()
+            record = cursor.fetchone()
             return record
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error'
-            
+    
+    def change_inventory_by_id(self, book_id, book_stock, quantity):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor()
+            sql = f"UPDATE Books SET stock = {book_stock + quantity} WHERE book_id = {book_id}"
+            cursor.execute(sql)
+            cnx.commit()
+            logging.info(f"{cursor.rowcount}) record was updated in the database...")
+            cursor.close()
+            cnx.close()
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
             
             
         

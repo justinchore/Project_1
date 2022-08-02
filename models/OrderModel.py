@@ -27,6 +27,26 @@ class Order(object):
         cnx.close()
         return record_id
     
+    def create_orderitem(self, order_id, book_id, quantity, book_price):
+        try: 
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor()
+            sql = "INSERT INTO OrderItems (order_id, book_id, quantity, book_price) VALUES (%s, %s, %s, %s)"
+            values = (order_id, book_id, quantity, book_price)
+            cursor.execute(sql, values)
+            cnx.commit()
+            logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
+            print('1 record inserted, ID: ', cursor.lastrowid)
+            
+            cursor.close()
+            cnx.close()
+            return True
+        
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+    
     def find_unpaid_order(self, customer_id):
         cnx = self.connect_to_db()
         if cnx == False: #connection didnt happen
@@ -56,6 +76,8 @@ class Order(object):
             return record
         else:
             return False
+        
+        
     
     def connect_to_db(self):
         try:

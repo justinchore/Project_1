@@ -7,9 +7,10 @@ import views.BookView as BookView
 import models.BookModel as Book
 
 class BookController(object):
-    def __init__(self):
+    def __init__(self, order_controller):
         self.type = "BookController"
         self.view = BookView.BookView()
+        self.order_controller = order_controller
         self.book_model = Book.Book()
         self.page_number = 1
         self.books_per_page = 10
@@ -61,8 +62,8 @@ class BookController(object):
                     result = self.book_genres(result)
                     if result == 'BACK':
                         return 'BACK'
-                    if result == 'Exit Store':
-                        return 'Exit Store'
+                    if result == 'Exit_Store':
+                        return 'Exit_Store'
             elif menu_choice == 2:
                 #present all authors to the user (alph)
                 #have search functionality
@@ -181,6 +182,8 @@ class BookController(object):
                         result = self.book_details(int(user_input))
                         if result == 'BACK':
                             continue
+                        if result == 'BACK_TO_MENU':
+                            return 'BACK'
                         elif result == 'Exit_Store':
                             return 'Exit_Store'
                         break
@@ -205,19 +208,29 @@ class BookController(object):
                 if book == 'DB Error':
                     raise CustomExceptions.DatabaseError
                 book_stock = book["stock"]
-                self.view.book_details_view(book)
+                book_price = book["book_price"]
+                self.view.show_book_details(book)
                 user_input = input()
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
                     return 'BACK'
-                elif user_input == 'q':
+                elif user_input == '/q':
                     return 'Exit_Store'
                 
+                user_quantity = int(user_input) 
                 if int(user_input) > book_stock:
                     raise CustomExceptions.QuantityError
-                input = input()
                 
+                result = self.book_model.change_inventory_by_id(book_id, book_stock, user_quantity*-1)
+                if result == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                else: 
+                    result = self.order_controller.create_orderitem(book_id, user_quantity,book_price)
+                    if result == True:
+                        return 'BACK'
+                    elif result == 'DB Error':
+                        raise CustomExceptions.DatabaseError
                 
             except CustomExceptions.DatabaseError as deb:
                 self.view.show_book_error(deb.message)

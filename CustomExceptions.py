@@ -58,6 +58,8 @@ class DatabaseError(Exception):
 class InvalidSelectionError(Exception):
     def __init__(self):
         self.message = "Invalid Selection. Please try again."
+        
+############BOOK ERRORS##################################
 
 class QuantityError(Exception):
     def __init__(self):

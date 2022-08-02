@@ -48,13 +48,15 @@ class OrderController(object):
         self.completed_date = completed_date
         
     
-    def customer_initial_order_check(self, id):
-        print('inside customer_inital_order_check;', id)
-        record = self.order_model.find_unpaid_order(id)
+    def customer_initial_order_check(self, user_id):
+        self.set_customer_id(user_id)
+        print('inside customer_inital_order_check;', user_id)
+        record = self.order_model.find_unpaid_order(user_id)
         if record == None:
             print('Customer does not have any open orders')
-            record_id = self.order_model.create_order(id)
+            record_id = self.order_model.create_order(user_id)
             record = self.order_model.get_order_by_id(record_id)
+            self.set_order_id(record_id)
             print('Made a new order:', record)
             return record
         elif record == False:
@@ -62,7 +64,14 @@ class OrderController(object):
         else:
             print('Customer has an open order')
             print('Order:', record)
+            self.set_order_id(record['order_id'])
             return record
-        
+    
+    def create_orderitem(self, book_id, order_quantity, price):
+        orderitem_id = self.order_model.create_orderitem(self.order_id, book_id, order_quantity, price)
+        if orderitem_id == True:
+            return 'Success'
+        elif orderitem_id == 'DB Error':
+            return 'DB Error'
         
             

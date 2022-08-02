@@ -16,13 +16,15 @@ class UserController(object):
         self.user_model = User.User()
         self.validations = Validations.Validations()
         self.order_controller = OrderController.OrderController()
-        self.book_controller = BookController.BookController()
+        self.book_controller = BookController.BookController(self.order_controller)
         self.id = None
         self.email = None
         self.name = None
         self.is_admin = None
         self.logged_in = False
         self.current_order = None
+    
+    userid = None
         
     ####GETTERS#####
     
@@ -183,7 +185,7 @@ class UserController(object):
             menu_choice = input()
             if menu_choice == 'q' or menu_choice =='q':
                 print('Exiting Store...')
-                return 'Exit Store'
+                return 'Exit_Store'
             elif menu_choice.isalpha() == True:
                 os.system('cls')
                 self.view.invalid_selection()
@@ -193,7 +195,7 @@ class UserController(object):
                 if result == 'BACK':
                     continue
                 elif result == 'Exit Store':
-                    return 'Exit Store'
+                    return 'Exit_Store'
             elif menu_choice == '/c':
                 # self.order_controller(customer_order)
                 pass

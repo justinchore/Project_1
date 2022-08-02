@@ -53,16 +53,24 @@ class BookView(object):
     @staticmethod
     def show_book_details(book):
         print('**************************************')
-        title = book['book_title']
-        author = book['author_name']
-        book_info = book['book_description']
-        price = book['book_price']
-        stock = book['stock']
-        print(f'Title: {title} by {author}', end='\n\n')
-        print({book_info}, end="\n\n")
-        print(f"Price: {price}")
-        print(f"Stock: {stock}" )
-        print('**************************************')
+        title = book.get('book_title')
+        author = book.get('author_name')
+        book_info = book.get('book_description')
+        price = book.get('book_price')
+        stock = book.get('stock')
+        book_table = PrettyTable()
+        book_table.field_names = [f'{title} by {author}']
+        book_table.add_row([book_info])
+        book_table.add_row([' '])
+        book_table.add_row([f'Price: ${price}'])
+        book_table.add_row([f'Stock: {stock}'])
+        # print(f'{title} by {author}', end='\n\n')
+        # print(f'{book_info}', end="\n\n")
+        # print(f"Price: ${price}")
+        # print(f"Stock: {stock}" )
+        # print('**************************************')
+        book_table._max_width = {f'{title} by {author}': 50}
+        print(book_table)
         print('/b: back to books')
         print('/q: Exit Store')
         print('To place into cart, enter desired quantity:', end="")
