@@ -43,3 +43,7 @@ class Validations(object):
         match = re.search(pattern, input)
         return match
     
+    @staticmethod
+    def book_view_ids_validation(ids, value):
+        return value in ids
+    

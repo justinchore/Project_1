@@ -58,3 +58,7 @@ class DatabaseError(Exception):
 class InvalidSelectionError(Exception):
     def __init__(self):
         self.message = "Invalid Selection. Please try again."
+
+class QuantityError(Exception):
+    def __init__(self):
+        self.message= "Not enough inventory. Please try another quantity value."
