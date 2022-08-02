@@ -74,4 +74,11 @@ class OrderController(object):
         elif orderitem_id == 'DB Error':
             return 'DB Error'
         
+    def customer_orders(self):
+        orders = self.order_model.get_user_orders(self.customer_id)
+        print(orders)
+        if len(orders) > 0:
+            self.view.show_customers_order(orders)
+        user_input = input().strip()
+        
             

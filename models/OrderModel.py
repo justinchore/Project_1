@@ -86,7 +86,23 @@ class Order(object):
             return record
         else:
             return False
+    
+    def get_user_orders(self, user_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
         
+            sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} ORDER_BY order_id DESC"
+            cursor.execute(sql)
+            records = cursor.fetchall()
+            cursor.close()
+            cnx.close()
+            return records
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error' 
+            
         
     
     def connect_to_db(self):
@@ -101,4 +117,15 @@ class Order(object):
         else:
             return cnx
         
+#  try: 
+#     cnx = self.connect_to_db()
+#     cursor = cnx.cursor(dictionary=True)
+#     sql = f"SELECT * FROM books_view WHERE book_id = {id}"
+#     cursor.execute(sql)
+#     record = cursor.fetchone()
+#     return record
+# except Error as e:
+#     msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+#     print(msg)
+#     return 'DB Error'
     
