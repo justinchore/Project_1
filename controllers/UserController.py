@@ -5,6 +5,8 @@ from sys import settrace
 import CustomExceptions
 import validations.Validations as Validations
 import views.UserView as UserView
+import views.BookView as BookView
+import views.OrderView as OrderView
 import models.UserModel as User
 import controllers.OrderController as OrderController
 import controllers.BookController as BookController
@@ -13,6 +15,8 @@ class UserController(object):
     def __init__(self):
         self.type = 'UserController'
         self.view = UserView.UserView()
+        self.book_view = BookView.BookView()
+        self.order_view = OrderView.OrderView()
         self.user_model = User.User()
         self.validations = Validations.Validations()
         self.order_controller = OrderController.OrderController()
@@ -410,7 +414,7 @@ class UserController(object):
                 elif int(user_input) == 1:
                     result = self.add_book(self)
                 elif int(user_input) == 2:
-                    result = self.update_book(self)
+                    result = self.book_search(self)
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
@@ -419,8 +423,86 @@ class UserController(object):
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
     def add_book(self):
-        self.view.get_book_author_fname()
-        print('First name checked and capitalized: ', checked_fname)
+        result = self.author_name_check('fname')
+        if result == 'BACK':
+            return 'BACK'
+        elif result == 'Exit_Store':
+            return 'Exit_Store'
+        a_fname = result
+        result = self.author_name_check('lname')
+        if result == 'BACK':
+            return 'BACK'
+        elif result == 'Exit_Store':
+            return 'Exit_Store'
+        a_lname = result
+        a_name = a_fname + ' ' + a_lname
+        ############
+        genres = self.get_admin_genres()
+        self.view.show_admin_genres(genres)
+        user_input = input().strip()
+        input_genre_id = int(user_input)
+        ############
+        
+        ############
+        result = self.description_check()
+        if result == 'BACK':
+            return 'BACK'
+        elif result == 'Exit_Store':
+            return 'Exit_Store'
+        
+        
+        
+    def description_check(self):
+        while True:
+            try:
+                self.view.get_book_description()
+                input_description = input().split()
+                if len(input_description) < 300:
+                    raise CustomExceptions.DescriptionLengthError
+                elif input_description == '/b':
+                    return 'BACK'
+                elif input_description == '/q':
+                    return 'Exit_Store'
+                else:
+                    return input_description
+            except CustomExceptions.DescriptionLengthError as dle:
+                print(dle.message)       
+            
+        
+        
+    def get_admin_genres(self):
+        result = self.user_model.get_admin_genres
+        return result
+        
+      
+    def author_name_check(self, type):
+        while True:
+            try:
+                if type == 'fname':
+                    self.view.get_book_author_fname()
+                else:
+                    self.view.get_book_author_lname()
+                input = input().strip()
+                if input == '/b': 
+                    return 'BACK'
+                elif input == '/q':
+                    return 'Exit_Store'
+                catch = Validations.special_chars_validation(input)
+                catch2 = Validations.no_numbers_validation(input)
+                if len(catch) > 0:
+                    raise CustomExceptions.InvalidCharactersError(catch)
+                if len(catch2) > 0:
+                    raise CustomExceptions.InvalidNumbersError(catch2)
+                return input.capitalize()
+            except CustomExceptions.InvalidCharactersError as ice:
+                print(ice.message, end="")
+            except CustomExceptions.InvalidNumbersError as ine:
+                print(ine.message, end="") 
+    
+
+            
+                
+            
     def book_search(self):
         pass
     def order_manager(self) -> str:

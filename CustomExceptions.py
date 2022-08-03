@@ -38,6 +38,9 @@ class InvalidStateName(Exception):
 class InvalidZipCode(Exception):
     def __init__(self):
         self.message = "Zipcode format is invalid. Please try again or enter '/q' to exit. "
+class DescriptionLengthError(Exception):
+    def __init__(self):
+        self.message = "Description length is below the minimum. Please try again or enter '/b' to go back to menu."
         
 ##############Authentication#########################
 

@@ -1,5 +1,6 @@
 import emoji
 import os
+from prettytable import PrettyTable
 
 class UserView(object):
     @staticmethod
@@ -109,13 +110,28 @@ class UserView(object):
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
         print('--input:', end='')
+        
+    @staticmethod
+    def show_admin_genres(genres):
+        genre_table = PrettyTable()
+        genre_table.field_names = ['genreID', 'Genre']
+        for g in genres:
+            genre_table.add_row([
+                g['genre_id'],
+                g['genre_name']
+            ])
+        print(genre_table)
+        print(emoji.emojize('/b: go back to menu:BACK_arrow:'))
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        print('-or enter genreID: ', end='')
+            
     
     @staticmethod
     def get_book_author_fname():
         print("Author's first name: ", end='')
     @staticmethod
     def get_book_author_lname():
-        print("Author's first name: ", end='')
+        print("Author's last name: ", end='')
     def get_book_title():
         print("Author's first name: ", end='')
     @staticmethod

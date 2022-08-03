@@ -14,6 +14,18 @@ class User(object):
 
     # def cursor(self):
     #     return self.cursor
+    def connect_to_db(self):
+        try:
+            cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)
+            if cnx.is_connected():
+                print('Connecting to Server...')
+                print('Connected.')
+            
+        except Error as e:
+            print("Error: ", e)
+            return False
+        else:
+            return cnx
         
     def create_user(self, fname, lname, email, password, address):
         try:
@@ -80,6 +92,22 @@ class User(object):
         cursor.close()
         cnx.close()
         return result
+    
+    def get_admin_genres(self):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = "SELECT * FROM Genres"
+            cursor.execute(sql)
+            records = cursor.fetchall()
+            cursor.close()
+            cnx.close()
+            return records
+        except Error as e:
+            msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+        
     
     @staticmethod
     def hash_password(chars):
