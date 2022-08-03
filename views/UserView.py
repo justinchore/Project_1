@@ -79,16 +79,14 @@ class UserView(object):
         print(emoji.emojize('1) Manage Books'))
         print(emoji.emojize('2) Manager Orders'))
         print(emoji.emojize('3) Admin Permissions'))
-        print('\n')
         print(emoji.emojize("/q: exit :victory_hand:"))
         
     @staticmethod
     def show_admin_book_manager():
         print(emoji.emojize('Book Manager :down_arrow: '))
         print(emoji.emojize('1) Add a Book'))
-        print(emoji.emojize('2) Update Quantities/Delete'))
+        print(emoji.emojize('2) Book search'))
         # print(emoji.emojize('3) Stock Warning'))
-        print('\n')
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
         print('--input:', end='')
@@ -96,10 +94,9 @@ class UserView(object):
     @staticmethod
     def show_admin_order_manager():
         print(emoji.emojize('ORDER MANAGER :down_arrow: '))
-        print(emoji.emojize('1) Add a Book'))
-        print(emoji.emojize('2) Update Quantities/Delete'))
+        print(emoji.emojize('1) Update order'))
+        print(emoji.emojize('2) Delete order'))
         # print(emoji.emojize('3) Stock Warning'))
-        print('\n')
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
         print('--input:', end='')
@@ -107,15 +104,38 @@ class UserView(object):
     @staticmethod
     def show_admin_permissions_manager():
         print(emoji.emojize('PERMISSIONS MANAGER:down_arrow: '))
-        print(emoji.emojize('1) Add a Book'))
-        print(emoji.emojize('2) Update Quantities/Delete'))
+        print(emoji.emojize('1) Update Permissions'))
         # print(emoji.emojize('3) Stock Warning'))
-        print('\n')
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
         print('--input:', end='')
+    
+    @staticmethod
+    def get_book_author_fname():
+        print("Author's first name: ", end='')
+    @staticmethod
+    def get_book_author_lname():
+        print("Author's first name: ", end='')
+    def get_book_title():
+        print("Author's first name: ", end='')
+    @staticmethod
+    def get_book_description():
+        print("Author's first name: ", end='')
+    @staticmethod
+    def get_book_price():
+        print("Author's first name: ", end='')
+    @staticmethod
+    def get_book_genre():
+        print("Author's first name: ", end='')
+        
+        
+    
+        
         
     @staticmethod
     def invalid_selection():
         print(emoji.emojize(":warning: Invalid menu selection. Please try again or enter '/q' to exit."))
+    
+    
+    
         

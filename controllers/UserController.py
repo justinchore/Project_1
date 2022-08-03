@@ -386,26 +386,15 @@ class UserController(object):
                 continue
             elif int(menu_choice) == 1:
                 result = self.book_manager()
-                if result == 'BACK':
-                    continue
-                elif result == 'Exit_Store':
-                    return 'Exit_Store'
             elif int(menu_choice) == 2:
                 result = self.order_manager()
-                if result == 'BACK':
-                    continue
-                elif result == 'Exit_Store':
-                    return 'Exit_Store'
             elif int(menu_choice) == 3:
-                result = self.permissions_manager()   
+                result = self.permissions_manager()        
+            else:
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
-                    return 'Exit_Store'      
-            else:
-                # os.system('cls')
-                self.view.invalid_selection()
-                continue
+                    return 'Exit_Store' 
 
     def book_manager(self) -> str:
         while True:
@@ -416,8 +405,24 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-            except:
-                pass
+                elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
+                    raise CustomExceptions.InvalidSelectionError
+                elif int(user_input) == 1:
+                    result = self.add_book(self)
+                elif int(user_input) == 2:
+                    result = self.update_book(self)
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    'Exit Store'
+                
+            except CustomExceptions.InvalidSelectionError as ise:
+                self.view.invalid_selection()
+    def add_book(self):
+        self.view.get_book_author_fname()
+        print('First name checked and capitalized: ', checked_fname)
+    def book_search(self):
+        pass
     def order_manager(self) -> str:
         while True:
             try:
@@ -427,14 +432,45 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-                pass
-            except:
-                pass
+                elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
+                    raise CustomExceptions.InvalidSelectionError
+                elif int(user_input) == 1:
+                    result = self.update_order(self)
+                elif int(user_input) == 2:
+                    result = self.delete_order(self)
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    'Exit Store'
+                
+            except CustomExceptions.InvalidSelectionError as ise:
+                self.view.invalid_selection()
+    def update_order(self):
+        pass
+    def delete_order(self):
+        pass
+        
     def permissions_manager(self) -> str:
         while True:
             try:
                 self.view.show_admin_permissions_manager()
                 user_input = input().strip()
-                pass
-            except:
-                pass    
+                if user_input == '/b':
+                    return 'BACK'
+                elif user_input == '/q':
+                    return 'Exit_Store'
+                elif user_input.isalpha() == True or int(user_input) not in [1]:
+                    raise CustomExceptions.InvalidSelectionError
+                elif int(user_input) == 1:
+                    result = self.update_permissions(self)
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    'Exit Store'
+                
+            
+            except CustomExceptions.InvalidSelectionError as ise:
+                self.view.invalid_selection()
+    def update_permissions(self):
+        pass
+            
