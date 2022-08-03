@@ -78,7 +78,7 @@ class BookController(object):
     def book_genres(self, records):
         while True:
             try:
-                os.system('cls')
+                # os.system('cls')
                 records = self.book_model.get_all_genres()
                 genre_dict = {}
                 genre_interface_dict = {}
@@ -97,8 +97,11 @@ class BookController(object):
                 if user_input == '/b':
                     return 'BACK'
                 elif user_input == '/c':
-                    print('cart view not implemented')
-                    return 'BACK'
+                    result = self.order_controller.see_cart()
+                    if result == 'BACK':
+                        continue
+                    if result == 'Exit_Store':
+                        return 'Exit_Store'
                 elif user_input.isalpha() == True:
                     raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) not in self.genre_interface_dict:
@@ -116,7 +119,7 @@ class BookController(object):
                     if result == 'Exit_Store':
                         return 'Exit_Store'
             except CustomExceptions.InvalidSelectionError as ise:
-                os.system('cls')
+                # os.system('cls')
                 print(ise.message)
                 
     def filter_books(self, filter_data, filter_type):
@@ -124,84 +127,85 @@ class BookController(object):
         self.set_is_first_page(True)
         self.set_is_last_page(False)
         self.set_page_number(1)
-        match filter_type:
-            case 'GENRE':
-                try:
-                    while self.browsing == True: 
-                        pn = self.page_number
-                        print('Page Number:', pn)
-                        bpp = self.books_per_page
-                        print('Books Per Page:', bpp)
-                        result = self.book_model.get_books_by_genre(filter_data,pn, bpp)
-                        if result == 'DB Error':
-                            raise CustomExceptions.DatabaseError
-                        if len(result) < self.books_per_page:
-                            self.set_is_last_page(True)
-                        if self.page_number == 1:
-                            self.set_is_first_page(True)
-                        else:
-                            self.set_is_first_page(False)
-                             
-                        self.view.show_books(result, self.page_number, self.is_first_page, self.is_last_page)
-                        book_ids_list = []
-                        for book in result:
-                            book_ids_list.append(book['book_id'])
-                        user_input = input()
-                        if (self.is_first_page == True) and (self.is_last_page == False):
-                            print('First page but not last page')
-                            if user_input == '/n':
-                                self.set_page_number(self.page_number + 1)
-                                continue
-                            elif user_input.isalpha():
+        while True:
+            match filter_type:
+                case 'GENRE':
+                    try:
+                        while self.browsing == True: 
+                            pn = self.page_number
+                            print('Page Number:', pn)
+                            bpp = self.books_per_page
+                            print('Books Per Page:', bpp)
+                            result = self.book_model.get_books_by_genre(filter_data,pn, bpp)
+                            if result == 'DB Error':
+                                raise CustomExceptions.DatabaseError
+                            if len(result) < self.books_per_page:
+                                self.set_is_last_page(True)
+                            if self.page_number == 1:
+                                self.set_is_first_page(True)
+                            else:
+                                self.set_is_first_page(False)
+                                
+                            self.view.show_books(result, self.page_number, self.is_first_page, self.is_last_page)
+                            book_ids_list = []
+                            for book in result:
+                                book_ids_list.append(book['book_id'])
+                            user_input = input()
+                            if (self.is_first_page == True) and (self.is_last_page == False):
+                                print('First page but not last page')
+                                if user_input == '/n':
+                                    self.set_page_number(self.page_number + 1)
+                                    continue
+                                elif user_input.isalpha():
+                                    raise CustomExceptions.InvalidSelectionError
+                            elif (self.is_first_page == False) and (self.is_last_page == False):
+                                print('Not first page or last page')
+                                if user_input == '/n':
+                                    self.set_page_number(self.page_number + 1)
+                                    continue
+                                elif user_input == '/p':
+                                    self.set_page_number(self.page_number - 1)
+                                    continue
+                                elif user_input.isalpha():
+                                    raise CustomExceptions.InvalidSelectionError
+                            elif (self.is_first_page == False) and (self.is_last_page == True):
+                                if user_input == '/p':
+                                    self.set_page_number(self.page_number - 1)
+                                    continue
+                                elif user_input.isalpha() == True:
+                                    raise CustomExceptions.InvalidSelectionError
+                            else:
+                                if user_input.isalpha() == True:
+                                    raise CustomExceptions.InvalidSelectionError
+                            
+                            if user_input == '/b':
+                                return 'BACK'
+                            elif user_input == '/q':
+                                print('Exiting...')
+                                return 'Exit_Store'
+                            elif int(user_input) not in book_ids_list:
+                                print('Not in idslist')
                                 raise CustomExceptions.InvalidSelectionError
-                        elif (self.is_first_page == False) and (self.is_last_page == False):
-                            print('Not first page or last page')
-                            if user_input == '/n':
-                                self.set_page_number(self.page_number + 1)
+                            
+                            result = self.book_details(int(user_input))
+                            if result == 'BACK':
                                 continue
-                            elif user_input == '/p':
-                                self.set_page_number(self.page_number - 1)
-                                continue
-                            elif user_input.isalpha():
-                                raise CustomExceptions.InvalidSelectionError
-                        elif (self.is_first_page == False) and (self.is_last_page == True):
-                            if user_input == '/p':
-                                self.set_page_number(self.page_number - 1)
-                                continue
-                            if user_input.isalpha() == True:
-                                raise CustomExceptions.InvalidSelectionError
-                        else:
-                            if user_input.isalpha() == True:
-                                raise CustomExceptions.InvalidSelectionError
-                        
-                        if user_input == '/b':
-                            return 'BACK'
-                        elif user_input == '/q':
-                            print('Exiting...')
-                            return 'Exit_Store'
-                        elif int(user_input) not in book_ids_list:
-                            raise CustomExceptions.InvalidSelectionError
-                        
-                        result = self.book_details(int(user_input))
-                        if result == 'BACK':
-                            continue
-                        if result == 'BACK_TO_MENU':
-                            return 'BACK'
-                        elif result == 'Exit_Store':
-                            return 'Exit_Store'
-                        break
-                             
-                except CustomExceptions.DatabaseError as dbe:
-                    self.view.show_book_error(dbe.message)
-                    return 'Back'
-                except CustomExceptions.InvalidSelectionError as ise:
-                    self.view.invalid_selection()
-            case 'AUTHOR_SEARCH':
-                books = self.book_model.search_books_by_author(filter_data)
-            case 'TITLE_SEARCH':
-                books = self.book_model.search_books_by_title(filter_data)
-            case 'ALL':
-                books = self.book_model.get_all_books()
+                            if result == 'BACK_TO_MENU':
+                                return 'BACK'
+                            elif result == 'Exit_Store':
+                                return 'Exit_Store'
+                            break
+                                
+                    except CustomExceptions.DatabaseError as dbe:
+                        self.view.show_book_error(dbe.message)
+                    except CustomExceptions.InvalidSelectionError as ise:
+                        self.view.invalid_selection()
+                case 'AUTHOR_SEARCH':
+                    books = self.book_model.search_books_by_author(filter_data)
+                case 'TITLE_SEARCH':
+                    books = self.book_model.search_books_by_title(filter_data)
+                case 'ALL':
+                    books = self.book_model.get_all_books()
     def book_details(self,book_id):
         while True:
             try:

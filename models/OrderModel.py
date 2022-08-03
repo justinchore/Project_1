@@ -91,7 +91,7 @@ class Order(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-            sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} ORDER BY order_id DESC"
+            sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} AND is_paid = True ORDER BY order_id DESC"
             cursor.execute(sql)
             records = cursor.fetchall()
             cursor.close()
@@ -106,7 +106,7 @@ class Order(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-            sql = f"SELECT b.book_title, CONCAT(a.author_fname,' ',a.author_lname) as author, oi.quantity, oi.book_price FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id WHERE o.order_id = {order_id}"
+            sql = f"SELECT oi.orderItem_id, b.book_id, b.book_title, CONCAT(a.author_fname,' ',a.author_lname) as author, oi.quantity, oi.book_price FROM OrderItems as oi JOIN Orders as o JOIN Books as b JOIN Authors as a ON oi.order_id = o.order_id AND oi.book_id = b.book_id AND b.author_id = a.author_id WHERE o.order_id = {order_id}"
             cursor.execute(sql)
             records = cursor.fetchall()
             cursor.close()
@@ -116,6 +116,40 @@ class Order(object):
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error' 
+    
+    def get_book_from_orderitem(self, orderitem_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = f"SELECT * FROM Books JOIN OrderItems ON Books.book_id = OrderItems.book_id WHERE orderItem_id = {orderitem_id}"
+            cursor.execute(sql)
+            record = cursor.fetchone()
+            cursor.close()
+            cnx.close()
+            return record
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error' 
+    
+    def change_orderitem_quantity(self, orderitem_id, q_value, current_stock, book_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor()
+            sql1 = f"UPDATE Books SET stock = (({current_stock} + (SELECT quantity FROM OrderItems WHERE orderItem_id = {orderitem_id})) - {q_value}) WHERE book_id = {book_id}"
+            cursor.execute(sql1)
+            sql2 = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
+            cursor.execute(sql2)
+            cnx.commit()
+            logging.info(f"{cursor.rowcount}) record was updated in the database...")
+            cursor.close()
+            cnx.close()
+            return True
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+            
         
         
     def connect_to_db(self):

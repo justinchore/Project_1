@@ -1,4 +1,5 @@
 import os
+import sys
 import logging
 import controllers.UserController
 
@@ -26,9 +27,9 @@ import controllers.UserController
 ##Start Connection:
 
 def main():
-    logging.basicConfig(filename="BookStore.log", level=logging.DEBUG, format='%(asctime)s :: %(message)s')
+    logging.basicConfig(filename="BookStore.log",level=logging.DEBUG, format='%(asctime)s :: %(message)s')
     
-    os.system('cls')
+    # os.system('cls')
     user_controller = controllers.UserController.UserController()
     while not user_controller.logged_in:
         result = user_controller.welcome()
@@ -47,6 +48,8 @@ def main():
             continue
         elif result == 'Exit_Store':
             return
+        else: 
+            print('Invalid input. Try again')
         
         return
         

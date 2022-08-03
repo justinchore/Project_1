@@ -68,7 +68,7 @@ class UserController(object):
     def welcome(self):
         self.view.welcome_message()
         welcome_input = int(input())
-        os.system('cls')
+        # os.system('cls')
         match welcome_input: 
             case 1:
                 result = self.user_login()
@@ -83,7 +83,7 @@ class UserController(object):
                 
     
     def user_login(self):
-        os.system('cls')
+        # os.system('cls')
         ##email address
         while True:
             try:
@@ -118,7 +118,7 @@ class UserController(object):
                 
                 
     def user_create(self):
-        os.system('cls')
+        # os.system('cls')
         ##firstname validation/input
         self.view.get_firstname()
         checked_fname = self.name_check()
@@ -181,15 +181,25 @@ class UserController(object):
     def logged_in_menu(self):
         
         while True:
-            os.system('cls')
+            # os.system('cls')
             self.view.login_success_msg(self.name)
             self.view.show_logged_in_menu()
             menu_choice = input()
             if menu_choice == '/q' or menu_choice =='q':
                 print('Exiting Store...')
                 return 'Exit_Store'
+            elif menu_choice == '/c':
+                result = self.order_controller.see_cart()
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    return 'Exit_Store'
+                pass
+            elif menu_choice == '/b':
+                print('Invalid Input')
+                continue
             elif menu_choice.isalpha() == True:
-                os.system('cls')
+                # os.system('cls')
                 self.view.invalid_selection()
                 continue
             elif int(menu_choice) in [1, 2, 3, 4]:
@@ -204,11 +214,8 @@ class UserController(object):
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store'
-            elif menu_choice == '/c':
-                # self.order_controller(customer_order)
-                pass
             else:
-                os.system('cls')
+                # os.system('cls')
                 self.view.invalid_selection()
                 continue
         

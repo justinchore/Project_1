@@ -31,7 +31,7 @@ class BookView(object):
         print('/b: back to genres')
         print('/q: exit store')
         print('////////////////////////////')
-        print('Select by ID or select from the menu: ', end="")
+        print('--select book by ID: ', end="")
 
     @staticmethod
     def show_book_error(msg):
@@ -47,7 +47,7 @@ class BookView(object):
         print(emoji.emojize("/b: go back:BACK_arrow:"))
         print(emoji.emojize("/q: exit store:victory_hand:"))
         print(' ')
-        print('Select a genre number: ', end='')
+        print('--select a genre number: ', end='')
     @staticmethod
     def invalid_selection():
         print(emoji.emojize(":warning: Invalid menu selection. Please try again or enter '/q' to exit."))
