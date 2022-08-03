@@ -2,6 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import mysql_config as c
 import logging
+from datetime import datetime
 
 class Order(object):
     def __init__(self) -> None:
@@ -136,10 +137,10 @@ class Order(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor()
-            sql1 = f"UPDATE Books SET stock = (({current_stock} + (SELECT quantity FROM OrderItems WHERE orderItem_id = {orderitem_id})) - {q_value}) WHERE book_id = {book_id}"
-            cursor.execute(sql1)
-            sql2 = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
-            cursor.execute(sql2)
+            sql = f"UPDATE Books SET stock = (({current_stock} + (SELECT quantity FROM OrderItems WHERE orderItem_id = {orderitem_id})) - {q_value}) WHERE book_id = {book_id}"
+            cursor.execute(sql)
+            sql = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
+            cursor.execute(sql)
             cnx.commit()
             logging.info(f"{cursor.rowcount}) record was updated in the database...")
             cursor.close()
@@ -149,6 +150,37 @@ class Order(object):
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error'
+        
+    def get_order_total(self, order_id):
+        try: 
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor()
+            sql = f"SELECT SUM(quantity * book_price) as total FROM OrderItems WHERE order_id = {order_id}"
+            cursor.execute(sql)
+            total = cursor.fetchone()
+            cursor.close()
+            cnx.close()
+            return total
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error' 
+        
+    def checkout_order(self, order_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor()
+            now = datetime.now()
+            formatted_date = now.strftime('%Y-%m-%d %H:%M:%S')
+            sql = f"UPDATE OrderItems SET is_paid == True AND paid_date={formatted_date} WHERE order_id = {order_id}"
+            cursor.execute(sql)
+            return True
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'    
+            
+            
             
         
         

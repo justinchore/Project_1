@@ -183,6 +183,12 @@ class BookController(object):
                             elif user_input == '/q':
                                 print('Exiting...')
                                 return 'Exit_Store'
+                            elif user_input == '/c':
+                                result = self.order_controller.see_cart()
+                                if result == 'BACK':
+                                    continue
+                                elif result == 'Exit_Store':
+                                    return 'Exit_Store'   
                             elif int(user_input) not in book_ids_list:
                                 print('Not in idslist')
                                 raise CustomExceptions.InvalidSelectionError

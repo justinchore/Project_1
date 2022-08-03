@@ -134,7 +134,7 @@ class OrderController(object):
                 print(self.current_order_id)
                 print(orderitems)
                 print('acceptedints:', accepted_orderitemids)
-                self.view.show_current_orderitems(orderitems)
+                self.view.show_current_orderitems(orderitems, len(orderitems) > 0)
                 user_input = input()
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
@@ -142,6 +142,10 @@ class OrderController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
+                elif user_input == '/c' and len(orderitems > 0):
+                    result = self.checkout(orderitems, self.customer_id)
+                    if result == 'BACK':
+                        return 'BACK'
                 elif isinstance(int(user_input), int) and (int(user_input) in accepted_orderitemids): 
                     print('Next Step')
                     result = self.change_quantity(int(user_input))
@@ -151,6 +155,32 @@ class OrderController(object):
                     print('No input caught')
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
+    
+    def checkout(self, orderitems, customer_id):
+        try:
+            total = self.model.get_order_total(self.current_order_id)
+            self.view.checkout_view(total)
+            user_input = input().strip().lower()
+            if user_input.isalpha() == False:
+                raise CustomExceptions.InvalidSelectionError
+            elif user_input == 'n':
+                return 'BACK'
+            elif user_input == 'y':
+                result = self.order_model.checkout_order(self.current_order_id)
+                if result == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                else:
+                    self.set_current_order_id = result
+                    return 'BACK'
+            else:
+                raise CustomExceptions.InvalidSelectionError
+        
+        except CustomExceptions.InvalidSelectionError as ise:
+            self.view.invalid_selection()
+        except CustomExceptions.DatabaseError as de:
+            print(de.message)   
+            
+           
                 
                     
     def change_quantity(self, orderitem_id):
