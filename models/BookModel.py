@@ -82,6 +82,33 @@ class Book(object):
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
             print(msg)
             return 'DB Error'
+    
+    def check_author(self, firstname, lastname):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = f"SELECT author_id FROM Authors WHERE LOWER(author_fname) = LOWER({firstname}) AND LOWER(author_lname) = LOWER({lastname})"
+            cursor.execute(sql)
+            matched_author = cursor.fetchone()
+            if matched_author == None:
+                sql = "INSERT INTO Authors (author_fname, author_lname) VALUES(%s, %s)"
+                vals = (firstname, lastname)
+                cursor.execute(sql, vals)
+                cnx.commit()
+                logging.info(f"New user (id: {cursor.lastrowid}) was inserted into database...")
+                print('1 record inserted, ID: ', cursor.lastrowid)
+                new_author_id = cursor.lastrowid
+                return new_author_id
+            else:
+                return matched_author['author_id']
+                
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+        
+    
+    
             
             
         

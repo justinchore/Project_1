@@ -28,6 +28,22 @@ class Order(object):
         cnx.close()
         return record_id
     
+    def get_all_orders(self):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = "SELECT o.order_id, u.email_address, o.is_paid, o.paid_date, o.is_completed, o.completed_date FROM Orders as o JOIN Users as u ON o.customer_id = u.user_id WHERE is_paid = True ORDER BY o.order_id"
+            cursor.execute(sql)
+            orders = cursor.fetchall()
+            logging.info(f"ADMIN: Got all orders from database.")
+            cursor.close()
+            cnx.close()
+            return orders
+        except Error as e:
+            msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+            
     def create_orderitem(self, order_id, book_id, quantity, book_price):
         try: 
             cnx = self.connect_to_db()
@@ -66,7 +82,7 @@ class Order(object):
         sql = f"SELECT * FROM Orders WHERE customer_id = {customer_id} AND is_paid = {False}"
         cursor.execute(sql)
         record = cursor.fetchone()
-        
+        logging.info(f"Unpaid order found and retrieved as cart.")
         cursor.close()
         cnx.close()
         
@@ -79,7 +95,7 @@ class Order(object):
         sql = f"SELECT * FROM Orders WHERE order_id = {order_id}"
         cursor.execute(sql)
         record = cursor.fetchone()
-        
+        logging.info(f"Fetched order id={order_id} from database")
         cursor.close()
         cnx.close()
         
@@ -95,6 +111,7 @@ class Order(object):
             sql = f"SELECT * FROM Orders WHERE customer_id = {user_id} AND is_paid = True ORDER BY order_id DESC"
             cursor.execute(sql)
             records = cursor.fetchall()
+            logging.info(f"User's order history accessed in DB and retrieved.")
             cursor.close()
             cnx.close()
             return records
@@ -112,6 +129,7 @@ class Order(object):
             records = cursor.fetchall()
             cursor.close()
             cnx.close()
+            logging.info(f"Retrieved order items from order: {order_id}")
             return records
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
@@ -127,6 +145,7 @@ class Order(object):
             record = cursor.fetchone()
             cursor.close()
             cnx.close()
+            logging.info(f"Retrieved book from orderitem: {orderitem_id}")
             return record
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
@@ -144,7 +163,7 @@ class Order(object):
             cnx.commit()
             cursor.close()
             cnx.close()
-            logging.info(f"{cursor.rowcount}) record was updated in the database...")
+            logging.info(f"{cursor.rowcount}) orderitem quantity and book stock was updated in the database...")
             return True
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
@@ -160,6 +179,7 @@ class Order(object):
             total = cursor.fetchone()
             cursor.close()
             cnx.close()
+            logging.info(f"Total price for order: {order_id} retrieved")
             return total
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)

@@ -22,6 +22,28 @@ class OrderView(object):
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
         print('- or enter OrderID for details: ', end='')
+    @staticmethod
+    def admin_orders_view(orders):
+        print(orders)
+        if len(orders) == 0:
+            print('No orders to display.')
+        else:
+            orders_table = PrettyTable()
+            orders_table.field_names = ["OrderID", "UserEmail", "Paid","PaidDate", "Completed", "CompletedDate" ]
+            for o in orders:
+                orders_table.add_row([
+                    o['order_id'],
+                    o['email_address'],
+                    o['is_paid'] == True,
+                    o['paid_date'],
+                    o['is_completed'] == True,
+                    o['completed_date']
+                ])
+            print(orders_table)
+        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize('/q: exit store :victory_hand:'))
+        print('- or enter OrderID for details: ', end='')
+        
     
     @staticmethod
     def show_order_orderitems(orderitems):

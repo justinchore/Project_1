@@ -77,9 +77,9 @@ class UserView(object):
     @staticmethod
     def show_admin_logged_in_menu():
         print(emoji.emojize('Please select from the choices below:down_arrow: '))
-        print(emoji.emojize('1) Manage Books'))
-        print(emoji.emojize('2) Manager Orders'))
-        print(emoji.emojize('3) Admin Permissions'))
+        # print(emoji.emojize('1) Manage Books'))
+        print(emoji.emojize('1) Manage Orders'))
+        print(emoji.emojize('2) Admin Permissions'))
         print(emoji.emojize("/q: exit :victory_hand:"))
         
     @staticmethod
@@ -95,8 +95,9 @@ class UserView(object):
     @staticmethod
     def show_admin_order_manager():
         print(emoji.emojize('ORDER MANAGER :down_arrow: '))
-        print(emoji.emojize('1) Update order'))
-        print(emoji.emojize('2) Delete order'))
+        print(emoji.emojize('1) See all orders'))
+        # print(emoji.emojize('2) Update order'))
+        # print(emoji.emojize('3) Delete order'))
         # print(emoji.emojize('3) Stock Warning'))
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
@@ -106,6 +107,7 @@ class UserView(object):
     def show_admin_permissions_manager():
         print(emoji.emojize('PERMISSIONS MANAGER:down_arrow: '))
         print(emoji.emojize('1) Update Permissions'))
+        print(emoji.emojize('2) See all users'))
         # print(emoji.emojize('3) Stock Warning'))
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize("/q: exit :victory_hand:"))
@@ -132,17 +134,18 @@ class UserView(object):
     @staticmethod
     def get_book_author_lname():
         print("Author's last name: ", end='')
+    @staticmethod
     def get_book_title():
-        print("Author's first name: ", end='')
+        print("Enter Title: ", end='')
     @staticmethod
     def get_book_description():
-        print("Author's first name: ", end='')
+        print("Enter description(Min. 300 characters): ", end='')
     @staticmethod
     def get_book_price():
-        print("Author's first name: ", end='')
+        print("Enter book price (formats: [5, 5.99, 25.05]: ", end='')
     @staticmethod
     def get_book_genre():
-        print("Author's first name: ", end='')
+        print("Author's first name: $", end='')
         
         
     

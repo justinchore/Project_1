@@ -2,12 +2,15 @@ import os
 import emoji
 import logging
 from sys import settrace
+from decimal import Decimal
 import CustomExceptions
 import validations.Validations as Validations
 import views.UserView as UserView
 import views.BookView as BookView
 import views.OrderView as OrderView
 import models.UserModel as User
+import models.BookModel as Book 
+import models.OrderModel as Order
 import controllers.OrderController as OrderController
 import controllers.BookController as BookController
 
@@ -17,7 +20,9 @@ class UserController(object):
         self.view = UserView.UserView()
         self.book_view = BookView.BookView()
         self.order_view = OrderView.OrderView()
+        self.order_model = Order.Order()
         self.user_model = User.User()
+        self.book_model = Book.Book()
         self.validations = Validations.Validations()
         self.order_controller = OrderController.OrderController()
         self.book_controller = BookController.BookController(self.order_controller)
@@ -385,126 +390,22 @@ class UserController(object):
                 # os.system('cls')
                 self.view.invalid_selection()
                 continue
-            elif int(menu_choice) not in [1, 2, 3,]:
+            elif int(menu_choice) not in [1, 2]:
                 self.view.invalid_selection()
                 continue
             elif int(menu_choice) == 1:
-                result = self.book_manager()
-            elif int(menu_choice) == 2:
                 result = self.order_manager()
-            elif int(menu_choice) == 3:
-                result = self.permissions_manager()        
+                if result == 'BACK':
+                    continue
+                elif result== 'Exit_Store':
+                    return 'Exit_Store'
+            elif int(menu_choice) == 2:
+                result = self.permissions_manager()    
             else:
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store' 
-
-    def book_manager(self) -> str:
-        while True:
-            try:
-                self.view.show_admin_book_manager()
-                user_input = input().strip()
-                if user_input == '/b':
-                    return 'BACK'
-                elif user_input == '/q':
-                    return 'Exit_Store'
-                elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
-                    raise CustomExceptions.InvalidSelectionError
-                elif int(user_input) == 1:
-                    result = self.add_book(self)
-                elif int(user_input) == 2:
-                    result = self.book_search(self)
-                if result == 'BACK':
-                    continue
-                elif result == 'Exit_Store':
-                    'Exit Store'
-                
-            except CustomExceptions.InvalidSelectionError as ise:
-                self.view.invalid_selection()
-    def add_book(self):
-        result = self.author_name_check('fname')
-        if result == 'BACK':
-            return 'BACK'
-        elif result == 'Exit_Store':
-            return 'Exit_Store'
-        a_fname = result
-        result = self.author_name_check('lname')
-        if result == 'BACK':
-            return 'BACK'
-        elif result == 'Exit_Store':
-            return 'Exit_Store'
-        a_lname = result
-        a_name = a_fname + ' ' + a_lname
-        ############
-        genres = self.get_admin_genres()
-        self.view.show_admin_genres(genres)
-        user_input = input().strip()
-        input_genre_id = int(user_input)
-        ############
-        
-        ############
-        result = self.description_check()
-        if result == 'BACK':
-            return 'BACK'
-        elif result == 'Exit_Store':
-            return 'Exit_Store'
-        
-        
-        
-    def description_check(self):
-        while True:
-            try:
-                self.view.get_book_description()
-                input_description = input().split()
-                if len(input_description) < 300:
-                    raise CustomExceptions.DescriptionLengthError
-                elif input_description == '/b':
-                    return 'BACK'
-                elif input_description == '/q':
-                    return 'Exit_Store'
-                else:
-                    return input_description
-            except CustomExceptions.DescriptionLengthError as dle:
-                print(dle.message)       
-            
-        
-        
-    def get_admin_genres(self):
-        result = self.user_model.get_admin_genres
-        return result
-        
-      
-    def author_name_check(self, type):
-        while True:
-            try:
-                if type == 'fname':
-                    self.view.get_book_author_fname()
-                else:
-                    self.view.get_book_author_lname()
-                input = input().strip()
-                if input == '/b': 
-                    return 'BACK'
-                elif input == '/q':
-                    return 'Exit_Store'
-                catch = Validations.special_chars_validation(input)
-                catch2 = Validations.no_numbers_validation(input)
-                if len(catch) > 0:
-                    raise CustomExceptions.InvalidCharactersError(catch)
-                if len(catch2) > 0:
-                    raise CustomExceptions.InvalidNumbersError(catch2)
-                return input.capitalize()
-            except CustomExceptions.InvalidCharactersError as ice:
-                print(ice.message, end="")
-            except CustomExceptions.InvalidNumbersError as ine:
-                print(ine.message, end="") 
-    
-
-            
-                
-            
-    def book_search(self):
-        pass
     def order_manager(self) -> str:
         while True:
             try:
@@ -514,12 +415,10 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-                elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
+                elif user_input.isalpha() == True or int(user_input) not in [1]:
                     raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) == 1:
-                    result = self.update_order(self)
-                elif int(user_input) == 2:
-                    result = self.delete_order(self)
+                    result = self.see_all_orders()
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
@@ -527,6 +426,25 @@ class UserController(object):
                 
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
+    def see_all_orders(self):
+        while True:
+            try:
+                orders = self.order_model.get_all_orders()
+                if orders == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                
+                self.order_view.admin_orders_view(orders)
+                user_input = input().strip()
+                if user_input.isalpha():
+                    raise CustomExceptions.InvalidSelectionError
+                elif user_input == '/b':
+                    return 'BACK'
+                elif user_input == '/q':
+                    return 'Exit_Store'
+            except CustomExceptions.DatabaseError as dbe:
+                print(dbe.message)
+            except CustomExceptions.InvalidSelectionError as ise:
+                self.order_view.invalid_selection()
     def update_order(self):
         pass
     def delete_order(self):
@@ -556,3 +474,145 @@ class UserController(object):
     def update_permissions(self):
         pass
             
+
+    # def book_manager(self) -> str:
+    #     while True:
+    #         try:
+    #             self.view.show_admin_book_manager()
+    #             user_input = input().strip()
+    #             if user_input == '/b':
+    #                 return 'BACK'
+    #             elif user_input == '/q':
+    #                 return 'Exit_Store'
+    #             elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
+    #                 raise CustomExceptions.InvalidSelectionError
+    #             elif int(user_input) == 1:
+    #                 result = self.add_book(self)
+    #             elif int(user_input) == 2:
+    #                 result = self.book_search(self)
+    #             if result == 'BACK':
+    #                 continue
+    #             elif result == 'Exit_Store':
+    #                 'Exit Store'
+                
+    #         except CustomExceptions.InvalidSelectionError as ise:
+    #             self.view.invalid_selection()
+    # def add_book(self):
+    #     result = self.author_name_check('fname')
+    #     if result == 'BACK':
+    #         return 'BACK'
+    #     elif result == 'Exit_Store':
+    #         return 'Exit_Store'
+    #     a_fname = result
+    #     result = self.author_name_check('lname')
+    #     if result == 'BACK':
+    #         return 'BACK'
+    #     elif result == 'Exit_Store':
+    #         return 'Exit_Store'
+    #     a_lname = result
+    #     a_name = a_fname + ' ' + a_lname
+    #     a_id = self.book_model.check_author(a_fname, a_lname)
+    #     ############
+    #     genres = self.get_admin_genres()
+    #     self.view.show_admin_genres(genres)
+    #     user_input = input().strip()
+    #     input_genre_id = int(user_input)
+    #     ############
+    #     title = self.book_title_check()
+    #     if title == "BACK":
+    #         return 'BACK'
+    #     elif title == "Exit_Store":
+    #         return 'Exit_Store'
+    #     ############
+    #     result = self.description_check()
+    #     if result == 'BACK':
+    #         return 'BACK'
+    #     elif result == 'Exit_Store':
+    #         return 'Exit_Store'
+    #     else:
+    #         checked_description = result
+    #     #############
+    #     result = self.book_price_check()
+    #     if result == 'BACK':
+    #         return 'BACK'
+    #     elif result == 'Exit_Store':
+    #         return 'Exit_Store'
+    #     else: 
+    #         checked_price = Decimal(result)
+
+        
+    # def book_price_check(self):
+    #     while True:
+    #         try:
+    #             self.view.get_book_price()
+    #             price_input = input()
+    #             if price_input == '/b':
+    #                 return 'BACK'
+    #             elif price_input == '/q':
+    #                 return 'Exit_Store'
+    #             match = self.validations.currency_validation(price_input)
+    #             if match == None:
+    #                 raise CustomExceptions.InvalidCurrencyFormatError
+    #             else: 
+    #                 return price_input 
+    #         except CustomExceptions.InvalidCurrencyFormatError as icf:
+    #             print(icf.message)
+    # def book_title_check(self):
+    #     self.view.get_book_title()
+    #     input_title = input().strip()
+    #     return input_title
+        
+    # def description_check(self):
+    #     while True:
+    #         try:
+    #             self.view.get_book_description()
+    #             input_description = input().split()
+    #             if len(input_description) < 300:
+    #                 raise CustomExceptions.DescriptionLengthError
+    #             elif input_description == '/b':
+    #                 return 'BACK'
+    #             elif input_description == '/q':
+    #                 return 'Exit_Store'
+    #             else:
+    #                 return input_description
+    #         except CustomExceptions.DescriptionLengthError as dle:
+    #             print(dle.message)       
+            
+        
+        
+    # def get_admin_genres(self):
+    #     result = self.user_model.get_admin_genres
+    #     return result
+        
+      
+    # def author_name_check(self, type):
+    #     while True:
+    #         try:
+    #             if type == 'fname':
+    #                 self.view.get_book_author_fname()
+    #             else:
+    #                 self.view.get_book_author_lname()
+    #             input = input().strip()
+    #             if input == '/b': 
+    #                 return 'BACK'
+    #             elif input == '/q':
+    #                 return 'Exit_Store'
+    #             catch = Validations.special_chars_validation(input)
+    #             catch2 = Validations.no_numbers_validation(input)
+    #             if len(catch) > 0:
+    #                 raise CustomExceptions.InvalidCharactersError(catch)
+    #             if len(catch2) > 0:
+    #                 raise CustomExceptions.InvalidNumbersError(catch2)
+    #             return input.capitalize()
+    #         except CustomExceptions.InvalidCharactersError as ice:
+    #             print(ice.message, end="")
+    #         except CustomExceptions.InvalidNumbersError as ine:
+    #             print(ine.message, end="") 
+    
+
+            
+                
+            
+    # def book_search(self):
+    #     pass
+    

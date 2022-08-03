@@ -41,6 +41,10 @@ class InvalidZipCode(Exception):
 class DescriptionLengthError(Exception):
     def __init__(self):
         self.message = "Description length is below the minimum. Please try again or enter '/b' to go back to menu."
+class InvalidCurrencyFormatError(Exception):
+    def __init__(self):
+        self.message = "Not a valid format for currency. Please try again or enter '/q' to exit" 
+    pass
         
 ##############Authentication#########################
 

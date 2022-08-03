@@ -20021,3 +20021,1422 @@
 2022-08-03 01:41:17,789 :: # _do_auth(): user: root
 2022-08-03 01:41:17,789 :: # _do_auth(): password: Ithinksoso1916
 2022-08-03 01:41:17,789 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:21:43,188 :: # _do_auth(): user: root
+2022-08-03 14:21:43,189 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:21:43,189 :: # _do_auth(): user: root
+2022-08-03 14:21:43,189 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:21:43,189 :: package: mysql.connector.plugins
+2022-08-03 14:21:43,189 :: plugin_name: caching_sha2_password
+2022-08-03 14:21:43,191 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 14:21:43,192 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:21:43,194 :: Accessed database in get_user_by_email function...
+2022-08-03 14:22:04,354 :: # _do_auth(): user: root
+2022-08-03 14:22:04,354 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:22:04,354 :: # _do_auth(): user: root
+2022-08-03 14:22:04,354 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:22:04,354 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:22:04,356 :: Accessed database in get_user_by_email function...
+2022-08-03 14:22:04,564 :: # _do_auth(): user: root
+2022-08-03 14:22:04,564 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:22:04,564 :: # _do_auth(): user: root
+2022-08-03 14:22:04,564 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:22:04,565 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:48:51,065 :: # _do_auth(): user: root
+2022-08-03 14:48:51,065 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:48:51,065 :: # _do_auth(): user: root
+2022-08-03 14:48:51,065 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:48:51,065 :: package: mysql.connector.plugins
+2022-08-03 14:48:51,065 :: plugin_name: caching_sha2_password
+2022-08-03 14:48:51,067 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 14:48:51,067 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:48:51,068 :: Accessed database in get_user_by_email function...
+2022-08-03 14:49:21,095 :: # _do_auth(): user: root
+2022-08-03 14:49:21,095 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:49:21,095 :: # _do_auth(): user: root
+2022-08-03 14:49:21,095 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:49:21,096 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:49:21,109 :: New user (id: 2) was inserted into database...
+2022-08-03 14:49:32,162 :: # _do_auth(): user: root
+2022-08-03 14:49:32,162 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:49:32,162 :: # _do_auth(): user: root
+2022-08-03 14:49:32,162 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:49:32,162 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:49:32,164 :: Accessed database in get_user_by_email function...
+2022-08-03 14:49:32,371 :: # _do_auth(): user: root
+2022-08-03 14:49:32,372 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:49:32,372 :: # _do_auth(): user: root
+2022-08-03 14:49:32,372 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:49:32,372 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:49:32,390 :: # _do_auth(): user: root
+2022-08-03 14:49:32,390 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:49:32,390 :: # _do_auth(): user: root
+2022-08-03 14:49:32,390 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:49:32,390 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:49:32,402 :: New order (order_id: 2) was inserted into database...
+2022-08-03 14:49:32,419 :: # _do_auth(): user: root
+2022-08-03 14:49:32,419 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:49:32,419 :: # _do_auth(): user: root
+2022-08-03 14:49:32,419 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:49:32,419 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:52:31,820 :: # _do_auth(): user: root
+2022-08-03 14:52:31,820 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:52:31,821 :: # _do_auth(): user: root
+2022-08-03 14:52:31,821 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:52:31,821 :: package: mysql.connector.plugins
+2022-08-03 14:52:31,821 :: plugin_name: caching_sha2_password
+2022-08-03 14:52:31,822 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 14:52:31,822 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:52:31,824 :: Accessed database in get_user_by_email function...
+2022-08-03 14:53:31,303 :: # _do_auth(): user: root
+2022-08-03 14:53:31,303 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:53:31,303 :: # _do_auth(): user: root
+2022-08-03 14:53:31,303 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:53:31,303 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:53:31,316 :: New user (id: 3) was inserted into database...
+2022-08-03 14:54:38,705 :: # _do_auth(): user: root
+2022-08-03 14:54:38,705 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:38,705 :: # _do_auth(): user: root
+2022-08-03 14:54:38,705 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:38,705 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:38,707 :: Accessed database in get_user_by_email function...
+2022-08-03 14:54:38,914 :: # _do_auth(): user: root
+2022-08-03 14:54:38,914 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:38,915 :: # _do_auth(): user: root
+2022-08-03 14:54:38,915 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:38,915 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:38,933 :: # _do_auth(): user: root
+2022-08-03 14:54:38,934 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:38,934 :: # _do_auth(): user: root
+2022-08-03 14:54:38,934 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:38,934 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:38,945 :: New order (order_id: 3) was inserted into database...
+2022-08-03 14:54:38,962 :: # _do_auth(): user: root
+2022-08-03 14:54:38,962 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:38,962 :: # _do_auth(): user: root
+2022-08-03 14:54:38,962 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:38,962 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:46,568 :: # _do_auth(): user: root
+2022-08-03 14:54:46,568 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:46,568 :: # _do_auth(): user: root
+2022-08-03 14:54:46,568 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:46,568 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:46,586 :: # _do_auth(): user: root
+2022-08-03 14:54:46,586 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:46,586 :: # _do_auth(): user: root
+2022-08-03 14:54:46,586 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:46,586 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:54:50,995 :: # _do_auth(): user: root
+2022-08-03 14:54:50,995 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:54:50,995 :: # _do_auth(): user: root
+2022-08-03 14:54:50,995 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:54:50,996 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:17,012 :: # _do_auth(): user: root
+2022-08-03 14:55:17,012 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:17,012 :: # _do_auth(): user: root
+2022-08-03 14:55:17,012 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:17,013 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:21,699 :: # _do_auth(): user: root
+2022-08-03 14:55:21,699 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:21,699 :: # _do_auth(): user: root
+2022-08-03 14:55:21,699 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:21,700 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:21,706 :: 1) record was updated in the database...
+2022-08-03 14:55:21,722 :: # _do_auth(): user: root
+2022-08-03 14:55:21,722 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:21,722 :: # _do_auth(): user: root
+2022-08-03 14:55:21,722 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:21,722 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:21,725 :: New orderItem (id: 1) was inserted into database...
+2022-08-03 14:55:21,744 :: # _do_auth(): user: root
+2022-08-03 14:55:21,744 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:21,744 :: # _do_auth(): user: root
+2022-08-03 14:55:21,744 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:21,745 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:28,049 :: # _do_auth(): user: root
+2022-08-03 14:55:28,049 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:28,049 :: # _do_auth(): user: root
+2022-08-03 14:55:28,049 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:28,049 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:30,117 :: # _do_auth(): user: root
+2022-08-03 14:55:30,117 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:30,117 :: # _do_auth(): user: root
+2022-08-03 14:55:30,117 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:30,117 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:32,769 :: # _do_auth(): user: root
+2022-08-03 14:55:32,769 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:32,769 :: # _do_auth(): user: root
+2022-08-03 14:55:32,769 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:32,770 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:40,683 :: # _do_auth(): user: root
+2022-08-03 14:55:40,683 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:40,683 :: # _do_auth(): user: root
+2022-08-03 14:55:40,683 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:40,683 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:43,467 :: # _do_auth(): user: root
+2022-08-03 14:55:43,468 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:43,468 :: # _do_auth(): user: root
+2022-08-03 14:55:43,468 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:43,468 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:53,067 :: # _do_auth(): user: root
+2022-08-03 14:55:53,067 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:53,067 :: # _do_auth(): user: root
+2022-08-03 14:55:53,067 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:53,067 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:53,080 :: 1) record was updated in the database...
+2022-08-03 14:55:53,101 :: # _do_auth(): user: root
+2022-08-03 14:55:53,101 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:53,101 :: # _do_auth(): user: root
+2022-08-03 14:55:53,101 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:53,101 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:55:53,104 :: New orderItem (id: 2) was inserted into database...
+2022-08-03 14:55:53,125 :: # _do_auth(): user: root
+2022-08-03 14:55:53,126 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:55:53,126 :: # _do_auth(): user: root
+2022-08-03 14:55:53,126 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:55:53,126 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:12,963 :: # _do_auth(): user: root
+2022-08-03 14:56:12,963 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:12,963 :: # _do_auth(): user: root
+2022-08-03 14:56:12,963 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:12,963 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:15,160 :: # _do_auth(): user: root
+2022-08-03 14:56:15,160 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:15,160 :: # _do_auth(): user: root
+2022-08-03 14:56:15,160 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:15,160 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:18,682 :: # _do_auth(): user: root
+2022-08-03 14:56:18,682 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:18,682 :: # _do_auth(): user: root
+2022-08-03 14:56:18,682 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:18,682 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:21,437 :: # _do_auth(): user: root
+2022-08-03 14:56:21,437 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:21,437 :: # _do_auth(): user: root
+2022-08-03 14:56:21,437 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:21,438 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:21,444 :: New orderItem (id: 4) was inserted into database...
+2022-08-03 14:56:21,461 :: # _do_auth(): user: root
+2022-08-03 14:56:21,461 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:21,461 :: # _do_auth(): user: root
+2022-08-03 14:56:21,461 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:21,461 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:31,434 :: # _do_auth(): user: root
+2022-08-03 14:56:31,434 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:31,434 :: # _do_auth(): user: root
+2022-08-03 14:56:31,434 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:31,434 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:34,870 :: # _do_auth(): user: root
+2022-08-03 14:56:34,870 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:34,870 :: # _do_auth(): user: root
+2022-08-03 14:56:34,870 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:34,870 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:35,764 :: # _do_auth(): user: root
+2022-08-03 14:56:35,765 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:35,765 :: # _do_auth(): user: root
+2022-08-03 14:56:35,765 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:35,765 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:56:40,454 :: # _do_auth(): user: root
+2022-08-03 14:56:40,454 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:56:40,454 :: # _do_auth(): user: root
+2022-08-03 14:56:40,454 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:56:40,454 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:03,520 :: # _do_auth(): user: root
+2022-08-03 14:57:03,520 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:03,521 :: # _do_auth(): user: root
+2022-08-03 14:57:03,521 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:03,521 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:03,539 :: # _do_auth(): user: root
+2022-08-03 14:57:03,539 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:03,539 :: # _do_auth(): user: root
+2022-08-03 14:57:03,539 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:03,539 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:05,884 :: # _do_auth(): user: root
+2022-08-03 14:57:05,884 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:05,884 :: # _do_auth(): user: root
+2022-08-03 14:57:05,884 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:05,884 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:11,928 :: # _do_auth(): user: root
+2022-08-03 14:57:11,928 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:11,928 :: # _do_auth(): user: root
+2022-08-03 14:57:11,928 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:11,928 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:15,071 :: # _do_auth(): user: root
+2022-08-03 14:57:15,071 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:15,071 :: # _do_auth(): user: root
+2022-08-03 14:57:15,071 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:15,071 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:15,076 :: 1) record was updated in the database...
+2022-08-03 14:57:15,096 :: # _do_auth(): user: root
+2022-08-03 14:57:15,096 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:15,096 :: # _do_auth(): user: root
+2022-08-03 14:57:15,096 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:15,097 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:15,099 :: New orderItem (id: 3) was inserted into database...
+2022-08-03 14:57:15,119 :: # _do_auth(): user: root
+2022-08-03 14:57:15,119 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:15,119 :: # _do_auth(): user: root
+2022-08-03 14:57:15,119 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:15,119 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:16,964 :: # _do_auth(): user: root
+2022-08-03 14:57:16,964 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:16,964 :: # _do_auth(): user: root
+2022-08-03 14:57:16,964 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:16,964 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:26,548 :: # _do_auth(): user: root
+2022-08-03 14:57:26,548 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:26,548 :: # _do_auth(): user: root
+2022-08-03 14:57:26,548 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:26,548 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:32,265 :: # _do_auth(): user: root
+2022-08-03 14:57:32,265 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:32,265 :: # _do_auth(): user: root
+2022-08-03 14:57:32,265 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:32,265 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:34,996 :: # _do_auth(): user: root
+2022-08-03 14:57:34,996 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:34,996 :: # _do_auth(): user: root
+2022-08-03 14:57:34,996 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:34,996 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:35,001 :: 1) record was updated in the database...
+2022-08-03 14:57:35,018 :: # _do_auth(): user: root
+2022-08-03 14:57:35,018 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:35,018 :: # _do_auth(): user: root
+2022-08-03 14:57:35,018 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:35,018 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:35,020 :: New orderItem (id: 4) was inserted into database...
+2022-08-03 14:57:35,040 :: # _do_auth(): user: root
+2022-08-03 14:57:35,040 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:35,040 :: # _do_auth(): user: root
+2022-08-03 14:57:35,040 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:35,040 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:37,737 :: # _do_auth(): user: root
+2022-08-03 14:57:37,737 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:37,737 :: # _do_auth(): user: root
+2022-08-03 14:57:37,737 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:37,737 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:41,543 :: # _do_auth(): user: root
+2022-08-03 14:57:41,544 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:41,544 :: # _do_auth(): user: root
+2022-08-03 14:57:41,544 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:41,544 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:48,914 :: # _do_auth(): user: root
+2022-08-03 14:57:48,914 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:48,914 :: # _do_auth(): user: root
+2022-08-03 14:57:48,914 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:48,914 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:54,057 :: # _do_auth(): user: root
+2022-08-03 14:57:54,057 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:54,057 :: # _do_auth(): user: root
+2022-08-03 14:57:54,057 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:54,057 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:54,069 :: 1) record was updated in the database...
+2022-08-03 14:57:54,086 :: # _do_auth(): user: root
+2022-08-03 14:57:54,086 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:54,086 :: # _do_auth(): user: root
+2022-08-03 14:57:54,086 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:54,086 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:57:54,089 :: New orderItem (id: 5) was inserted into database...
+2022-08-03 14:57:54,109 :: # _do_auth(): user: root
+2022-08-03 14:57:54,109 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:57:54,109 :: # _do_auth(): user: root
+2022-08-03 14:57:54,109 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:57:54,109 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:01,622 :: # _do_auth(): user: root
+2022-08-03 14:58:01,622 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:01,622 :: # _do_auth(): user: root
+2022-08-03 14:58:01,622 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:01,622 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:03,340 :: # _do_auth(): user: root
+2022-08-03 14:58:03,340 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:03,340 :: # _do_auth(): user: root
+2022-08-03 14:58:03,340 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:03,341 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:06,100 :: # _do_auth(): user: root
+2022-08-03 14:58:06,100 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:06,100 :: # _do_auth(): user: root
+2022-08-03 14:58:06,100 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:06,101 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:07,943 :: # _do_auth(): user: root
+2022-08-03 14:58:07,943 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:07,943 :: # _do_auth(): user: root
+2022-08-03 14:58:07,943 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:07,943 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:07,955 :: New orderItem (id: 5) was inserted into database...
+2022-08-03 14:58:07,973 :: # _do_auth(): user: root
+2022-08-03 14:58:07,973 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:07,973 :: # _do_auth(): user: root
+2022-08-03 14:58:07,973 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:07,973 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:13,813 :: # _do_auth(): user: root
+2022-08-03 14:58:13,813 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:13,813 :: # _do_auth(): user: root
+2022-08-03 14:58:13,813 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:13,814 :: new_auth_plugin: caching_sha2_password
+2022-08-03 14:58:17,525 :: # _do_auth(): user: root
+2022-08-03 14:58:17,525 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 14:58:17,525 :: # _do_auth(): user: root
+2022-08-03 14:58:17,525 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 14:58:17,525 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:12:23,218 :: # _do_auth(): user: root
+2022-08-03 15:12:23,218 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:12:23,218 :: # _do_auth(): user: root
+2022-08-03 15:12:23,218 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:12:23,218 :: package: mysql.connector.plugins
+2022-08-03 15:12:23,218 :: plugin_name: caching_sha2_password
+2022-08-03 15:12:23,220 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:12:23,220 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:12:23,221 :: Accessed database in get_user_by_email function...
+2022-08-03 15:12:51,343 :: # _do_auth(): user: root
+2022-08-03 15:12:51,343 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:12:51,344 :: # _do_auth(): user: root
+2022-08-03 15:12:51,344 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:12:51,344 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:12:51,356 :: New user (id: 4) was inserted into database...
+2022-08-03 15:13:11,832 :: # _do_auth(): user: root
+2022-08-03 15:13:11,832 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:11,832 :: # _do_auth(): user: root
+2022-08-03 15:13:11,832 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:11,833 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:11,834 :: Accessed database in get_user_by_email function...
+2022-08-03 15:13:12,045 :: # _do_auth(): user: root
+2022-08-03 15:13:12,045 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:12,045 :: # _do_auth(): user: root
+2022-08-03 15:13:12,045 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:12,045 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:12,047 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:13:12,063 :: # _do_auth(): user: root
+2022-08-03 15:13:12,063 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:12,063 :: # _do_auth(): user: root
+2022-08-03 15:13:12,063 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:12,063 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:12,076 :: New order (order_id: 6) was inserted into database...
+2022-08-03 15:13:12,095 :: # _do_auth(): user: root
+2022-08-03 15:13:12,095 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:12,095 :: # _do_auth(): user: root
+2022-08-03 15:13:12,095 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:12,095 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:12,097 :: Fetched order id=6 from database
+2022-08-03 15:13:17,481 :: # _do_auth(): user: root
+2022-08-03 15:13:17,481 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:17,481 :: # _do_auth(): user: root
+2022-08-03 15:13:17,481 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:17,481 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:17,499 :: # _do_auth(): user: root
+2022-08-03 15:13:17,499 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:17,499 :: # _do_auth(): user: root
+2022-08-03 15:13:17,499 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:17,499 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:19,868 :: # _do_auth(): user: root
+2022-08-03 15:13:19,868 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:19,868 :: # _do_auth(): user: root
+2022-08-03 15:13:19,868 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:19,868 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:29,244 :: # _do_auth(): user: root
+2022-08-03 15:13:29,244 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:29,244 :: # _do_auth(): user: root
+2022-08-03 15:13:29,244 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:29,244 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:32,523 :: # _do_auth(): user: root
+2022-08-03 15:13:32,523 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:32,523 :: # _do_auth(): user: root
+2022-08-03 15:13:32,523 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:32,523 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:32,535 :: 1) record was updated in the database...
+2022-08-03 15:13:32,552 :: # _do_auth(): user: root
+2022-08-03 15:13:32,552 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:32,552 :: # _do_auth(): user: root
+2022-08-03 15:13:32,552 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:32,552 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:32,554 :: New orderItem (id: 6) was inserted into database...
+2022-08-03 15:13:32,573 :: # _do_auth(): user: root
+2022-08-03 15:13:32,574 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:32,574 :: # _do_auth(): user: root
+2022-08-03 15:13:32,574 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:32,574 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:35,068 :: # _do_auth(): user: root
+2022-08-03 15:13:35,068 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:35,068 :: # _do_auth(): user: root
+2022-08-03 15:13:35,068 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:35,068 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:49,524 :: # _do_auth(): user: root
+2022-08-03 15:13:49,524 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:49,524 :: # _do_auth(): user: root
+2022-08-03 15:13:49,524 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:49,524 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:13:57,501 :: # _do_auth(): user: root
+2022-08-03 15:13:57,501 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:13:57,501 :: # _do_auth(): user: root
+2022-08-03 15:13:57,501 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:13:57,501 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:08,205 :: # _do_auth(): user: root
+2022-08-03 15:14:08,205 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:08,205 :: # _do_auth(): user: root
+2022-08-03 15:14:08,206 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:08,206 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:08,210 :: 1) record was updated in the database...
+2022-08-03 15:14:08,226 :: # _do_auth(): user: root
+2022-08-03 15:14:08,226 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:08,226 :: # _do_auth(): user: root
+2022-08-03 15:14:08,226 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:08,226 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:08,228 :: New orderItem (id: 7) was inserted into database...
+2022-08-03 15:14:08,247 :: # _do_auth(): user: root
+2022-08-03 15:14:08,247 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:08,247 :: # _do_auth(): user: root
+2022-08-03 15:14:08,247 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:08,247 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:11,578 :: # _do_auth(): user: root
+2022-08-03 15:14:11,578 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:11,578 :: # _do_auth(): user: root
+2022-08-03 15:14:11,579 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:11,579 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:16,579 :: # _do_auth(): user: root
+2022-08-03 15:14:16,579 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:16,579 :: # _do_auth(): user: root
+2022-08-03 15:14:16,579 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:16,579 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:16,582 :: Retrieved order items from order: 6
+2022-08-03 15:14:20,535 :: # _do_auth(): user: root
+2022-08-03 15:14:20,535 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:20,535 :: # _do_auth(): user: root
+2022-08-03 15:14:20,535 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:20,536 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:22,537 :: # _do_auth(): user: root
+2022-08-03 15:14:22,537 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:22,537 :: # _do_auth(): user: root
+2022-08-03 15:14:22,537 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:22,537 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:22,539 :: Retrieved order items from order: 6
+2022-08-03 15:14:24,234 :: # _do_auth(): user: root
+2022-08-03 15:14:24,235 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:24,235 :: # _do_auth(): user: root
+2022-08-03 15:14:24,235 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:24,235 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:24,237 :: Total price for order: 6 retrieved
+2022-08-03 15:14:27,838 :: # _do_auth(): user: root
+2022-08-03 15:14:27,838 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:27,838 :: # _do_auth(): user: root
+2022-08-03 15:14:27,838 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:27,838 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:27,850 :: New orderItem (id: 7) was inserted into database...
+2022-08-03 15:14:27,868 :: # _do_auth(): user: root
+2022-08-03 15:14:27,868 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:27,868 :: # _do_auth(): user: root
+2022-08-03 15:14:27,868 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:27,869 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:35,860 :: # _do_auth(): user: root
+2022-08-03 15:14:35,861 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:35,861 :: # _do_auth(): user: root
+2022-08-03 15:14:35,861 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:35,861 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:38,030 :: # _do_auth(): user: root
+2022-08-03 15:14:38,030 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:38,031 :: # _do_auth(): user: root
+2022-08-03 15:14:38,031 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:38,031 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:38,043 :: 1) record was updated in the database...
+2022-08-03 15:14:38,060 :: # _do_auth(): user: root
+2022-08-03 15:14:38,061 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:38,061 :: # _do_auth(): user: root
+2022-08-03 15:14:38,061 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:38,061 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:38,063 :: New orderItem (id: 8) was inserted into database...
+2022-08-03 15:14:38,083 :: # _do_auth(): user: root
+2022-08-03 15:14:38,083 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:38,083 :: # _do_auth(): user: root
+2022-08-03 15:14:38,083 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:38,084 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:42,420 :: # _do_auth(): user: root
+2022-08-03 15:14:42,420 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:42,420 :: # _do_auth(): user: root
+2022-08-03 15:14:42,420 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:42,420 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:44,074 :: # _do_auth(): user: root
+2022-08-03 15:14:44,074 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:44,074 :: # _do_auth(): user: root
+2022-08-03 15:14:44,074 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:44,074 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:44,076 :: Retrieved order items from order: 7
+2022-08-03 15:14:46,705 :: # _do_auth(): user: root
+2022-08-03 15:14:46,705 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:46,705 :: # _do_auth(): user: root
+2022-08-03 15:14:46,705 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:46,705 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:46,707 :: Total price for order: 7 retrieved
+2022-08-03 15:14:49,113 :: # _do_auth(): user: root
+2022-08-03 15:14:49,113 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:49,113 :: # _do_auth(): user: root
+2022-08-03 15:14:49,113 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:49,114 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:14:49,119 :: New orderItem (id: 8) was inserted into database...
+2022-08-03 15:14:49,137 :: # _do_auth(): user: root
+2022-08-03 15:14:49,137 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:14:49,137 :: # _do_auth(): user: root
+2022-08-03 15:14:49,137 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:14:49,138 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:05,022 :: # _do_auth(): user: root
+2022-08-03 15:15:05,022 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:05,022 :: # _do_auth(): user: root
+2022-08-03 15:15:05,022 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:05,023 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:08,917 :: # _do_auth(): user: root
+2022-08-03 15:15:08,917 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:08,917 :: # _do_auth(): user: root
+2022-08-03 15:15:08,917 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:08,917 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:18,751 :: # _do_auth(): user: root
+2022-08-03 15:15:18,751 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:18,751 :: # _do_auth(): user: root
+2022-08-03 15:15:18,751 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:18,751 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:18,763 :: 1) record was updated in the database...
+2022-08-03 15:15:18,781 :: # _do_auth(): user: root
+2022-08-03 15:15:18,782 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:18,782 :: # _do_auth(): user: root
+2022-08-03 15:15:18,782 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:18,782 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:18,784 :: New orderItem (id: 9) was inserted into database...
+2022-08-03 15:15:18,806 :: # _do_auth(): user: root
+2022-08-03 15:15:18,806 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:18,806 :: # _do_auth(): user: root
+2022-08-03 15:15:18,806 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:18,806 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:20,360 :: # _do_auth(): user: root
+2022-08-03 15:15:20,360 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:20,360 :: # _do_auth(): user: root
+2022-08-03 15:15:20,360 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:20,361 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:23,599 :: # _do_auth(): user: root
+2022-08-03 15:15:23,599 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:23,599 :: # _do_auth(): user: root
+2022-08-03 15:15:23,599 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:23,600 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:25,421 :: # _do_auth(): user: root
+2022-08-03 15:15:25,421 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:25,421 :: # _do_auth(): user: root
+2022-08-03 15:15:25,421 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:25,421 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:25,433 :: 1) record was updated in the database...
+2022-08-03 15:15:25,454 :: # _do_auth(): user: root
+2022-08-03 15:15:25,455 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:25,455 :: # _do_auth(): user: root
+2022-08-03 15:15:25,455 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:25,455 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:25,457 :: New orderItem (id: 10) was inserted into database...
+2022-08-03 15:15:25,477 :: # _do_auth(): user: root
+2022-08-03 15:15:25,477 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:25,477 :: # _do_auth(): user: root
+2022-08-03 15:15:25,477 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:25,477 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:27,749 :: # _do_auth(): user: root
+2022-08-03 15:15:27,749 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:27,749 :: # _do_auth(): user: root
+2022-08-03 15:15:27,749 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:27,749 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:31,380 :: # _do_auth(): user: root
+2022-08-03 15:15:31,380 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:31,380 :: # _do_auth(): user: root
+2022-08-03 15:15:31,380 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:31,381 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:34,069 :: # _do_auth(): user: root
+2022-08-03 15:15:34,069 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:34,069 :: # _do_auth(): user: root
+2022-08-03 15:15:34,069 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:34,069 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:34,081 :: 1) record was updated in the database...
+2022-08-03 15:15:34,099 :: # _do_auth(): user: root
+2022-08-03 15:15:34,100 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:34,100 :: # _do_auth(): user: root
+2022-08-03 15:15:34,100 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:34,100 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:34,102 :: New orderItem (id: 11) was inserted into database...
+2022-08-03 15:15:34,126 :: # _do_auth(): user: root
+2022-08-03 15:15:34,126 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:34,126 :: # _do_auth(): user: root
+2022-08-03 15:15:34,126 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:34,126 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:36,244 :: # _do_auth(): user: root
+2022-08-03 15:15:36,244 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:36,244 :: # _do_auth(): user: root
+2022-08-03 15:15:36,244 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:36,244 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:38,915 :: # _do_auth(): user: root
+2022-08-03 15:15:38,915 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:38,915 :: # _do_auth(): user: root
+2022-08-03 15:15:38,915 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:38,915 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:38,918 :: Retrieved order items from order: 8
+2022-08-03 15:15:58,626 :: # _do_auth(): user: root
+2022-08-03 15:15:58,626 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:15:58,626 :: # _do_auth(): user: root
+2022-08-03 15:15:58,626 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:15:58,626 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:15:58,628 :: Retrieved book from orderitem: 11
+2022-08-03 15:16:04,334 :: # _do_auth(): user: root
+2022-08-03 15:16:04,334 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:04,334 :: # _do_auth(): user: root
+2022-08-03 15:16:04,334 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:04,334 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:04,336 :: Retrieved order items from order: 8
+2022-08-03 15:16:22,436 :: # _do_auth(): user: root
+2022-08-03 15:16:22,436 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:22,437 :: # _do_auth(): user: root
+2022-08-03 15:16:22,437 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:22,437 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:22,438 :: Retrieved book from orderitem: 11
+2022-08-03 15:16:30,404 :: # _do_auth(): user: root
+2022-08-03 15:16:30,405 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:30,405 :: # _do_auth(): user: root
+2022-08-03 15:16:30,405 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:30,405 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:30,417 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:16:30,438 :: # _do_auth(): user: root
+2022-08-03 15:16:30,438 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:30,438 :: # _do_auth(): user: root
+2022-08-03 15:16:30,438 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:30,438 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:30,441 :: Retrieved order items from order: 8
+2022-08-03 15:16:38,859 :: # _do_auth(): user: root
+2022-08-03 15:16:38,859 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:38,859 :: # _do_auth(): user: root
+2022-08-03 15:16:38,859 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:38,859 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:38,861 :: Retrieved book from orderitem: 11
+2022-08-03 15:16:45,133 :: # _do_auth(): user: root
+2022-08-03 15:16:45,133 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:45,133 :: # _do_auth(): user: root
+2022-08-03 15:16:45,133 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:45,133 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:45,146 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:16:45,166 :: # _do_auth(): user: root
+2022-08-03 15:16:45,166 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:45,166 :: # _do_auth(): user: root
+2022-08-03 15:16:45,166 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:45,166 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:45,168 :: Retrieved order items from order: 8
+2022-08-03 15:16:52,134 :: # _do_auth(): user: root
+2022-08-03 15:16:52,134 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:52,134 :: # _do_auth(): user: root
+2022-08-03 15:16:52,134 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:52,134 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:55,439 :: # _do_auth(): user: root
+2022-08-03 15:16:55,439 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:55,439 :: # _do_auth(): user: root
+2022-08-03 15:16:55,439 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:55,440 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:55,442 :: Retrieved order items from order: 8
+2022-08-03 15:16:57,419 :: # _do_auth(): user: root
+2022-08-03 15:16:57,420 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:16:57,420 :: # _do_auth(): user: root
+2022-08-03 15:16:57,420 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:16:57,420 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:16:57,422 :: Total price for order: 8 retrieved
+2022-08-03 15:17:00,456 :: # _do_auth(): user: root
+2022-08-03 15:17:00,457 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:17:00,457 :: # _do_auth(): user: root
+2022-08-03 15:17:00,457 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:17:00,457 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:17:00,462 :: New orderItem (id: 9) was inserted into database...
+2022-08-03 15:17:00,480 :: # _do_auth(): user: root
+2022-08-03 15:17:00,480 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:17:00,480 :: # _do_auth(): user: root
+2022-08-03 15:17:00,480 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:17:00,480 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:17:03,606 :: # _do_auth(): user: root
+2022-08-03 15:17:03,607 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:17:03,607 :: # _do_auth(): user: root
+2022-08-03 15:17:03,607 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:17:03,607 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:17:07,104 :: # _do_auth(): user: root
+2022-08-03 15:17:07,105 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:17:07,105 :: # _do_auth(): user: root
+2022-08-03 15:17:07,105 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:17:07,105 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:17:07,107 :: User's order history accessed in DB and retrieved.
+2022-08-03 15:17:48,263 :: # _do_auth(): user: root
+2022-08-03 15:17:48,263 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:17:48,263 :: # _do_auth(): user: root
+2022-08-03 15:17:48,263 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:17:48,263 :: package: mysql.connector.plugins
+2022-08-03 15:17:48,263 :: plugin_name: caching_sha2_password
+2022-08-03 15:17:48,265 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:17:48,265 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:17:48,266 :: Accessed database in get_user_by_email function...
+2022-08-03 15:18:06,312 :: # _do_auth(): user: root
+2022-08-03 15:18:06,312 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:06,312 :: # _do_auth(): user: root
+2022-08-03 15:18:06,313 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:06,313 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:06,325 :: New user (id: 5) was inserted into database...
+2022-08-03 15:18:24,459 :: # _do_auth(): user: root
+2022-08-03 15:18:24,459 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:24,459 :: # _do_auth(): user: root
+2022-08-03 15:18:24,460 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:24,460 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:24,461 :: Accessed database in get_user_by_email function...
+2022-08-03 15:18:58,515 :: # _do_auth(): user: root
+2022-08-03 15:18:58,515 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:58,515 :: # _do_auth(): user: root
+2022-08-03 15:18:58,515 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:58,515 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:58,517 :: Accessed database in get_user_by_email function...
+2022-08-03 15:18:58,723 :: # _do_auth(): user: root
+2022-08-03 15:18:58,724 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:58,724 :: # _do_auth(): user: root
+2022-08-03 15:18:58,724 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:58,724 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:58,726 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:18:58,742 :: # _do_auth(): user: root
+2022-08-03 15:18:58,742 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:58,742 :: # _do_auth(): user: root
+2022-08-03 15:18:58,742 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:58,742 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:58,753 :: New order (order_id: 10) was inserted into database...
+2022-08-03 15:18:58,775 :: # _do_auth(): user: root
+2022-08-03 15:18:58,776 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:18:58,776 :: # _do_auth(): user: root
+2022-08-03 15:18:58,776 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:18:58,776 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:18:58,778 :: Fetched order id=10 from database
+2022-08-03 15:19:02,160 :: # _do_auth(): user: root
+2022-08-03 15:19:02,160 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:02,160 :: # _do_auth(): user: root
+2022-08-03 15:19:02,160 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:02,160 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:02,178 :: # _do_auth(): user: root
+2022-08-03 15:19:02,179 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:02,179 :: # _do_auth(): user: root
+2022-08-03 15:19:02,179 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:02,179 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:04,476 :: # _do_auth(): user: root
+2022-08-03 15:19:04,476 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:04,476 :: # _do_auth(): user: root
+2022-08-03 15:19:04,476 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:04,476 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:08,798 :: # _do_auth(): user: root
+2022-08-03 15:19:08,798 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:08,798 :: # _do_auth(): user: root
+2022-08-03 15:19:08,798 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:08,798 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:10,639 :: # _do_auth(): user: root
+2022-08-03 15:19:10,640 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:10,640 :: # _do_auth(): user: root
+2022-08-03 15:19:10,640 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:10,640 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:10,645 :: 1) record was updated in the database...
+2022-08-03 15:19:10,666 :: # _do_auth(): user: root
+2022-08-03 15:19:10,666 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:10,666 :: # _do_auth(): user: root
+2022-08-03 15:19:10,666 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:10,666 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:10,668 :: New orderItem (id: 12) was inserted into database...
+2022-08-03 15:19:10,687 :: # _do_auth(): user: root
+2022-08-03 15:19:10,687 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:10,688 :: # _do_auth(): user: root
+2022-08-03 15:19:10,688 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:10,688 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:13,856 :: # _do_auth(): user: root
+2022-08-03 15:19:13,856 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:13,856 :: # _do_auth(): user: root
+2022-08-03 15:19:13,856 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:13,856 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:22,377 :: # _do_auth(): user: root
+2022-08-03 15:19:22,377 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:22,378 :: # _do_auth(): user: root
+2022-08-03 15:19:22,378 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:22,378 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:25,479 :: # _do_auth(): user: root
+2022-08-03 15:19:25,479 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:25,479 :: # _do_auth(): user: root
+2022-08-03 15:19:25,479 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:25,479 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:25,491 :: 1) record was updated in the database...
+2022-08-03 15:19:25,508 :: # _do_auth(): user: root
+2022-08-03 15:19:25,508 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:25,508 :: # _do_auth(): user: root
+2022-08-03 15:19:25,508 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:25,508 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:25,510 :: New orderItem (id: 13) was inserted into database...
+2022-08-03 15:19:25,529 :: # _do_auth(): user: root
+2022-08-03 15:19:25,529 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:25,529 :: # _do_auth(): user: root
+2022-08-03 15:19:25,529 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:25,529 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:31,453 :: # _do_auth(): user: root
+2022-08-03 15:19:31,453 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:31,453 :: # _do_auth(): user: root
+2022-08-03 15:19:31,453 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:31,453 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:44,885 :: # _do_auth(): user: root
+2022-08-03 15:19:44,885 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:44,885 :: # _do_auth(): user: root
+2022-08-03 15:19:44,885 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:44,886 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:50,647 :: # _do_auth(): user: root
+2022-08-03 15:19:50,647 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:50,647 :: # _do_auth(): user: root
+2022-08-03 15:19:50,647 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:50,647 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:51,628 :: # _do_auth(): user: root
+2022-08-03 15:19:51,629 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:51,629 :: # _do_auth(): user: root
+2022-08-03 15:19:51,629 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:51,629 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:51,631 :: Retrieved order items from order: 10
+2022-08-03 15:19:55,086 :: # _do_auth(): user: root
+2022-08-03 15:19:55,086 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:55,086 :: # _do_auth(): user: root
+2022-08-03 15:19:55,086 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:55,087 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:55,088 :: Total price for order: 10 retrieved
+2022-08-03 15:19:56,710 :: # _do_auth(): user: root
+2022-08-03 15:19:56,710 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:56,710 :: # _do_auth(): user: root
+2022-08-03 15:19:56,710 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:56,710 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:19:56,723 :: New orderItem (id: 11) was inserted into database...
+2022-08-03 15:19:56,741 :: # _do_auth(): user: root
+2022-08-03 15:19:56,741 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:19:56,741 :: # _do_auth(): user: root
+2022-08-03 15:19:56,741 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:19:56,741 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:20:34,909 :: # _do_auth(): user: root
+2022-08-03 15:20:34,910 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:20:34,910 :: # _do_auth(): user: root
+2022-08-03 15:20:34,910 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:20:34,910 :: package: mysql.connector.plugins
+2022-08-03 15:20:34,910 :: plugin_name: caching_sha2_password
+2022-08-03 15:20:34,911 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:20:34,911 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:20:34,912 :: Accessed database in get_user_by_email function...
+2022-08-03 15:22:03,096 :: # _do_auth(): user: root
+2022-08-03 15:22:03,096 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:03,096 :: # _do_auth(): user: root
+2022-08-03 15:22:03,096 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:03,096 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:03,098 :: Accessed database in get_user_by_email function...
+2022-08-03 15:22:38,073 :: # _do_auth(): user: root
+2022-08-03 15:22:38,074 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:38,074 :: # _do_auth(): user: root
+2022-08-03 15:22:38,074 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:38,074 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:38,078 :: New user (id: 6) was inserted into database...
+2022-08-03 15:22:49,868 :: # _do_auth(): user: root
+2022-08-03 15:22:49,868 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:49,868 :: # _do_auth(): user: root
+2022-08-03 15:22:49,868 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:49,868 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:49,869 :: Accessed database in get_user_by_email function...
+2022-08-03 15:22:50,078 :: # _do_auth(): user: root
+2022-08-03 15:22:50,078 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:50,078 :: # _do_auth(): user: root
+2022-08-03 15:22:50,078 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:50,078 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:50,080 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:22:50,099 :: # _do_auth(): user: root
+2022-08-03 15:22:50,099 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:50,099 :: # _do_auth(): user: root
+2022-08-03 15:22:50,099 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:50,099 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:50,104 :: New order (order_id: 12) was inserted into database...
+2022-08-03 15:22:50,121 :: # _do_auth(): user: root
+2022-08-03 15:22:50,121 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:22:50,121 :: # _do_auth(): user: root
+2022-08-03 15:22:50,121 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:22:50,121 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:22:50,123 :: Fetched order id=12 from database
+2022-08-03 15:23:18,764 :: # _do_auth(): user: root
+2022-08-03 15:23:18,764 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:18,764 :: # _do_auth(): user: root
+2022-08-03 15:23:18,764 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:18,764 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:18,783 :: # _do_auth(): user: root
+2022-08-03 15:23:18,783 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:18,783 :: # _do_auth(): user: root
+2022-08-03 15:23:18,783 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:18,783 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:26,303 :: # _do_auth(): user: root
+2022-08-03 15:23:26,303 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:26,303 :: # _do_auth(): user: root
+2022-08-03 15:23:26,303 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:26,303 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:30,816 :: # _do_auth(): user: root
+2022-08-03 15:23:30,817 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:30,817 :: # _do_auth(): user: root
+2022-08-03 15:23:30,817 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:30,817 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:33,745 :: # _do_auth(): user: root
+2022-08-03 15:23:33,745 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:33,745 :: # _do_auth(): user: root
+2022-08-03 15:23:33,745 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:33,745 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:33,758 :: 1) record was updated in the database...
+2022-08-03 15:23:33,776 :: # _do_auth(): user: root
+2022-08-03 15:23:33,776 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:33,776 :: # _do_auth(): user: root
+2022-08-03 15:23:33,776 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:33,776 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:33,778 :: New orderItem (id: 14) was inserted into database...
+2022-08-03 15:23:33,799 :: # _do_auth(): user: root
+2022-08-03 15:23:33,799 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:33,799 :: # _do_auth(): user: root
+2022-08-03 15:23:33,799 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:33,799 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:40,965 :: # _do_auth(): user: root
+2022-08-03 15:23:40,965 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:40,965 :: # _do_auth(): user: root
+2022-08-03 15:23:40,965 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:40,966 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:23:59,518 :: # _do_auth(): user: root
+2022-08-03 15:23:59,518 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:23:59,518 :: # _do_auth(): user: root
+2022-08-03 15:23:59,518 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:23:59,518 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:04,403 :: # _do_auth(): user: root
+2022-08-03 15:24:04,403 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:04,403 :: # _do_auth(): user: root
+2022-08-03 15:24:04,404 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:04,404 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:04,408 :: 1) record was updated in the database...
+2022-08-03 15:24:04,426 :: # _do_auth(): user: root
+2022-08-03 15:24:04,426 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:04,426 :: # _do_auth(): user: root
+2022-08-03 15:24:04,426 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:04,426 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:04,428 :: New orderItem (id: 15) was inserted into database...
+2022-08-03 15:24:04,447 :: # _do_auth(): user: root
+2022-08-03 15:24:04,447 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:04,447 :: # _do_auth(): user: root
+2022-08-03 15:24:04,447 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:04,448 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:07,667 :: # _do_auth(): user: root
+2022-08-03 15:24:07,667 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:07,667 :: # _do_auth(): user: root
+2022-08-03 15:24:07,667 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:07,668 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:09,017 :: # _do_auth(): user: root
+2022-08-03 15:24:09,017 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:09,017 :: # _do_auth(): user: root
+2022-08-03 15:24:09,017 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:09,017 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:09,020 :: Retrieved order items from order: 12
+2022-08-03 15:24:12,040 :: # _do_auth(): user: root
+2022-08-03 15:24:12,041 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:12,041 :: # _do_auth(): user: root
+2022-08-03 15:24:12,041 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:12,041 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:12,043 :: Retrieved book from orderitem: 15
+2022-08-03 15:24:16,468 :: # _do_auth(): user: root
+2022-08-03 15:24:16,468 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:16,468 :: # _do_auth(): user: root
+2022-08-03 15:24:16,468 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:16,468 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:16,480 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:24:16,497 :: # _do_auth(): user: root
+2022-08-03 15:24:16,498 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:16,498 :: # _do_auth(): user: root
+2022-08-03 15:24:16,498 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:16,498 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:16,500 :: Retrieved order items from order: 12
+2022-08-03 15:24:23,727 :: # _do_auth(): user: root
+2022-08-03 15:24:23,727 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:23,727 :: # _do_auth(): user: root
+2022-08-03 15:24:23,727 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:23,727 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:23,730 :: Retrieved book from orderitem: 15
+2022-08-03 15:24:53,794 :: # _do_auth(): user: root
+2022-08-03 15:24:53,794 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:53,794 :: # _do_auth(): user: root
+2022-08-03 15:24:53,794 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:53,794 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:53,796 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:24:53,814 :: # _do_auth(): user: root
+2022-08-03 15:24:53,814 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:53,814 :: # _do_auth(): user: root
+2022-08-03 15:24:53,814 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:53,814 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:24:53,816 :: Retrieved order items from order: 12
+2022-08-03 15:24:57,578 :: # _do_auth(): user: root
+2022-08-03 15:24:57,578 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:24:57,578 :: # _do_auth(): user: root
+2022-08-03 15:24:57,578 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:24:57,579 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:04,598 :: # _do_auth(): user: root
+2022-08-03 15:25:04,599 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:04,599 :: # _do_auth(): user: root
+2022-08-03 15:25:04,599 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:04,599 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:08,615 :: # _do_auth(): user: root
+2022-08-03 15:25:08,615 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:08,615 :: # _do_auth(): user: root
+2022-08-03 15:25:08,615 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:08,615 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:08,627 :: 1) record was updated in the database...
+2022-08-03 15:25:08,645 :: # _do_auth(): user: root
+2022-08-03 15:25:08,645 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:08,645 :: # _do_auth(): user: root
+2022-08-03 15:25:08,645 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:08,645 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:08,647 :: New orderItem (id: 16) was inserted into database...
+2022-08-03 15:25:08,667 :: # _do_auth(): user: root
+2022-08-03 15:25:08,667 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:08,667 :: # _do_auth(): user: root
+2022-08-03 15:25:08,667 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:08,667 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:11,659 :: # _do_auth(): user: root
+2022-08-03 15:25:11,659 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:11,659 :: # _do_auth(): user: root
+2022-08-03 15:25:11,659 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:11,659 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:15,375 :: # _do_auth(): user: root
+2022-08-03 15:25:15,375 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:15,375 :: # _do_auth(): user: root
+2022-08-03 15:25:15,375 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:15,375 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:21,375 :: # _do_auth(): user: root
+2022-08-03 15:25:21,375 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:21,375 :: # _do_auth(): user: root
+2022-08-03 15:25:21,375 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:21,375 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:21,378 :: Retrieved order items from order: 12
+2022-08-03 15:25:28,220 :: # _do_auth(): user: root
+2022-08-03 15:25:28,221 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:28,221 :: # _do_auth(): user: root
+2022-08-03 15:25:28,221 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:28,221 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:28,223 :: Retrieved book from orderitem: 16
+2022-08-03 15:25:31,539 :: # _do_auth(): user: root
+2022-08-03 15:25:31,539 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:31,539 :: # _do_auth(): user: root
+2022-08-03 15:25:31,540 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:31,540 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:31,552 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:25:31,569 :: # _do_auth(): user: root
+2022-08-03 15:25:31,569 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:31,569 :: # _do_auth(): user: root
+2022-08-03 15:25:31,569 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:31,570 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:31,572 :: Retrieved order items from order: 12
+2022-08-03 15:25:38,147 :: # _do_auth(): user: root
+2022-08-03 15:25:38,147 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:38,147 :: # _do_auth(): user: root
+2022-08-03 15:25:38,147 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:38,148 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:39,925 :: # _do_auth(): user: root
+2022-08-03 15:25:39,925 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:39,925 :: # _do_auth(): user: root
+2022-08-03 15:25:39,925 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:39,925 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:45,860 :: # _do_auth(): user: root
+2022-08-03 15:25:45,860 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:45,860 :: # _do_auth(): user: root
+2022-08-03 15:25:45,860 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:45,861 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:45,863 :: Retrieved order items from order: 12
+2022-08-03 15:25:49,732 :: # _do_auth(): user: root
+2022-08-03 15:25:49,732 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:49,732 :: # _do_auth(): user: root
+2022-08-03 15:25:49,732 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:49,732 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:49,734 :: Total price for order: 12 retrieved
+2022-08-03 15:25:53,919 :: # _do_auth(): user: root
+2022-08-03 15:25:53,919 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:53,919 :: # _do_auth(): user: root
+2022-08-03 15:25:53,919 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:53,919 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:25:53,931 :: New orderItem (id: 13) was inserted into database...
+2022-08-03 15:25:53,950 :: # _do_auth(): user: root
+2022-08-03 15:25:53,950 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:25:53,950 :: # _do_auth(): user: root
+2022-08-03 15:25:53,950 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:25:53,950 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:26:02,025 :: # _do_auth(): user: root
+2022-08-03 15:26:02,025 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:26:02,025 :: # _do_auth(): user: root
+2022-08-03 15:26:02,025 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:26:02,025 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:26:04,891 :: # _do_auth(): user: root
+2022-08-03 15:26:04,891 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:26:04,891 :: # _do_auth(): user: root
+2022-08-03 15:26:04,891 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:26:04,892 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:26:04,894 :: User's order history accessed in DB and retrieved.
+2022-08-03 15:26:11,392 :: # _do_auth(): user: root
+2022-08-03 15:26:11,392 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:26:11,392 :: # _do_auth(): user: root
+2022-08-03 15:26:11,392 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:26:11,392 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:26:11,395 :: Retrieved order items from order: 12
+2022-08-03 15:26:58,925 :: # _do_auth(): user: root
+2022-08-03 15:26:58,925 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:26:58,925 :: # _do_auth(): user: root
+2022-08-03 15:26:58,925 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:26:58,925 :: package: mysql.connector.plugins
+2022-08-03 15:26:58,925 :: plugin_name: caching_sha2_password
+2022-08-03 15:26:58,927 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:26:58,927 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:26:58,929 :: Accessed database in get_user_by_email function...
+2022-08-03 15:27:39,779 :: # _do_auth(): user: root
+2022-08-03 15:27:39,779 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:39,779 :: # _do_auth(): user: root
+2022-08-03 15:27:39,779 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:39,779 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:39,784 :: New user (id: 7) was inserted into database...
+2022-08-03 15:27:50,587 :: # _do_auth(): user: root
+2022-08-03 15:27:50,588 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:50,588 :: # _do_auth(): user: root
+2022-08-03 15:27:50,588 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:50,588 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:50,589 :: Accessed database in get_user_by_email function...
+2022-08-03 15:27:50,796 :: # _do_auth(): user: root
+2022-08-03 15:27:50,796 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:50,796 :: # _do_auth(): user: root
+2022-08-03 15:27:50,796 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:50,796 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:50,798 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:27:50,815 :: # _do_auth(): user: root
+2022-08-03 15:27:50,815 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:50,815 :: # _do_auth(): user: root
+2022-08-03 15:27:50,815 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:50,816 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:50,820 :: New order (order_id: 14) was inserted into database...
+2022-08-03 15:27:50,838 :: # _do_auth(): user: root
+2022-08-03 15:27:50,838 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:50,839 :: # _do_auth(): user: root
+2022-08-03 15:27:50,839 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:50,839 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:50,840 :: Fetched order id=14 from database
+2022-08-03 15:27:58,143 :: # _do_auth(): user: root
+2022-08-03 15:27:58,143 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:27:58,143 :: # _do_auth(): user: root
+2022-08-03 15:27:58,143 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:27:58,143 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:27:58,145 :: User's order history accessed in DB and retrieved.
+2022-08-03 15:28:09,027 :: # _do_auth(): user: root
+2022-08-03 15:28:09,027 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:09,027 :: # _do_auth(): user: root
+2022-08-03 15:28:09,027 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:09,027 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:09,028 :: User's order history accessed in DB and retrieved.
+2022-08-03 15:28:18,782 :: # _do_auth(): user: root
+2022-08-03 15:28:18,782 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:18,782 :: # _do_auth(): user: root
+2022-08-03 15:28:18,782 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:18,783 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:18,801 :: # _do_auth(): user: root
+2022-08-03 15:28:18,801 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:18,801 :: # _do_auth(): user: root
+2022-08-03 15:28:18,801 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:18,801 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:23,361 :: # _do_auth(): user: root
+2022-08-03 15:28:23,361 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:23,362 :: # _do_auth(): user: root
+2022-08-03 15:28:23,362 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:23,362 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:46,242 :: # _do_auth(): user: root
+2022-08-03 15:28:46,242 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:46,242 :: # _do_auth(): user: root
+2022-08-03 15:28:46,242 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:46,242 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:50,866 :: # _do_auth(): user: root
+2022-08-03 15:28:50,867 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:50,867 :: # _do_auth(): user: root
+2022-08-03 15:28:50,867 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:50,867 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:50,878 :: 1) record was updated in the database...
+2022-08-03 15:28:50,895 :: # _do_auth(): user: root
+2022-08-03 15:28:50,895 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:50,896 :: # _do_auth(): user: root
+2022-08-03 15:28:50,896 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:50,896 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:50,898 :: New orderItem (id: 17) was inserted into database...
+2022-08-03 15:28:50,921 :: # _do_auth(): user: root
+2022-08-03 15:28:50,921 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:50,921 :: # _do_auth(): user: root
+2022-08-03 15:28:50,921 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:50,921 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:53,346 :: # _do_auth(): user: root
+2022-08-03 15:28:53,346 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:53,346 :: # _do_auth(): user: root
+2022-08-03 15:28:53,346 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:53,347 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:54,108 :: # _do_auth(): user: root
+2022-08-03 15:28:54,108 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:54,108 :: # _do_auth(): user: root
+2022-08-03 15:28:54,108 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:54,109 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:28:56,232 :: # _do_auth(): user: root
+2022-08-03 15:28:56,232 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:28:56,232 :: # _do_auth(): user: root
+2022-08-03 15:28:56,232 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:28:56,233 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:01,951 :: # _do_auth(): user: root
+2022-08-03 15:29:01,951 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:01,952 :: # _do_auth(): user: root
+2022-08-03 15:29:01,952 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:01,952 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:05,705 :: # _do_auth(): user: root
+2022-08-03 15:29:05,705 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:05,705 :: # _do_auth(): user: root
+2022-08-03 15:29:05,705 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:05,705 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:05,717 :: 1) record was updated in the database...
+2022-08-03 15:29:05,734 :: # _do_auth(): user: root
+2022-08-03 15:29:05,734 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:05,734 :: # _do_auth(): user: root
+2022-08-03 15:29:05,734 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:05,734 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:05,736 :: New orderItem (id: 18) was inserted into database...
+2022-08-03 15:29:05,756 :: # _do_auth(): user: root
+2022-08-03 15:29:05,756 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:05,756 :: # _do_auth(): user: root
+2022-08-03 15:29:05,756 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:05,756 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:09,511 :: # _do_auth(): user: root
+2022-08-03 15:29:09,511 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:09,511 :: # _do_auth(): user: root
+2022-08-03 15:29:09,511 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:09,512 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:13,946 :: # _do_auth(): user: root
+2022-08-03 15:29:13,947 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:13,947 :: # _do_auth(): user: root
+2022-08-03 15:29:13,947 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:13,947 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:17,833 :: # _do_auth(): user: root
+2022-08-03 15:29:17,833 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:17,833 :: # _do_auth(): user: root
+2022-08-03 15:29:17,833 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:17,833 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:17,842 :: 1) record was updated in the database...
+2022-08-03 15:29:17,858 :: # _do_auth(): user: root
+2022-08-03 15:29:17,859 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:17,859 :: # _do_auth(): user: root
+2022-08-03 15:29:17,859 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:17,859 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:17,861 :: New orderItem (id: 19) was inserted into database...
+2022-08-03 15:29:17,880 :: # _do_auth(): user: root
+2022-08-03 15:29:17,880 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:17,880 :: # _do_auth(): user: root
+2022-08-03 15:29:17,880 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:17,880 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:21,509 :: # _do_auth(): user: root
+2022-08-03 15:29:21,510 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:21,510 :: # _do_auth(): user: root
+2022-08-03 15:29:21,510 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:21,510 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:39,594 :: # _do_auth(): user: root
+2022-08-03 15:29:39,594 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:39,594 :: # _do_auth(): user: root
+2022-08-03 15:29:39,594 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:39,594 :: package: mysql.connector.plugins
+2022-08-03 15:29:39,594 :: plugin_name: caching_sha2_password
+2022-08-03 15:29:39,596 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:29:39,596 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:39,599 :: Accessed database in get_user_by_email function...
+2022-08-03 15:29:48,111 :: # _do_auth(): user: root
+2022-08-03 15:29:48,111 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:48,112 :: # _do_auth(): user: root
+2022-08-03 15:29:48,112 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:48,112 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:48,113 :: Accessed database in get_user_by_email function...
+2022-08-03 15:29:48,321 :: # _do_auth(): user: root
+2022-08-03 15:29:48,321 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:48,321 :: # _do_auth(): user: root
+2022-08-03 15:29:48,321 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:48,321 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:48,323 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:29:51,962 :: # _do_auth(): user: root
+2022-08-03 15:29:51,962 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:29:51,962 :: # _do_auth(): user: root
+2022-08-03 15:29:51,962 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:29:51,962 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:29:51,965 :: Retrieved order items from order: 14
+2022-08-03 15:30:00,567 :: # _do_auth(): user: root
+2022-08-03 15:30:00,567 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:00,567 :: # _do_auth(): user: root
+2022-08-03 15:30:00,567 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:00,568 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:00,569 :: Retrieved book from orderitem: 18
+2022-08-03 15:30:02,906 :: # _do_auth(): user: root
+2022-08-03 15:30:02,906 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:02,907 :: # _do_auth(): user: root
+2022-08-03 15:30:02,907 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:02,907 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:02,912 :: -1) orderitem quantity and book stock was updated in the database...
+2022-08-03 15:30:02,928 :: # _do_auth(): user: root
+2022-08-03 15:30:02,929 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:02,929 :: # _do_auth(): user: root
+2022-08-03 15:30:02,929 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:02,929 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:02,931 :: Retrieved order items from order: 14
+2022-08-03 15:30:18,292 :: # _do_auth(): user: root
+2022-08-03 15:30:18,292 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:18,292 :: # _do_auth(): user: root
+2022-08-03 15:30:18,292 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:18,293 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:18,294 :: Retrieved order items from order: 14
+2022-08-03 15:30:20,316 :: # _do_auth(): user: root
+2022-08-03 15:30:20,316 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:20,316 :: # _do_auth(): user: root
+2022-08-03 15:30:20,316 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:20,316 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:20,319 :: Total price for order: 14 retrieved
+2022-08-03 15:30:22,309 :: # _do_auth(): user: root
+2022-08-03 15:30:22,309 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:22,309 :: # _do_auth(): user: root
+2022-08-03 15:30:22,309 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:22,309 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:22,321 :: New orderItem (id: 15) was inserted into database...
+2022-08-03 15:30:30,450 :: # _do_auth(): user: root
+2022-08-03 15:30:30,450 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:30:30,450 :: # _do_auth(): user: root
+2022-08-03 15:30:30,450 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:30:30,450 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:30:30,452 :: User's order history accessed in DB and retrieved.
+2022-08-03 15:31:06,620 :: # _do_auth(): user: root
+2022-08-03 15:31:06,621 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:31:06,621 :: # _do_auth(): user: root
+2022-08-03 15:31:06,621 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:31:06,621 :: package: mysql.connector.plugins
+2022-08-03 15:31:06,621 :: plugin_name: caching_sha2_password
+2022-08-03 15:31:06,622 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:31:06,623 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:31:06,624 :: Accessed database in get_user_by_email function...
+2022-08-03 15:31:20,242 :: # _do_auth(): user: root
+2022-08-03 15:31:20,243 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:31:20,243 :: # _do_auth(): user: root
+2022-08-03 15:31:20,243 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:31:20,243 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:31:20,244 :: Accessed database in get_user_by_email function...
+2022-08-03 15:31:20,453 :: # _do_auth(): user: root
+2022-08-03 15:31:20,454 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:31:20,454 :: # _do_auth(): user: root
+2022-08-03 15:31:20,454 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:31:20,454 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:31:20,456 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:31:26,554 :: # _do_auth(): user: root
+2022-08-03 15:31:26,554 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:31:26,554 :: # _do_auth(): user: root
+2022-08-03 15:31:26,554 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:31:26,554 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:32:08,153 :: # _do_auth(): user: root
+2022-08-03 15:32:08,154 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:32:08,154 :: # _do_auth(): user: root
+2022-08-03 15:32:08,154 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:32:08,154 :: package: mysql.connector.plugins
+2022-08-03 15:32:08,154 :: plugin_name: caching_sha2_password
+2022-08-03 15:32:08,155 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-03 15:32:08,155 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:32:08,157 :: Accessed database in get_user_by_email function...
+2022-08-03 15:32:08,367 :: # _do_auth(): user: root
+2022-08-03 15:32:08,368 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:32:08,368 :: # _do_auth(): user: root
+2022-08-03 15:32:08,368 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:32:08,368 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:32:08,370 :: Unpaid order found and retrieved as cart.
+2022-08-03 15:32:11,148 :: # _do_auth(): user: root
+2022-08-03 15:32:11,148 :: # _do_auth(): self._auth_plugin: 
+2022-08-03 15:32:11,148 :: # _do_auth(): user: root
+2022-08-03 15:32:11,148 :: # _do_auth(): password: Ithinksoso1916
+2022-08-03 15:32:11,148 :: new_auth_plugin: caching_sha2_password
+2022-08-03 15:32:11,151 :: ADMIN: Got all orders from database.

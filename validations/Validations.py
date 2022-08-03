@@ -38,6 +38,14 @@ class Validations(object):
         return match
     
     @staticmethod
+    def currency_validation(input):
+        #Allows $.
+        # pattern = re.compile(r'^\$?(\d*(\d\.?|\.\d{1,2}))$')
+        pattern = re.compile(r'[1-9]\d*(\.\d\d)?(?![\d.])')
+        match =  re.fullmatch(pattern, input)
+        return match
+        
+    @staticmethod
     def zipcode_validation(input):
         pattern = "^[0-9]{5}(?:-[0-9]{4})?$"
         match = re.search(pattern, input)
