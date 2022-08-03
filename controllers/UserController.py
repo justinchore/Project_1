@@ -420,7 +420,7 @@ class UserController(object):
                 elif int(user_input) == 1:
                     result = self.see_all_orders()
                 if result == 'BACK':
-                    continue
+                    return 'BACK'
                 elif result == 'Exit_Store':
                     'Exit Store'
                 

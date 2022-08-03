@@ -65,6 +65,22 @@ class User(object):
         cursor.close()
         cnx.close()
         return True
+    def get_all_users(self, user_id):
+        try:
+            cnx = self.connect_to_db()
+            cursor = cnx.cursor(dictionary=True)
+            sql = f"SELECT * FROM Users WHERE user_id != {user_id}"
+            cursor.execute(sql)
+            logging.info("ADMIN: All Users retrieved from Database")
+            users = cursor.fetchall()
+            cursor.close()
+            cnx.close()
+            return users
+        except Error as e:
+            msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
+            print(msg)
+            return 'DB Error'
+            
     
     def get_user_by_email(self, email):
         try:

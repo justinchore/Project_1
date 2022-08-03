@@ -83,14 +83,14 @@ class UserView(object):
         print(emoji.emojize("/q: exit :victory_hand:"))
         
     @staticmethod
-    def show_admin_book_manager():
-        print(emoji.emojize('Book Manager :down_arrow: '))
-        print(emoji.emojize('1) Add a Book'))
-        print(emoji.emojize('2) Book search'))
-        # print(emoji.emojize('3) Stock Warning'))
-        print(emoji.emojize('/b: go back:BACK_arrow:'))
-        print(emoji.emojize("/q: exit :victory_hand:"))
-        print('--input:', end='')
+    # def show_admin_book_manager():
+    #     print(emoji.emojize('Book Manager :down_arrow: '))
+    #     print(emoji.emojize('1) Add a Book'))
+    #     print(emoji.emojize('2) Book search'))
+    #     # print(emoji.emojize('3) Stock Warning'))
+    #     print(emoji.emojize('/b: go back:BACK_arrow:'))
+    #     print(emoji.emojize("/q: exit :victory_hand:"))
+    #     print('--input:', end='')
     
     @staticmethod
     def show_admin_order_manager():
@@ -127,7 +127,11 @@ class UserView(object):
         print(emoji.emojize("/q: exit :victory_hand:"))
         print('-or enter genreID: ', end='')
             
-    
+    @staticmethod
+    def admin_show_all_users(users):
+        users_table = PrettyTable()
+        users_table.field_names = ['userID', 'Name', 'Email', 'Admin', 'Address']
+        
     @staticmethod
     def get_book_author_fname():
         print("Author's first name: ", end='')
