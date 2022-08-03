@@ -60,6 +60,7 @@ class UserView(object):
     def login_success_msg(name):
         # os.system('cls')
         print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))
+    
     @staticmethod
     def show_logged_in_menu():
         print(emoji.emojize('Please select from the choices below:down_arrow: '))
@@ -71,6 +72,49 @@ class UserView(object):
         print('\n')
         print(emoji.emojize("/c: cart:shopping_cart:"))
         print(emoji.emojize("/q: exit store:victory_hand:"))
+    
+    @staticmethod
+    def show_admin_logged_in_menu():
+        print(emoji.emojize('Please select from the choices below:down_arrow: '))
+        print(emoji.emojize('1) Manage Books'))
+        print(emoji.emojize('2) Manager Orders'))
+        print(emoji.emojize('3) Admin Permissions'))
+        print('\n')
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        
+    @staticmethod
+    def show_admin_book_manager():
+        print(emoji.emojize('Book Manager :down_arrow: '))
+        print(emoji.emojize('1) Add a Book'))
+        print(emoji.emojize('2) Update Quantities/Delete'))
+        # print(emoji.emojize('3) Stock Warning'))
+        print('\n')
+        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        print('--input:', end='')
+    
+    @staticmethod
+    def show_admin_order_manager():
+        print(emoji.emojize('ORDER MANAGER :down_arrow: '))
+        print(emoji.emojize('1) Add a Book'))
+        print(emoji.emojize('2) Update Quantities/Delete'))
+        # print(emoji.emojize('3) Stock Warning'))
+        print('\n')
+        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        print('--input:', end='')
+    
+    @staticmethod
+    def show_admin_permissions_manager():
+        print(emoji.emojize('PERMISSIONS MANAGER:down_arrow: '))
+        print(emoji.emojize('1) Add a Book'))
+        print(emoji.emojize('2) Update Quantities/Delete'))
+        # print(emoji.emojize('3) Stock Warning'))
+        print('\n')
+        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        print('--input:', end='')
+        
     @staticmethod
     def invalid_selection():
         print(emoji.emojize(":warning: Invalid menu selection. Please try again or enter '/q' to exit."))

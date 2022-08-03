@@ -21,6 +21,7 @@ class OrderView(object):
             print(orders_table)
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
+        print('- or enter OrderID for details: ', end='')
     
     @staticmethod
     def show_order_orderitems(orderitems):
@@ -46,11 +47,11 @@ class OrderView(object):
         OrderView.show_order_orderitems(orderitems)
         if (has_items):
             print(emoji.emojize('/c: checkout :money_with_wings:'))
-        print('- or enter OrderitemID to change quantity', end='')
+        print('- or enter OrderitemID to change quantity: ', end='')
     @staticmethod
     def checkout_view(total):
-        print('Total amount due: ${total} ')
-        print('Pay amount (y/n): ', end='')
+        print(f'TOTAL AMOUNT DUE: ${total} ')
+        print('Pay amount? (y/n): ', end='')
     @staticmethod
     def basic_input():
         print('input: ', end='')

@@ -39,7 +39,7 @@ def main():
             return 
         elif result == 'Logged_In':
             continue
-    while user_controller.logged_in:
+    while user_controller.is_admin == False and user_controller.logged_in:
         print("YOU ARE LOGGED IN NOW")
         ##Retrieve/Create Order
         ##Show Logged in user Menu
@@ -52,6 +52,15 @@ def main():
             print('Invalid input. Try again')
         
         return
+    while user_controller.is_admin == True and user_controller.logged_in:
+        print("Admin WORLD!")
+        result = user_controller.admin_menu()
+        if result == 'Exit_Store':
+            return
+        elif result == 'BACK_TO_ADMIN':
+            continue
+        elif result == 'BACK':
+            continue
         
         
 

@@ -38,7 +38,7 @@ class Book(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-            sql = f"SELECT * FROM books_view WHERE genre_id = {data} LIMIT {books_per_page} OFFSET {books_per_page * (page_number - 1)}"
+            sql = f"SELECT * FROM books_view WHERE genre_id = {data} AND stock > 0 LIMIT {books_per_page} OFFSET {books_per_page * (page_number - 1)}"
             cursor.execute(sql)
             records = cursor.fetchall()
             cursor.close()

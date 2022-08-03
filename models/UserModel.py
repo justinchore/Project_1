@@ -39,8 +39,12 @@ class User(object):
         
         cursor = cnx.cursor()
         sql = "INSERT INTO Users (first_name, last_name, email_address, is_admin, password, address) VALUES (%s, %s, %s, %s, %s, %s)"
-        vals = (fname, lname, email, False, password, address) 
+        vals = (fname, lname, email, True, password, address) 
         cursor.execute(sql, vals)
+        
+        # sql = "INSERT INTO Users (first_name, last_name, email_address, is_admin, password, address) VALUES (%s, %s, %s, %s, %s, %s)"
+        # vals = (fname, lname, email, False, password, address) 
+        # cursor.execute(sql, vals)
             
         cnx.commit()
         logging.info(f"New user (id: {cursor.lastrowid}) was inserted into database...")

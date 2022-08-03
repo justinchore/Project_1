@@ -366,3 +366,75 @@ class UserController(object):
     
     def check_for_exit(self, input):
         return input == 'q' or input == '/q'
+    
+    #########ADMIN############
+    def admin_menu(self):
+        while True:
+            # os.system('cls')
+            self.view.login_success_msg(self.name)
+            self.view.show_admin_logged_in_menu()
+            menu_choice = input()
+            if menu_choice == '/q' or menu_choice =='q':
+                print('Exiting...')
+                return 'Exit_Store'
+            elif menu_choice.isalpha() == True:
+                # os.system('cls')
+                self.view.invalid_selection()
+                continue
+            elif int(menu_choice) not in [1, 2, 3,]:
+                self.view.invalid_selection()
+                continue
+            elif int(menu_choice) == 1:
+                result = self.book_manager()
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    return 'Exit_Store'
+            elif int(menu_choice) == 2:
+                result = self.order_manager()
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    return 'Exit_Store'
+            elif int(menu_choice) == 3:
+                result = self.permissions_manager()   
+                if result == 'BACK':
+                    continue
+                elif result == 'Exit_Store':
+                    return 'Exit_Store'      
+            else:
+                # os.system('cls')
+                self.view.invalid_selection()
+                continue
+
+    def book_manager(self) -> str:
+        while True:
+            try:
+                self.view.show_admin_book_manager()
+                user_input = input().strip()
+                if user_input == '/b':
+                    return 'BACK'
+                elif user_input == '/q':
+                    return 'Exit_Store'
+            except:
+                pass
+    def order_manager(self) -> str:
+        while True:
+            try:
+                self.view.show_admin_order_manager()
+                user_input = input().strip()
+                if user_input == '/b':
+                    return 'BACK'
+                elif user_input == '/q':
+                    return 'Exit_Store'
+                pass
+            except:
+                pass
+    def permissions_manager(self) -> str:
+        while True:
+            try:
+                self.view.show_admin_permissions_manager()
+                user_input = input().strip()
+                pass
+            except:
+                pass    

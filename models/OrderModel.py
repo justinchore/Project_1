@@ -142,9 +142,9 @@ class Order(object):
             sql = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
             cursor.execute(sql)
             cnx.commit()
-            logging.info(f"{cursor.rowcount}) record was updated in the database...")
             cursor.close()
             cnx.close()
+            logging.info(f"{cursor.rowcount}) record was updated in the database...")
             return True
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
@@ -166,24 +166,30 @@ class Order(object):
             print(msg)
             return 'DB Error' 
         
-    def checkout_order(self, order_id):
+    def checkout_order(self, order_id, customer_id):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor()
             now = datetime.now()
             formatted_date = now.strftime('%Y-%m-%d %H:%M:%S')
-            sql = f"UPDATE OrderItems SET is_paid == True AND paid_date={formatted_date} WHERE order_id = {order_id}"
+            sql = f"UPDATE Orders SET is_paid = True, paid_date='{formatted_date}' WHERE order_id = {order_id}"
             cursor.execute(sql)
-            return True
+            sql = f"INSERT INTO Orders (customer_id) VALUES ({customer_id})"
+            cursor.execute(sql)
+            cnx.commit()
+            new_order_id = cursor.lastrowid
+            logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
+            print('1 record inserted, ID: ', cursor.lastrowid)
+            cursor.close()
+            cnx.close()
+
+            return new_order_id
         except Error as e:
             msg = 'Failure in executing query {0}. Error {1}'.format(sql, e)
             print(msg)
             return 'DB Error'    
             
             
-            
-        
-        
     def connect_to_db(self):
         try:
             cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)

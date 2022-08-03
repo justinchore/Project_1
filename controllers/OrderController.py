@@ -95,8 +95,11 @@ class OrderController(object):
                 elif int(user_input) not in orderid_set:
                     raise CustomExceptions.InvalidSelectionError
                 else: 
-                    raise CustomExceptions.InvalidSelectionError
-                    
+                    result = self.order_details(int(user_input))
+                    if result == 'BACK':
+                        return 'BACK'
+                    elif result == 'Exit_Store':
+                        return 'Exit_Store'
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
             except CustomExceptions.DatabaseError as dbe:
@@ -134,7 +137,8 @@ class OrderController(object):
                 print(self.current_order_id)
                 print(orderitems)
                 print('acceptedints:', accepted_orderitemids)
-                self.view.show_current_orderitems(orderitems, len(orderitems) > 0)
+                orderitems_length = len(orderitems)
+                self.view.show_current_orderitems(orderitems, orderitems_length > 0)
                 user_input = input()
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
@@ -142,7 +146,7 @@ class OrderController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-                elif user_input == '/c' and len(orderitems > 0):
+                elif user_input == '/c' and orderitems_length > 0:
                     result = self.checkout(orderitems, self.customer_id)
                     if result == 'BACK':
                         return 'BACK'
@@ -158,7 +162,9 @@ class OrderController(object):
     
     def checkout(self, orderitems, customer_id):
         try:
-            total = self.model.get_order_total(self.current_order_id)
+            total = self.order_model.get_order_total(self.current_order_id)
+            print(type(total))
+            total = total[0]
             self.view.checkout_view(total)
             user_input = input().strip().lower()
             if user_input.isalpha() == False:
@@ -166,11 +172,11 @@ class OrderController(object):
             elif user_input == 'n':
                 return 'BACK'
             elif user_input == 'y':
-                result = self.order_model.checkout_order(self.current_order_id)
+                result = self.order_model.checkout_order(self.current_order_id, self.customer_id)
                 if result == 'DB Error':
                     raise CustomExceptions.DatabaseError
                 else:
-                    self.set_current_order_id = result
+                    self.set_current_order_id(result)
                     return 'BACK'
             else:
                 raise CustomExceptions.InvalidSelectionError
