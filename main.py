@@ -27,7 +27,7 @@ import controllers.UserController
 ##Start Connection:
 
 def main():
-    logging.basicConfig(filename="BookStore.log",level=logging.DEBUG, format='%(asctime)s :: %(message)s')
+    logging.basicConfig(filename="BookStore.log",level=logging.INFO, format='%(asctime)s :: %(message)s')
     
     os.system('cls')
     user_controller = controllers.UserController.UserController()
@@ -39,6 +39,7 @@ def main():
         elif result == 'Exit_Store':
             return 
         elif result == 'Logged_In':
+            os.system('cls')
             continue
     while user_controller.is_admin == False and user_controller.logged_in:
         # print("YOU ARE LOGGED IN NOW")

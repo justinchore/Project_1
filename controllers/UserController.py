@@ -85,6 +85,7 @@ class UserController(object):
             case '2':
                 result = self.user_create()
                 return result
+                #Upon:Success:Goes back to the main: Continue through the loop and checked logged_in/is_admin condition
             case '3':
                 # self.view.exit_message()
                 print('Exiting...')
@@ -94,7 +95,6 @@ class UserController(object):
                 print(emoji.emojize(':warning: Invalid Input. Please try again :warning:'))
             
                 
-    
     def user_login(self):
         os.system('cls')
         ##email address
@@ -104,6 +104,7 @@ class UserController(object):
                 self.view.get_email()
                 email_input = input().lower()
                 if email_input == '/q' or email_input == 'q': 
+                    os.system('cls')
                     return 'Exit'
                 self.view.get_login_password()
                 pw_input = input()
@@ -114,11 +115,14 @@ class UserController(object):
                 pw_auth_result = self.user_model.password_auth(pw_input, auth_result["password"])
 
                 if pw_auth_result == False:
+                    os.system('cls')
                     raise CustomExceptions.AuthenticationFailedError
             
             except CustomExceptions.EmailNotRegistered as enr:
+                os.system('cls')
                 print(enr.message, end="\n")
             except CustomExceptions.AuthenticationFailedError as afe:
+                os.system('cls')
                 print(afe.message, end="\n")
             else:
                 self.set_id(auth_result["user_id"])
@@ -188,6 +192,7 @@ class UserController(object):
         ###ASSEMBLE ADDRESS BEFORE PASSING DATA INTO MODEL#####
         result = self.user_model.create_user(checked_fname, checked_lname, checked_email, checked_password, assembled_address)
         if result == True:
+            os.system('cls')
             self.view.create_user_success_msg()
             return 'Exit'
     
@@ -212,23 +217,29 @@ class UserController(object):
                 print('Invalid Input')
                 continue
             elif menu_choice.isalpha() == True:
-                # os.system('cls')
+                os.system('cls')
+                self.view.invalid_selection()
+                continue
+            elif menu_choice.isint() == False:
+                os.system('cls')
                 self.view.invalid_selection()
                 continue
             elif isinstance(int(menu_choice), int) and (int(menu_choice)) in [1]:
                 result = self.book_controller.book_menu(menu_choice)
                 if result == 'BACK':
+                    os.system('cls')
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store'
             elif isinstance(int(menu_choice), int) and int(menu_choice) == 2:
                 result = self.order_controller.customer_orders(self.id)
                 if result == 'BACK':
+                    os.system('cls')
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store'
             else:
-                # os.system('cls')
+                os.system('cls')
                 self.view.invalid_selection()
                 continue
         
@@ -274,6 +285,7 @@ class UserController(object):
             except CustomExceptions.InvalidEmailFormatError as ief:
                 print(ief.message, end="")
             except CustomExceptions.DuplicateEmailError as dee:
+                os.system('cls')
                 print(dee.message, end="\n\n\n")
                 return 'Exit'
             else:
@@ -285,6 +297,7 @@ class UserController(object):
                 self.view.get_password()
                 chars = input()
                 if self.check_for_exit(chars):
+                    os.system('cls')
                     return 'Exit'
                 password_format_val_result = self.validations.pw_format_validation(chars)
                 
@@ -304,9 +317,10 @@ class UserController(object):
                 self.view.get_street()
                 chars = input()
                 if self.check_for_exit(chars):
+                    os.system('cls')
                     return 'Exit'
                 street_val_result = self.validations.street_address_validation(chars)
-                print(street_val_result)
+                # print(street_val_result)
                 if street_val_result == None:
                     raise CustomExceptions.InvalidStreetFormat
                 
@@ -321,6 +335,7 @@ class UserController(object):
                 self.view.get_city()
                 chars = input().strip()
                 if self.check_for_exit(chars):
+                    os.system('cls')
                     return 'Exit'
                 city_val_result1 = self.validations.special_chars_validation(chars)
                 city_val_result2 = self.validations.no_numbers_validation(chars)
@@ -346,6 +361,7 @@ class UserController(object):
                 self.view.get_state()
                 chars = input().strip()
                 if self.check_for_exit(chars):
+                    os.system('cls')
                     return 'Exit'
                 state_val_result = self.validations.state_validation(chars)
                 
@@ -365,6 +381,7 @@ class UserController(object):
                 self.view.get_zipcode()
                 chars = input().strip()
                 if self.check_for_exit(chars):
+                    os.system('cls')
                     return 'Exit'
                 zipcode_val_result = self.validations.zipcode_validation(chars)
                 
@@ -391,7 +408,11 @@ class UserController(object):
                 print('Exiting...')
                 return 'Exit_Store'
             elif menu_choice.isalpha() == True:
-                # os.system('cls')
+                os.system('cls')
+                self.view.invalid_selection()
+                continue
+            elif menu_choice.isint() == False:
+                os.system('cls')
                 self.view.invalid_selection()
                 continue
             elif int(menu_choice) not in [1, 2]:
@@ -419,6 +440,10 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
+                elif user_input.isint() == False:
+                    os.system('cls')
+                    self.view.invalid_selection()
+                    continue
                 elif user_input.isalpha() == True or int(user_input) not in [1]:
                     raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) == 1:
