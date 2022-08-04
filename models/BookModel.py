@@ -10,12 +10,12 @@ class Book(object):
     def connect_to_db(self):
         try:
             cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)
-            if cnx.is_connected():
-                print('Connecting to Server...')
-                print('Connected.')
+            # if cnx.is_connected():
+            #     print('Connecting to Server...')
+            #     print('Connected.')
             
         except Error as e:
-            print("Error: ", e)
+            # print("Error: ", e)
             return False
         else:
             return cnx
@@ -46,7 +46,7 @@ class Book(object):
             return records
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # print(msg)
             return 'DB Error'
     def search_books_by_author(self, data):
         pass
@@ -65,7 +65,7 @@ class Book(object):
             return record
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # print(msg)
             return 'DB Error'
     
     def change_inventory_by_id(self, book_id, book_stock, quantity):
@@ -80,7 +80,7 @@ class Book(object):
             cnx.close()
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # print(msg)
             return 'DB Error'
     
     def check_author(self, firstname, lastname):
@@ -96,7 +96,7 @@ class Book(object):
                 cursor.execute(sql, vals)
                 cnx.commit()
                 logging.info(f"New user (id: {cursor.lastrowid}) was inserted into database...")
-                print('1 record inserted, ID: ', cursor.lastrowid)
+                # print('1 record inserted, ID: ', cursor.lastrowid)
                 new_author_id = cursor.lastrowid
                 return new_author_id
             else:
@@ -104,7 +104,7 @@ class Book(object):
                 
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # print(msg)
             return 'DB Error'
         
     

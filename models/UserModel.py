@@ -17,12 +17,12 @@ class User(object):
     def connect_to_db(self):
         try:
             cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)
-            if cnx.is_connected():
-                print('Connecting to Server...')
-                print('Connected.')
+            # if cnx.is_connected():
+            #     #print('Connecting to Server...')
+            #     print('Connected.')
             
         except Error as e:
-            print("Error: ", e)
+            #print("Error: ", e)
             return False
         else:
             return cnx
@@ -35,14 +35,15 @@ class User(object):
                                          password=c.password)
             if cnx.is_connected():
                 db_Info = cnx.get_server_info()
-                print("Connected to MySQL Server version ", db_Info)
+                #print("Connected to MySQL Server version ", db_Info)
                 cursor = cnx.cursor()
                 cursor.execute("select database();")
                 record = cursor.fetchone()
-                print("You're connected to database: ", record)
+                #print("You're connected to database: ", record)
 
         except Error as e:
-            print("Error while connecting to MySQL", e)
+            #print("Error while connecting to MySQL", e)
+            return 'DB Error'
         else:
             pass
         
@@ -60,7 +61,7 @@ class User(object):
             
         cnx.commit()
         logging.info(f"New user (id: {cursor.lastrowid}) was inserted into database...")
-        print('1 record inserted, ID: ', cursor.lastrowid)
+        #print('1 record inserted, ID: ', cursor.lastrowid)
         
         cursor.close()
         cnx.close()
@@ -78,7 +79,7 @@ class User(object):
             return users
         except Error as e:
             msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error'
             
     
@@ -90,15 +91,16 @@ class User(object):
                                          password=c.password)
             if cnx.is_connected():
                 db_Info = cnx.get_server_info()
-                print("Connected to MySQL Server version ", db_Info)
+                #print("Connected to MySQL Server version ", db_Info)
                 cursor = cnx.cursor(dictionary=True)
                 cursor.execute("select database();")
                 record = cursor.fetchone()
-                print("You're connected to database: ", record)
+                #print("You're connected to database: ", record)
                 logging.info("Accessed database in get_user_by_email function...")
 
         except Error as e:
-            print("Error while connecting to MySQL", e)
+            #print("Error while connecting to MySQL", e)
+            return 'DB Error'
         else:
             pass
         
@@ -121,7 +123,7 @@ class User(object):
             return records
         except Error as e:
             msg = 'Failiure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error'
         
     

@@ -109,7 +109,6 @@ class BookController(object):
                 else:
                     user_input = int(user_input)
                     genre_name = genre_interface_dict[user_input]
-                    print('You have chosen ', genre_name)
                     selected_genre_id = self.genres[genre_name]
                     result = self.filter_books(selected_genre_id, 'GENRE')
                     if result == 'DB Error':
@@ -133,9 +132,9 @@ class BookController(object):
                     try:
                         while self.browsing == True: 
                             pn = self.page_number
-                            print('Page Number:', pn)
+                            # print('Page Number:', pn)
                             bpp = self.books_per_page
-                            print('Books Per Page:', bpp)
+                            # print('Books Per Page:', bpp)
                             result = self.book_model.get_books_by_genre(filter_data,pn, bpp)
                             if result == 'DB Error':
                                 raise CustomExceptions.DatabaseError
@@ -152,14 +151,14 @@ class BookController(object):
                                 book_ids_list.append(book['book_id'])
                             user_input = input()
                             if (self.is_first_page == True) and (self.is_last_page == False):
-                                print('First page but not last page')
+                                # print('First page but not last page')
                                 if user_input == '/n':
                                     self.set_page_number(self.page_number + 1)
                                     continue
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
                             elif (self.is_first_page == False) and (self.is_last_page == False):
-                                print('Not first page or last page')
+                                # print('Not first page or last page')
                                 if user_input == '/n':
                                     self.set_page_number(self.page_number + 1)
                                     continue
@@ -189,10 +188,11 @@ class BookController(object):
                                     continue
                                 elif result == 'Exit_Store':
                                     return 'Exit_Store'   
-                            elif int(user_input) not in book_ids_list:
-                                print('Not in idslist')
+                            elif user_input.isdigit() == False:
                                 raise CustomExceptions.InvalidSelectionError
-                            
+                            elif int(user_input) not in book_ids_list:
+                                # print('Not in idslist')
+                                raise CustomExceptions.InvalidSelectionError
                             result = self.book_details(int(user_input))
                             if result == 'BACK':
                                 continue

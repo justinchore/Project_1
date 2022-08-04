@@ -20,7 +20,7 @@ class Order(object):
         
         cnx.commit()
         logging.info(f"New order (order_id: {cursor.lastrowid}) was inserted into database...")
-        print("1 record inserted, ID: ", cursor.lastrowid)
+        # print("1 record inserted, ID: ", cursor.lastrowid)
         
         record_id = cursor.lastrowid
         
@@ -41,7 +41,7 @@ class Order(object):
             return orders
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # print(msg)
             return 'DB Error'
             
     def create_orderitem(self, order_id, book_id, quantity, book_price):
@@ -62,7 +62,7 @@ class Order(object):
                 values = (order_id, book_id, quantity, book_price)
                 cursor.execute(sql2, values)
                 logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
-                print('1 record inserted, ID: ', cursor.lastrowid)
+                # print('1 record inserted, ID: ', cursor.lastrowid)
                 
             cnx.commit()         
             cursor.close()
@@ -71,7 +71,7 @@ class Order(object):
         
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            # #print(msg)
             return 'DB Error'
     
     def find_unpaid_order(self, customer_id):
@@ -117,7 +117,7 @@ class Order(object):
             return records
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error' 
     
     def get_orderitems(self, order_id):
@@ -133,7 +133,7 @@ class Order(object):
             return records
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error' 
     
     def get_book_from_orderitem(self, orderitem_id):
@@ -149,21 +149,25 @@ class Order(object):
             return record
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error' 
     
     def change_orderitem_quantity(self, orderitem_id, q_value, current_stock, book_id):
         try:
+            
             cnx = self.connect_to_db()
             cursor = cnx.cursor()
             sql = f"UPDATE Books SET stock = (({current_stock} + (SELECT quantity FROM OrderItems WHERE orderItem_id = {orderitem_id})) - {q_value}) WHERE book_id = {book_id}"
             cursor.execute(sql)
+            #print(f'Q VALUE {type(q_value)}')
             if q_value == 0:
+                #print('NEW QUANTITY 0')
                 sql = f"DELETE From OrderItems WHERE orderItem_id = {orderitem_id}"
                 cursor.execute(sql)
                 cnx.commit()
                 logging.info(f"OrderItem: {orderitem_id} was deleted from the database")
             else:
+                #print('Updating orderitem')
                 sql = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
                 cursor.execute(sql)
                 cnx.commit()
@@ -174,7 +178,7 @@ class Order(object):
             return True
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error'
         
     def get_order_total(self, order_id):
@@ -190,7 +194,7 @@ class Order(object):
             return total
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error' 
         
     def checkout_order(self, order_id, customer_id):
@@ -206,25 +210,25 @@ class Order(object):
             cnx.commit()
             new_order_id = cursor.lastrowid
             logging.info(f"New orderItem (id: {cursor.lastrowid}) was inserted into database...")
-            print('1 record inserted, ID: ', cursor.lastrowid)
+            #print('1 record inserted, ID: ', cursor.lastrowid)
             cursor.close()
             cnx.close()
 
             return new_order_id
         except Error as e:
             msg = 'Failure in executing query {0}. Error {1}'.format(sql, e)
-            print(msg)
+            #print(msg)
             return 'DB Error'    
             
             
     def connect_to_db(self):
         try:
             cnx = mysql.connector.connect(host=c.host, database='test', user=c.user, password=c.password)
-            if cnx.is_connected():
-                print('Connecting to Server...')
-                print("Connected.")    
+            # if cnx.is_connected():
+            #     #print('Connecting to Server...')
+            #     #print("Connected.")    
         except Error as e:
-            print("Error: ", e)
+            #print("Error: ", e)
             return False
         else:
             return cnx

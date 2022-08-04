@@ -29,7 +29,7 @@ import controllers.UserController
 def main():
     logging.basicConfig(filename="BookStore.log",level=logging.DEBUG, format='%(asctime)s :: %(message)s')
     
-    # os.system('cls')
+   
     user_controller = controllers.UserController.UserController()
     while not user_controller.logged_in:
         result = user_controller.welcome()
@@ -40,7 +40,7 @@ def main():
         elif result == 'Logged_In':
             continue
     while user_controller.is_admin == False and user_controller.logged_in:
-        print("YOU ARE LOGGED IN NOW")
+        # print("YOU ARE LOGGED IN NOW")
         ##Retrieve/Create Order
         ##Show Logged in user Menu
         result = user_controller.logged_in_menu()

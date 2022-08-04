@@ -50,22 +50,22 @@ class OrderController(object):
     
     def customer_initial_order_check(self, user_id):
         self.set_customer_id(user_id)
-        print('inside customer_inital_order_check;', user_id)
+        # print('inside customer_inital_order_check;', user_id)
         record = self.order_model.find_unpaid_order(user_id)
         if record == None:
-            print('Customer does not have any open orders')
+            # print('Customer does not have any open orders')
             record_id = self.order_model.create_order(user_id)
             record = self.order_model.get_order_by_id(record_id)
             self.set_current_order_id(record_id)
-            print('Made a new order:', record)
+            # print('Made a new order:', record)
             return record
         elif record == False:
-            print('something went wrong')
+            print('Something went wrong')
         else:
-            print('Customer has an open order')
-            print('Order:', record)
+            # print('Customer has an open order')
+            # print('Order:', record)
             self.set_current_order_id(record['order_id'])
-            print(self.current_order_id)
+            # print(self.current_order_id)
             return record
     
     def create_orderitem(self, book_id, order_quantity, price):
@@ -109,7 +109,7 @@ class OrderController(object):
     def order_details(self, order_id):
         while True:
             try:
-                print('in order details: order_id: ', order_id)
+                # print('in order details: order_id: ', order_id)
                 orders = self.order_model.get_orderitems(order_id)
                 if orders == 'DB Error':
                     raise CustomExceptions.DatabaseError
@@ -134,9 +134,9 @@ class OrderController(object):
                 if len(orderitems) > 0:
                     for item in orderitems:
                         accepted_orderitemids.add(item['orderItem_id'])
-                print(self.current_order_id)
-                print(orderitems)
-                print('acceptedints:', accepted_orderitemids)
+                # print(self.current_order_id)
+                # print(orderitems)
+                # print('acceptedints:', accepted_orderitemids)
                 orderitems_length = len(orderitems)
                 self.view.show_current_orderitems(orderitems, orderitems_length > 0)
                 user_input = input()
@@ -151,19 +151,19 @@ class OrderController(object):
                     if result == 'BACK':
                         return 'BACK'
                 elif isinstance(int(user_input), int) and (int(user_input) in accepted_orderitemids): 
-                    print('Next Step')
+                    # print('Next Step')
                     result = self.change_quantity(int(user_input))
                     if result == 'BACK':
                         continue
                 else:
-                    print('No input caught')
+                    raise CustomExceptions.InvalidSelectionError
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
     
     def checkout(self, orderitems, customer_id):
         try:
             total = self.order_model.get_order_total(self.current_order_id)
-            print(type(total))
+            # print(type(total))
             total = total[0]
             self.view.checkout_view(total)
             user_input = input().strip().lower()
@@ -201,7 +201,7 @@ class OrderController(object):
             new_quantity = input().strip()
             if new_quantity.isalpha():
                 raise CustomExceptions.InvalidSelectionError
-            if isinstance(int(new_quantity), int) and (int(new_quantity) <= current_stock) and (int(new_quantity) > 0):
+            if isinstance(int(new_quantity), int) and (int(new_quantity) <= current_stock) and (int(new_quantity) >= 0):
                 result = self.order_model.change_orderitem_quantity(orderitem_id, int(new_quantity), current_stock, book_id)
                 if result == 'DB Error':
                     raise CustomExceptions.DatabaseError

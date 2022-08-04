@@ -75,6 +75,7 @@ class UserController(object):
     ######################
     
     def welcome(self):
+        os.system('cls')
         self.view.welcome_message()
         welcome_input = int(input())
         # os.system('cls')
@@ -92,7 +93,7 @@ class UserController(object):
                 
     
     def user_login(self):
-        # os.system('cls')
+        os.system('cls')
         ##email address
         while True:
             try:
@@ -106,7 +107,7 @@ class UserController(object):
                 auth_result = self.user_model.get_user_by_email(email_input)
                 if auth_result == None:
                     raise CustomExceptions.EmailNotRegistered
-                print("Data from db: ", auth_result)
+                # print("Data from db: ", auth_result)
                 pw_auth_result = self.user_model.password_auth(pw_input, auth_result["password"])
 
                 if pw_auth_result == False:
@@ -133,51 +134,51 @@ class UserController(object):
         checked_fname = self.name_check()
         if checked_fname == 'Exit': 
             return 'Exit'
-        print('First name checked and capitalized: ', checked_fname)
+        # print('First name checked and capitalized: ', checked_fname)
         
         ##lastname validation/input
         self.view.get_lastname()
         checked_lname = self.name_check()
         if checked_fname == 'Exit': 
             return 'Exit'
-        print('Last name checked and capitalized: ', checked_lname)
+        # print('Last name checked and capitalized: ', checked_lname)
         
         ##email validation/input
         self.view.get_email()
         checked_email = self.email_check()
         if checked_email == 'Exit':
             return 'Exit'
-        print('Email checked: ', checked_email)
+        # print('Email checked: ', checked_email)
         
         ##password validation/input
         checked_password = self.password_check()
         if checked_password == 'Exit':
             return 'Exit'
-        print('Password checked: ', checked_password)
+        # print('Password checked: ', checked_password)
         
         ##street_address validation/input
         checked_street = self.street_check()
         if checked_street == 'Exit':
             return 'Exit'
-        print('Street checked: ', checked_street)
+        # print('Street checked: ', checked_street)
         
         ##city validation/input
         checked_city = self.city_check()
         if checked_city == 'Exit':
             return 'Exit'
-        print('City checked: ', checked_city)
+        # print('City checked: ', checked_city)
         
         ##state validation/input
         checked_state = self.state_check()
         if checked_state == 'Exit':
             return 'Exit'
-        print('State checked: ', checked_state)
+        # print('State checked: ', checked_state)
         
         ##zipcode validation/input
         checked_zipcode = self.zipcode_check()
         if checked_zipcode == 'Exit':
             return 'Exit'
-        print('Zipcode checked: ', checked_zipcode)
+        # print('Zipcode checked: ', checked_zipcode)
         
         assembled_address = f"{checked_street} {checked_city}, {checked_state} {checked_zipcode}"
 
@@ -211,13 +212,13 @@ class UserController(object):
                 # os.system('cls')
                 self.view.invalid_selection()
                 continue
-            elif int(menu_choice) in [1, 2, 3, 4]:
+            elif isinstance(int(menu_choice), int) and (int(menu_choice)) in [1]:
                 result = self.book_controller.book_menu(menu_choice)
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
                     return 'Exit_Store'
-            elif int(menu_choice) == 5:
+            elif isinstance(int(menu_choice), int) and int(menu_choice) == 2:
                 result = self.order_controller.customer_orders(self.id)
                 if result == 'BACK':
                     continue

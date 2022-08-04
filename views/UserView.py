@@ -5,13 +5,13 @@ from prettytable import PrettyTable
 class UserView(object):
     @staticmethod
     def welcome_message():
-        print('//////////////////////////////////////////////////////////////')
-        print("Welcome to SOMETHING Book Store!")
-        print('//////////////////////////////////////////////////////////////')
-        print('Please select an option:')
-        print('1) Log in to your account')
-        print('2) Create an account')
-        print('3) Exit store')
+        os.system
+        print(emoji.emojize(":derelict_house: :derelict_house: :derelict_house:  The Little Command Line Book Store on the Corner :derelict_house: :derelict_house: :derelict_house:"))
+        print('-----------------------------------------------------------------')
+        print(emoji.emojize('Please select from the following:'))
+        print(emoji.emojize('1) Log in to your account :door:'))
+        print(emoji.emojize('2) Create an account :NEW_button:'))
+        print(emoji.emojize('3) Exit store :victory_hand:'))
     
     ######Views for getting user information for creation/login
     
@@ -20,11 +20,11 @@ class UserView(object):
         print(emoji.emojize(':boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:  Account Log in:boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang: :boomerang:'))
     @staticmethod
     def get_firstname():
-        print('**************************************************************')
+        print('------------------------------------------------------')
         print("First name: ", end='')
     @staticmethod
     def get_lastname():
-        print('**************************************************************')
+        print('-------------------------------------------------------')
         print("Last name: ", end='')
     @staticmethod
     def get_email():
@@ -61,15 +61,16 @@ class UserView(object):
     def login_success_msg(name):
         # os.system('cls')
         print(emoji.emojize(f":confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:  Welcome {name}!  :confetti_ball: :confetti_ball: :confetti_ball: :confetti_ball:"))
+        print('**************************************************************')
     
     @staticmethod
     def show_logged_in_menu():
         print(emoji.emojize('Please select from the choices below:down_arrow: '))
         print(emoji.emojize('1) Browse books by genre:glasses:'))
-        print(emoji.emojize('2) Search books by author:glasses:'))
-        print(emoji.emojize('3) Search books by title:glasses:'))
-        print(emoji.emojize('4) Browse all books:books:'))
-        print(emoji.emojize('5) Order History:linked_paperclips:'))
+        # print(emoji.emojize('2) Search books by author:glasses:'))
+        # print(emoji.emojize('3) Search books by title:glasses:'))
+        # print(emoji.emojize('4) Browse all books:books:'))
+        print(emoji.emojize('2) Order History:linked_paperclips:'))
         print('\n')
         print(emoji.emojize("/c: cart:shopping_cart:"))
         print(emoji.emojize("/q: exit store:victory_hand:"))

@@ -24,7 +24,7 @@ class OrderView(object):
         print('- or enter OrderID for details: ', end='')
     @staticmethod
     def admin_orders_view(orders):
-        print(orders)
+        # print(orders)
         if len(orders) == 0:
             print('No orders to display.')
         else:
