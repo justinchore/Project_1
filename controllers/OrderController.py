@@ -92,6 +92,8 @@ class OrderController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
+                elif user_input.isdigit() == False:
+                    raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) not in orderid_set:
                     raise CustomExceptions.InvalidSelectionError
                 else: 
@@ -101,8 +103,10 @@ class OrderController(object):
                     elif result == 'Exit_Store':
                         return 'Exit_Store'
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.view.invalid_selection()
             except CustomExceptions.DatabaseError as dbe:
+                os.system('cls')
                 print(dbe.message)
                 return 'BACK'
     
@@ -121,8 +125,12 @@ class OrderController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
+                else:
+                    raise CustomExceptions.InvalidSelectionError
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.view.invalid_selection()
+                os.system('cls')
             except CustomExceptions.DatabaseError as dbe:
                 print(dbe.message)
     
@@ -139,17 +147,22 @@ class OrderController(object):
                 # print('acceptedints:', accepted_orderitemids)
                 orderitems_length = len(orderitems)
                 self.view.show_current_orderitems(orderitems, orderitems_length > 0)
-                user_input = input()
+                user_input = input().strip
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
+                    os.system('cls')
                     return 'Exit_Store'
                 elif user_input == '/c' and orderitems_length > 0:
                     result = self.checkout(orderitems, self.customer_id)
                     if result == 'BACK':
+                        os.system('cls')
                         return 'BACK'
+                elif user_input.isdigit() == False:
+                    raise CustomExceptions.InvalidSelectionError
                 elif isinstance(int(user_input), int) and (int(user_input) in accepted_orderitemids): 
                     # print('Next Step')
                     result = self.change_quantity(int(user_input))
@@ -158,6 +171,7 @@ class OrderController(object):
                 else:
                     raise CustomExceptions.InvalidSelectionError
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.view.invalid_selection()
     
     def checkout(self, orderitems, customer_id):
@@ -173,15 +187,18 @@ class OrderController(object):
                 return 'BACK'
             elif user_input == 'y':
                 result = self.order_model.checkout_order(self.current_order_id, self.customer_id)
+                os.system('cls')
                 if result == 'DB Error':
                     raise CustomExceptions.DatabaseError
                 else:
                     self.set_current_order_id(result)
+                    os.system('cls')
                     return 'BACK'
             else:
                 raise CustomExceptions.InvalidSelectionError
         
         except CustomExceptions.InvalidSelectionError as ise:
+            os.system('cls')
             self.view.invalid_selection()
         except CustomExceptions.DatabaseError as de:
             print(de.message)   
@@ -208,8 +225,10 @@ class OrderController(object):
                 else:
                     return 'BACK'
         except CustomExceptions.DatabaseError as dbe:
+            os.system('cls')
             print(dbe.message)
         except CustomExceptions.InvalidSelectionError as ise:
+            os.system('cls')
             self.view.invalid_selection()
         
                 

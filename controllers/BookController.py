@@ -159,6 +159,8 @@ class BookController(object):
                                     continue
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
+                                elif user_input.isdigit() == False:
+                                    raise CustomExceptions.InvalidSelectionError
                             elif (self.is_first_page == False) and (self.is_last_page == False):
                                 # print('Not first page or last page')
                                 if user_input == '/n':
@@ -169,11 +171,15 @@ class BookController(object):
                                     continue
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
+                                elif user_input.isdigit() == False:
+                                    raise CustomExceptions.InvalidSelectionError
                             elif (self.is_first_page == False) and (self.is_last_page == True):
                                 if user_input == '/p':
                                     self.set_page_number(self.page_number - 1)
                                     continue
                                 elif user_input.isalpha() == True:
+                                    raise CustomExceptions.InvalidSelectionError
+                                elif user_input.isdigit() == False:
                                     raise CustomExceptions.InvalidSelectionError
                             else:
                                 if user_input.isalpha() == True:
@@ -205,8 +211,10 @@ class BookController(object):
                             break
                                 
                     except CustomExceptions.DatabaseError as dbe:
+                        os.system('cls')
                         self.view.show_book_error(dbe.message)
                     except CustomExceptions.InvalidSelectionError as ise:
+                        os.system('cls')
                         self.view.invalid_selection()
                 case 'AUTHOR_SEARCH':
                     books = self.book_model.search_books_by_author(filter_data)
@@ -230,6 +238,8 @@ class BookController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
+                elif user_input.isdigit() == False:
+                    raise CustomExceptions.InvalidSelectionError
                 
                 user_quantity = int(user_input) 
                 if int(user_input) > book_stock:
@@ -246,10 +256,13 @@ class BookController(object):
                         raise CustomExceptions.DatabaseError
                 
             except CustomExceptions.DatabaseError as deb:
+                os.system('cls')
                 self.view.show_book_error(deb.message)
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.view.invalid_selection()
             except CustomExceptions.QuantityError as qe:
+                os.system('cls')
                 print(emoji.emojize(f":warning:  {qe.message}"))
                 
                 
