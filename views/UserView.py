@@ -131,6 +131,18 @@ class UserView(object):
     def admin_show_all_users(users):
         users_table = PrettyTable()
         users_table.field_names = ['userID', 'Name', 'Email', 'Admin', 'Address']
+        for user in users:
+            users_table.add_row([
+                user['user_id'],
+                f"{user['first_name']} {user['last_name']}",
+                user['email_address'],
+                user['is_admin'] == True,
+                user['address']
+            ])
+        print(users_table)
+        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize("/q: exit :victory_hand:"))
+        print('--input:', end='')
         
     @staticmethod
     def get_book_author_fname():

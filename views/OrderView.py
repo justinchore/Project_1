@@ -43,8 +43,6 @@ class OrderView(object):
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
         print('- or enter OrderID for details: ', end='')
-        
-    
     @staticmethod
     def show_order_orderitems(orderitems):
         orderitems_table = PrettyTable()
@@ -64,22 +62,27 @@ class OrderView(object):
         print('')
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
+        
     @staticmethod
     def show_current_orderitems(orderitems, has_items):
         OrderView.show_order_orderitems(orderitems)
         if (has_items):
             print(emoji.emojize('/c: checkout :money_with_wings:'))
         print('- or enter OrderitemID to change quantity: ', end='')
+        
     @staticmethod
     def checkout_view(total):
         print(f'TOTAL AMOUNT DUE: ${total} ')
         print('Pay amount? (y/n): ', end='')
+        
     @staticmethod
     def basic_input():
         print('input: ', end='')
+        
     @staticmethod
     def order_edit_change_quantity(book_title,stock):
         print(f"--enter in the new quantity for '{book_title}' (current stock: {stock}): ", end='')
+        
     @staticmethod
     def show_customer_cart():
         pass

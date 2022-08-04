@@ -459,10 +459,12 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-                elif user_input.isalpha() == True or int(user_input) not in [1]:
+                elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
                     raise CustomExceptions.InvalidSelectionError
-                elif int(user_input) == 1:
-                    result = self.update_permissions(self)
+                elif user_input == "1":
+                    result = self.update_permissions()
+                elif user_input == "2":
+                    result = self.see_all_users()
                 if result == 'BACK':
                     continue
                 elif result == 'Exit_Store':
@@ -471,6 +473,22 @@ class UserController(object):
             
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
+    def see_all_users(self):
+        while True:
+            try:
+                users = self.user_model.get_all_users(self.id)
+                if users == 'DB Error':
+                    raise CustomExceptions.DatabaseError
+                else:
+                    self.view.admin_show_all_users(users)
+                    user_input = input().strip()
+                    if user_input == '/b':
+                        return 'BACK'
+                    elif user_input == '/q':
+                        return 'Exit_Store'
+            except CustomExceptions.DatabaseError as dbe:
+                print(dbe.message)
+                return 'BACK'
     def update_permissions(self):
         pass
             

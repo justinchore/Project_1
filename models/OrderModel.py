@@ -158,12 +158,19 @@ class Order(object):
             cursor = cnx.cursor()
             sql = f"UPDATE Books SET stock = (({current_stock} + (SELECT quantity FROM OrderItems WHERE orderItem_id = {orderitem_id})) - {q_value}) WHERE book_id = {book_id}"
             cursor.execute(sql)
-            sql = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
-            cursor.execute(sql)
-            cnx.commit()
+            if q_value == 0:
+                sql = f"DELETE From OrderItems WHERE orderItem_id = {orderitem_id}"
+                cursor.execute(sql)
+                cnx.commit()
+                logging.info(f"OrderItem: {orderitem_id} was deleted from the database")
+            else:
+                sql = f"UPDATE OrderItems SET quantity = {q_value} WHERE orderItem_id = {orderitem_id}"
+                cursor.execute(sql)
+                cnx.commit()
+                logging.info(f"OrderItem: {orderitem_id}'s quantity was changed to {q_value} in the database")
             cursor.close()
             cnx.close()
-            logging.info(f"{cursor.rowcount}) orderitem quantity and book stock was updated in the database...")
+            
             return True
         except Error as e:
             msg = 'Failure in executing query {0}. Error: {1}'.format(sql, e)
