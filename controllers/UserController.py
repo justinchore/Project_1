@@ -220,7 +220,7 @@ class UserController(object):
                 os.system('cls')
                 self.view.invalid_selection()
                 continue
-            elif menu_choice.isint() == False:
+            elif menu_choice.isdigit() == False:
                 os.system('cls')
                 self.view.invalid_selection()
                 continue
@@ -411,7 +411,7 @@ class UserController(object):
                 os.system('cls')
                 self.view.invalid_selection()
                 continue
-            elif menu_choice.isint() == False:
+            elif menu_choice.isdigit() == False:
                 os.system('cls')
                 self.view.invalid_selection()
                 continue
@@ -440,7 +440,7 @@ class UserController(object):
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
-                elif user_input.isint() == False:
+                elif user_input.isdigit() == False:
                     os.system('cls')
                     self.view.invalid_selection()
                     continue
@@ -501,6 +501,7 @@ class UserController(object):
                 
             
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.view.invalid_selection()
     def see_all_users(self):
         while True:
@@ -516,6 +517,7 @@ class UserController(object):
                     elif user_input == '/q':
                         return 'Exit_Store'
             except CustomExceptions.DatabaseError as dbe:
+                os.system('cls')
                 print(dbe.message)
                 return 'BACK'
     def update_permissions(self):

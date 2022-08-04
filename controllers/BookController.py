@@ -104,6 +104,8 @@ class BookController(object):
                         return 'Exit_Store'
                 elif user_input.isalpha() == True:
                     raise CustomExceptions.InvalidSelectionError
+                elif user_input.isdigit() == False:
+                    raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) not in self.genre_interface_dict:
                     raise CustomExceptions.InvalidSelectionError
                 else:
