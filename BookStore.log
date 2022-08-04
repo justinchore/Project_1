@@ -21893,3 +21893,12 @@
 2022-08-04 02:08:21,326 :: # _do_auth(): user: root
 2022-08-04 02:08:21,326 :: # _do_auth(): password: Ithinksoso1916
 2022-08-04 02:08:21,326 :: new_auth_plugin: caching_sha2_password
+2022-08-04 02:20:49,518 :: # _do_auth(): user: root
+2022-08-04 02:20:49,519 :: # _do_auth(): self._auth_plugin: 
+2022-08-04 02:20:49,519 :: # _do_auth(): user: root
+2022-08-04 02:20:49,519 :: # _do_auth(): password: Ithinksoso1916
+2022-08-04 02:20:49,519 :: package: mysql.connector.plugins
+2022-08-04 02:20:49,519 :: plugin_name: caching_sha2_password
+2022-08-04 02:20:49,521 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 02:20:49,521 :: new_auth_plugin: caching_sha2_password
+2022-08-04 02:20:49,522 :: Accessed database in get_user_by_email function...

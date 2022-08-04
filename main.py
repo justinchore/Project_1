@@ -29,9 +29,10 @@ import controllers.UserController
 def main():
     logging.basicConfig(filename="BookStore.log",level=logging.DEBUG, format='%(asctime)s :: %(message)s')
     
-   
+    os.system('cls')
     user_controller = controllers.UserController.UserController()
     while not user_controller.logged_in:
+        
         result = user_controller.welcome()
         if result == 'Exit':
             continue

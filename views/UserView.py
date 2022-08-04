@@ -8,7 +8,7 @@ class UserView(object):
         os.system
         print(emoji.emojize(":derelict_house: :derelict_house: :derelict_house:  The Little Command Line Book Store on the Corner :derelict_house: :derelict_house: :derelict_house:"))
         print('-----------------------------------------------------------------')
-        print(emoji.emojize('Please select from the following:'))
+        print(emoji.emojize('Please select from the following (input: 1, 2, 3):'))
         print(emoji.emojize('1) Log in to your account :door:'))
         print(emoji.emojize('2) Create an account :NEW_button:'))
         print(emoji.emojize('3) Exit store :victory_hand:'))

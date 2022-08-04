@@ -75,21 +75,24 @@ class UserController(object):
     ######################
     
     def welcome(self):
-        os.system('cls')
         self.view.welcome_message()
-        welcome_input = int(input())
+        welcome_input = input()
         # os.system('cls')
         match welcome_input: 
-            case 1:
+            case '1':
                 result = self.user_login()
                 return result
-            case 2:
+            case '2':
                 result = self.user_create()
                 return result
-            case 3:
+            case '3':
                 # self.view.exit_message()
                 print('Exiting...')
                 return 'Exit_Store'
+            case other:
+                os.system('cls')
+                print(emoji.emojize(':warning: Invalid Input. Please try again :warning:'))
+            
                 
     
     def user_login(self):
