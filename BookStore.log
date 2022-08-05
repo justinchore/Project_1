@@ -230,3 +230,71 @@
 2022-08-05 01:53:51,707 :: Retrieved order items from order: 17
 2022-08-05 01:54:18,232 :: 1) record was updated in the database...
 2022-08-05 01:54:18,249 :: New orderItem (id: 23) was inserted into database...
+2022-08-05 01:59:20,101 :: package: mysql.connector.plugins
+2022-08-05 01:59:20,101 :: plugin_name: caching_sha2_password
+2022-08-05 01:59:20,103 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:59:20,104 :: Accessed database in get_user_by_email function...
+2022-08-05 01:59:20,311 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:59:22,561 :: Retrieved order items from order: 17
+2022-08-05 01:59:52,930 :: 1) record was updated in the database...
+2022-08-05 01:59:52,947 :: New orderItem (id: 24) was inserted into database...
+2022-08-05 02:00:11,832 :: Retrieved order items from order: 17
+2022-08-05 02:00:24,588 :: Retrieved book from orderitem: 23
+2022-08-05 02:00:34,597 :: OrderItem: 23's quantity was changed to 1 in the database
+2022-08-05 02:00:34,626 :: Retrieved order items from order: 17
+2022-08-05 02:00:46,527 :: Retrieved book from orderitem: 24
+2022-08-05 02:00:49,642 :: OrderItem: 24 was deleted from the database
+2022-08-05 02:00:49,673 :: Retrieved order items from order: 17
+2022-08-05 02:00:55,745 :: Total price for order: 17 retrieved
+2022-08-05 02:00:59,751 :: New orderItem (id: 18) was inserted into database...
+2022-08-05 02:01:07,781 :: Retrieved order items from order: 18
+2022-08-05 02:01:29,357 :: User's order history accessed in DB and retrieved.
+2022-08-05 02:01:35,855 :: Retrieved order items from order: 17
+2022-08-05 02:02:27,519 :: package: mysql.connector.plugins
+2022-08-05 02:02:27,520 :: plugin_name: caching_sha2_password
+2022-08-05 02:02:27,520 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 02:02:27,522 :: Accessed database in get_user_by_email function...
+2022-08-05 02:02:27,728 :: Unpaid order found and retrieved as cart.
+2022-08-05 02:03:33,113 :: ADMIN: Got all orders from database.
+2022-08-05 02:03:38,742 :: ADMIN: Got all orders from database.
+2022-08-05 02:15:39,598 :: package: mysql.connector.plugins
+2022-08-05 02:15:39,599 :: plugin_name: caching_sha2_password
+2022-08-05 02:15:39,600 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 02:15:39,602 :: Accessed database in get_user_by_email function...
+2022-08-05 02:15:39,808 :: Unpaid order found and retrieved as cart.
+2022-08-05 02:16:32,144 :: package: mysql.connector.plugins
+2022-08-05 02:16:32,144 :: plugin_name: caching_sha2_password
+2022-08-05 02:16:32,146 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 02:16:32,148 :: Accessed database in get_user_by_email function...
+2022-08-05 02:16:32,354 :: Unpaid order found and retrieved as cart.
+2022-08-05 02:16:52,096 :: package: mysql.connector.plugins
+2022-08-05 02:16:52,096 :: plugin_name: caching_sha2_password
+2022-08-05 02:16:52,098 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 02:16:52,099 :: Accessed database in get_user_by_email function...
+2022-08-05 02:16:52,306 :: Unpaid order found and retrieved as cart.
+2022-08-05 02:17:09,064 :: ADMIN: Got all orders from database.
+2022-08-05 02:19:37,736 :: ADMIN: Got all orders from database.
+2022-08-05 02:20:05,466 :: ADMIN: All Users retrieved from Database
+2022-08-05 02:21:30,677 :: package: mysql.connector.plugins
+2022-08-05 02:21:30,677 :: plugin_name: caching_sha2_password
+2022-08-05 02:21:30,679 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 02:21:30,680 :: Accessed database in get_user_by_email function...
+2022-08-05 02:21:40,784 :: Accessed database in get_user_by_email function...
+2022-08-05 02:22:38,886 :: Accessed database in get_user_by_email function...
+2022-08-05 02:23:09,213 :: New user (id: 10) was inserted into database...
+2022-08-05 02:23:29,764 :: Accessed database in get_user_by_email function...
+2022-08-05 02:23:29,970 :: Unpaid order found and retrieved as cart.
+2022-08-05 02:23:29,997 :: New order (order_id: 19) was inserted into database...
+2022-08-05 02:23:30,015 :: Fetched order id=19 from database
+2022-08-05 02:23:38,909 :: Retrieved order items from order: 19
+2022-08-05 02:26:17,814 :: Retrieved order items from order: 19
+2022-08-05 02:26:52,401 :: 1) record was updated in the database...
+2022-08-05 02:26:52,419 :: Duplicate book found in orderItems. Updated the quantity instead of creating new order
+2022-08-05 02:27:30,340 :: 1) record was updated in the database...
+2022-08-05 02:27:30,357 :: Duplicate book found in orderItems. Updated the quantity instead of creating new order
+2022-08-05 02:27:41,855 :: Retrieved order items from order: 19
+2022-08-05 02:28:11,927 :: 1) record was updated in the database...
+2022-08-05 02:28:11,945 :: New orderItem (id: 25) was inserted into database...
+2022-08-05 02:28:20,240 :: Retrieved order items from order: 19
+2022-08-05 02:28:31,694 :: Retrieved book from orderitem: 25
+2022-08-05 02:28:45,549 :: Retrieved order items from order: 19

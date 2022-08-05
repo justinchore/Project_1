@@ -45,7 +45,7 @@ class OrderView(object):
             print(orders_table)
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
-        print('- or enter OrderID for details: ', end='')
+        # print('- or enter OrderID for details: ', end='')
     @staticmethod
     def show_order_orderitems(orderitems):
         orderitems_table = PrettyTable()

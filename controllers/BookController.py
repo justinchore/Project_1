@@ -168,6 +168,7 @@ class BookController(object):
                                 # print('First page but not last page')
                                 if user_input == '/n':
                                     self.set_page_number(self.page_number + 1)
+                                    os.system('cls')
                                     continue
                                 if user_input == '/p':
                                     raise CustomExceptions.InvalidSelectionError
@@ -179,9 +180,11 @@ class BookController(object):
                                 # print('Not first page or last page')
                                 if user_input == '/n':
                                     self.set_page_number(self.page_number + 1)
+                                    os.system('cls')
                                     continue
                                 elif user_input == '/p':
                                     self.set_page_number(self.page_number - 1)
+                                    os.system('cls')
                                     continue
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
@@ -192,6 +195,7 @@ class BookController(object):
                                 if user_input == '/p':
                                     self.set_is_last_page(False)
                                     self.set_page_number(self.page_number - 1)
+                                    os.system('cls')
                                     continue
                                 elif user_input == '/n':
                                     raise CustomExceptions.InvalidSelectionError

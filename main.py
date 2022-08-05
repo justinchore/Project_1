@@ -55,7 +55,7 @@ def main():
         
         return
     while user_controller.is_admin == True and user_controller.logged_in:
-        print("Admin WORLD!")
+        # print("Admin WORLD!")
         result = user_controller.admin_menu()
         if result == 'Exit_Store':
             return

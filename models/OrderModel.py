@@ -32,7 +32,7 @@ class Order(object):
         try:
             cnx = self.connect_to_db()
             cursor = cnx.cursor(dictionary=True)
-            sql = "SELECT o.order_id, u.email_address, o.is_paid, o.paid_date, o.is_completed, o.completed_date FROM Orders as o JOIN Users as u ON o.customer_id = u.user_id WHERE is_paid = True ORDER BY o.order_id"
+            sql = "SELECT o.order_id, u.email_address, o.is_paid, o.paid_date, o.is_completed, o.completed_date FROM Orders as o JOIN Users as u ON o.customer_id = u.user_id WHERE is_paid = True ORDER BY o.paid_date DESC"
             cursor.execute(sql)
             orders = cursor.fetchall()
             logging.info(f"ADMIN: Got all orders from database.")

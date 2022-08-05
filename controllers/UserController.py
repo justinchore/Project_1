@@ -400,7 +400,6 @@ class UserController(object):
     #########ADMIN############
     def admin_menu(self):
         while True:
-            # os.system('cls')
             self.view.login_success_msg(self.name)
             self.view.show_admin_logged_in_menu()
             menu_choice = input()
@@ -419,24 +418,34 @@ class UserController(object):
                 self.view.invalid_selection()
                 continue
             elif int(menu_choice) == 1:
+                os.system('cls')
                 result = self.order_manager()
                 if result == 'BACK':
+                    os.system('cls')
                     continue
                 elif result== 'Exit_Store':
+                    os.system('cls')
+                    print('Exiting...')
                     return 'Exit_Store'
             elif int(menu_choice) == 2:
+                os.system('cls')
                 result = self.permissions_manager()    
             else:
                 if result == 'BACK':
+                    os.system('cls')
                     continue
                 elif result == 'Exit_Store':
+                    os.system('cls')
+                    print('Exiting...')
                     return 'Exit_Store' 
     def order_manager(self) -> str:
+        
         while True:
             try:
                 self.view.show_admin_order_manager()
                 user_input = input().strip()
                 if user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
@@ -447,11 +456,12 @@ class UserController(object):
                 elif user_input.isalpha() == True or int(user_input) not in [1]:
                     raise CustomExceptions.InvalidSelectionError
                 elif int(user_input) == 1:
+                    os.system('cls')
                     result = self.see_all_orders()
                 if result == 'BACK':
                     return 'BACK'
                 elif result == 'Exit_Store':
-                    'Exit Store'
+                    return 'Exit Store'
                 
             except CustomExceptions.InvalidSelectionError as ise:
                 self.view.invalid_selection()
@@ -467,12 +477,16 @@ class UserController(object):
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
+                    os.system('cls')
                     return 'Exit_Store'
             except CustomExceptions.DatabaseError as dbe:
+                os.system('cls')
                 print(dbe.message)
             except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
                 self.order_view.invalid_selection()
     def update_order(self):
         pass
@@ -485,18 +499,25 @@ class UserController(object):
                 self.view.show_admin_permissions_manager()
                 user_input = input().strip()
                 if user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
+                    os.system('cls')
                     return 'Exit_Store'
                 elif user_input.isalpha() == True or int(user_input) not in [1, 2]:
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == "1":
-                    result = self.update_permissions()
+                    os.system('cls')
+                    print('Feature not yet implemented')
+                    continue
                 elif user_input == "2":
+                    os.system('cls')
                     result = self.see_all_users()
                 if result == 'BACK':
+                    os.system('cls')
                     continue
                 elif result == 'Exit_Store':
+                    os.system('cls')
                     'Exit Store'
                 
             
@@ -513,8 +534,10 @@ class UserController(object):
                     self.view.admin_show_all_users(users)
                     user_input = input().strip()
                     if user_input == '/b':
+                        os.system('cls')
                         return 'BACK'
                     elif user_input == '/q':
+                        os.system('cls')
                         return 'Exit_Store'
             except CustomExceptions.DatabaseError as dbe:
                 os.system('cls')
