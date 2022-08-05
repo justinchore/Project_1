@@ -224,35 +224,38 @@ class OrderController(object):
                 
                     
     def change_quantity(self, orderitem_id):
-        try:
-            record = self.order_model.get_book_from_orderitem(orderitem_id)
-            if record == 'DB Error':
-                raise CustomExceptions.DatabaseError
-            current_stock = record['stock']
-            book_id = record['book_id']
-            book_title = record['book_title']
-            self.view.order_edit_change_quantity(book_title, current_stock)
-            new_quantity = input().strip()
-            if new_quantity.isalpha():
-                raise CustomExceptions.InvalidSelectionError
-            if int(new_quantity) > current_stock:
-                os.system('cls')
-                print('Sorry, not enough stock for that quantity amount!')
-                raise CustomExceptions.InvalidSelectionError
-            if isinstance(int(new_quantity), int) and (int(new_quantity) <= current_stock) and (int(new_quantity) >= 0):
-                result = self.order_model.change_orderitem_quantity(orderitem_id, int(new_quantity), current_stock, book_id)
-                if result == 'DB Error':
+        while True:
+            try:
+                record = self.order_model.get_book_from_orderitem(orderitem_id)
+                if record == 'DB Error':
                     raise CustomExceptions.DatabaseError
-                else:
+                current_stock = record['stock']
+                book_id = record['book_id']
+                book_title = record['book_title']
+                self.view.order_edit_change_quantity(book_title, current_stock)
+                new_quantity = input().strip()
+                if new_quantity.isalpha():
+                    raise CustomExceptions.InvalidSelectionError
+                if int(new_quantity) > current_stock:
+                    print('Stock issue')
                     os.system('cls')
-                    return 'BACK'
-            
-        except CustomExceptions.DatabaseError as dbe:
-            os.system('cls')
-            print(dbe.message)
-        except CustomExceptions.InvalidSelectionError as ise:
-            os.system('cls')
-            self.view.invalid_selection()
+                    print('Sorry, not enough stock for that quantity amount!')
+                    raise CustomExceptions.InvalidSelectionError
+                if isinstance(int(new_quantity), int) and (int(new_quantity) <= current_stock) and (int(new_quantity) >= 0):
+                    print('going')
+                    result = self.order_model.change_orderitem_quantity(orderitem_id, int(new_quantity), current_stock, book_id)
+                    if result == 'DB Error':
+                        raise CustomExceptions.DatabaseError
+                    else:
+                        os.system('cls')
+                        return 'BACK'
+                
+            except CustomExceptions.DatabaseError as dbe:
+                os.system('cls')
+                print(dbe.message)
+            except CustomExceptions.InvalidSelectionError as ise:
+                os.system('cls')
+                self.view.invalid_selection()
         
                 
         
