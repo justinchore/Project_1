@@ -21,7 +21,10 @@ class OrderView(object):
             print(orders_table)
         print(emoji.emojize('/b: go back:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
-        print('- or enter OrderID for details: ', end='')
+        if (len(orders) > 0):
+            print('- or enter OrderID for details: ', end='')
+        else:
+            print('--input: ', end='')
     @staticmethod
     def admin_orders_view(orders):
         # print(orders)
@@ -60,7 +63,7 @@ class OrderView(object):
         orderitems_table.add_row(['--', '-- ', '-- ', 'Total Price:', total_order_price])
         print(orderitems_table)
         print('')
-        print(emoji.emojize('/b: go back:BACK_arrow:'))
+        print(emoji.emojize('/b: go back to menu:BACK_arrow:'))
         print(emoji.emojize('/q: exit store :victory_hand:'))
         
     @staticmethod
@@ -68,7 +71,9 @@ class OrderView(object):
         OrderView.show_order_orderitems(orderitems)
         if (has_items):
             print(emoji.emojize('/c: checkout :money_with_wings:'))
-        print('- or enter OrderitemID to change quantity: ', end='')
+            print('- or enter OrderitemID to change quantity: ', end='')
+        else:
+            print('--input: ', end='')
         
     @staticmethod
     def checkout_view(total):

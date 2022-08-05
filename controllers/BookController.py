@@ -61,6 +61,7 @@ class BookController(object):
                 else:
                     result = self.book_genres(result)
                     if result == 'BACK':
+                        os.system('cls')
                         return 'BACK'
                     if result == 'Exit_Store':
                         return 'Exit_Store'
@@ -76,6 +77,7 @@ class BookController(object):
                 pass
     
     def book_genres(self, records):
+        os.system('cls')
         while True:
             try:
                 # os.system('cls')
@@ -93,14 +95,18 @@ class BookController(object):
                 self.view.show_book_genres(records)
                 user_input = input()
                 if user_input == '/q':
+                    os.system('cls')
                     return 'Exit_Store'
                 if user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/c':
                     result = self.order_controller.see_cart()
                     if result == 'BACK':
+                        os.system('cls')
                         continue
                     if result == 'Exit_Store':
+                        os.system('cls')
                         return 'Exit_Store'
                 elif user_input.isalpha() == True:
                     raise CustomExceptions.InvalidSelectionError
@@ -120,19 +126,23 @@ class BookController(object):
                     if result == 'Exit_Store':
                         return 'Exit_Store'
             except CustomExceptions.InvalidSelectionError as ise:
-                # os.system('cls')
                 print(ise.message)
+                os.system('cls')
                 
     def filter_books(self, filter_data, filter_type):
+        os.system('cls')
         self.set_browsing(True)
         self.set_is_first_page(True)
         self.set_is_last_page(False)
         self.set_page_number(1)
-        while True:
-            match filter_type:
+        # while True:
+        match filter_type:
                 case 'GENRE':
-                    try:
-                        while self.browsing == True: 
+                     while self.browsing == True: 
+                        try:
+                            # os.system('cls')
+                            # print('back to top')
+                            print(f'Page #: {self.page_number}')
                             pn = self.page_number
                             # print('Page Number:', pn)
                             bpp = self.books_per_page
@@ -147,6 +157,8 @@ class BookController(object):
                             else:
                                 self.set_is_first_page(False)
                                 
+                            # print(f'is_first_page: {self.is_first_page}')
+                            # print(f'is_last_page: {self.is_last_page}')
                             self.view.show_books(result, self.page_number, self.is_first_page, self.is_last_page)
                             book_ids_list = []
                             for book in result:
@@ -157,10 +169,12 @@ class BookController(object):
                                 if user_input == '/n':
                                     self.set_page_number(self.page_number + 1)
                                     continue
+                                if user_input == '/p':
+                                    raise CustomExceptions.InvalidSelectionError
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
-                                elif user_input.isdigit() == False:
-                                    raise CustomExceptions.InvalidSelectionError
+                                # elif user_input.isdigit() == False:
+                                #     raise CustomExceptions.InvalidSelectionError
                             elif (self.is_first_page == False) and (self.is_last_page == False):
                                 # print('Not first page or last page')
                                 if user_input == '/n':
@@ -171,23 +185,27 @@ class BookController(object):
                                     continue
                                 elif user_input.isalpha():
                                     raise CustomExceptions.InvalidSelectionError
-                                elif user_input.isdigit() == False:
-                                    raise CustomExceptions.InvalidSelectionError
+                                # elif user_input.isdigit() == False:
+                                #     raise CustomExceptions.InvalidSelectionError
                             elif (self.is_first_page == False) and (self.is_last_page == True):
+                                print('last page')
                                 if user_input == '/p':
+                                    self.set_is_last_page(False)
                                     self.set_page_number(self.page_number - 1)
                                     continue
-                                elif user_input.isalpha() == True:
+                                elif user_input == '/n':
                                     raise CustomExceptions.InvalidSelectionError
-                                elif user_input.isdigit() == False:
+                                elif user_input.isalpha() == True:
                                     raise CustomExceptions.InvalidSelectionError
                             else:
                                 if user_input.isalpha() == True:
                                     raise CustomExceptions.InvalidSelectionError
-                            
+                            # print('page number outside')
                             if user_input == '/b':
+                                os.system('cls')
                                 return 'BACK'
                             elif user_input == '/q':
+                                os.system('cls')
                                 print('Exiting...')
                                 return 'Exit_Store'
                             elif user_input == '/c':
@@ -195,6 +213,8 @@ class BookController(object):
                                 if result == 'BACK':
                                     continue
                                 elif result == 'Exit_Store':
+                                    os.system('cls')
+                                    print('Exiting...')
                                     return 'Exit_Store'   
                             elif user_input.isdigit() == False:
                                 raise CustomExceptions.InvalidSelectionError
@@ -205,17 +225,20 @@ class BookController(object):
                             if result == 'BACK':
                                 continue
                             if result == 'BACK_TO_MENU':
+                                os.system('cls')
                                 return 'BACK'
                             elif result == 'Exit_Store':
+                                os.system('cls')
+                                print('Exiting...')
                                 return 'Exit_Store'
                             break
                                 
-                    except CustomExceptions.DatabaseError as dbe:
-                        os.system('cls')
-                        self.view.show_book_error(dbe.message)
-                    except CustomExceptions.InvalidSelectionError as ise:
-                        os.system('cls')
-                        self.view.invalid_selection()
+                        except CustomExceptions.DatabaseError as dbe:
+                            os.system('cls')
+                            self.view.show_book_error(dbe.message)
+                        except CustomExceptions.InvalidSelectionError as ise:
+                            os.system('cls')
+                            self.view.invalid_selection()
                 case 'AUTHOR_SEARCH':
                     books = self.book_model.search_books_by_author(filter_data)
                 case 'TITLE_SEARCH':
@@ -223,6 +246,7 @@ class BookController(object):
                 case 'ALL':
                     books = self.book_model.get_all_books()
     def book_details(self,book_id):
+        os.system('cls')
         while True:
             try:
                 book = self.book_model.get_book_by_id(book_id)
@@ -235,8 +259,11 @@ class BookController(object):
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
+                    os.system('cls')
+                    print('Exiting...')
                     return 'Exit_Store'
                 elif user_input.isdigit() == False:
                     raise CustomExceptions.InvalidSelectionError
@@ -251,6 +278,7 @@ class BookController(object):
                 else: 
                     result = self.order_controller.create_orderitem(book_id, user_quantity,book_price)
                     if result == True:
+                        os.system('cls')
                         return 'BACK'
                     elif result == 'DB Error':
                         raise CustomExceptions.DatabaseError

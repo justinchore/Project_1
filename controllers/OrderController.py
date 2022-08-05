@@ -1,4 +1,5 @@
 import os
+import time
 import emoji
 import logging
 import CustomExceptions
@@ -71,11 +72,17 @@ class OrderController(object):
     def create_orderitem(self, book_id, order_quantity, price):
         orderitem_id = self.order_model.create_orderitem(self.current_order_id, book_id, order_quantity, price)
         if orderitem_id == True:
-            return 'Success'
+            print('Processing...')
+            time.sleep(2.4)
+            print('Placed into cart!')
+            time.sleep(2.4)
+            os.system('cls')
+            return 'BACK'
         elif orderitem_id == 'DB Error':
             return 'DB Error'
         
     def customer_orders(self, id):
+        os.system('cls')
         while True:
             try:
                 orders = self.order_model.get_user_orders(id)
@@ -89,8 +96,10 @@ class OrderController(object):
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
+                    print('Exiting...')
                     return 'Exit_Store'
                 elif user_input.isdigit() == False:
                     raise CustomExceptions.InvalidSelectionError
@@ -99,6 +108,7 @@ class OrderController(object):
                 else: 
                     result = self.order_details(int(user_input))
                     if result == 'BACK':
+                        os.system('cls')
                         return 'BACK'
                     elif result == 'Exit_Store':
                         return 'Exit_Store'
@@ -122,6 +132,7 @@ class OrderController(object):
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
+                    os.system('cls')
                     return 'BACK'
                 elif user_input == '/q':
                     return 'Exit_Store'
@@ -135,6 +146,7 @@ class OrderController(object):
                 print(dbe.message)
     
     def see_cart(self):
+        os.system('cls')
         while True:
             try:
                 orderitems = self.order_model.get_orderitems(self.current_order_id)
@@ -147,7 +159,7 @@ class OrderController(object):
                 # print('acceptedints:', accepted_orderitemids)
                 orderitems_length = len(orderitems)
                 self.view.show_current_orderitems(orderitems, orderitems_length > 0)
-                user_input = input().strip
+                user_input = input().strip()
                 if user_input.isalpha():
                     raise CustomExceptions.InvalidSelectionError
                 elif user_input == '/b':
@@ -184,6 +196,7 @@ class OrderController(object):
             if user_input.isalpha() == False:
                 raise CustomExceptions.InvalidSelectionError
             elif user_input == 'n':
+                os.system('cls')
                 return 'BACK'
             elif user_input == 'y':
                 result = self.order_model.checkout_order(self.current_order_id, self.customer_id)
@@ -192,6 +205,10 @@ class OrderController(object):
                     raise CustomExceptions.DatabaseError
                 else:
                     self.set_current_order_id(result)
+                    print('Processing...')
+                    time.sleep(2.4)
+                    print('Success! Thank you for your purchase.')
+                    time.sleep(2.4)
                     os.system('cls')
                     return 'BACK'
             else:
@@ -223,6 +240,7 @@ class OrderController(object):
                 if result == 'DB Error':
                     raise CustomExceptions.DatabaseError
                 else:
+                    os.system('cls')
                     return 'BACK'
         except CustomExceptions.DatabaseError as dbe:
             os.system('cls')

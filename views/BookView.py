@@ -5,9 +5,9 @@ from prettytable import PrettyTable
 class BookView(object):
     @staticmethod
     def show_books(books, page_number, first_page, last_page):
-        print('Show books view')
-        print('Page Number: ' ,page_number)
-        print('How Many Books: ', len(books))
+        # print('Show books view')
+        # print('Page Number: ' ,page_number)
+        # print('How Many Books: ', len(books))
         book_table = PrettyTable()
         book_table.field_names = ["ID", "Title", "Author", "Genre", "Price", "Stock" ]
         for idx, b in enumerate(books):

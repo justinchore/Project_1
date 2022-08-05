@@ -60,3 +60,173 @@
 2022-08-04 14:10:51,316 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
 2022-08-04 14:10:51,317 :: Accessed database in get_user_by_email function...
 2022-08-04 14:10:54,218 :: Accessed database in get_user_by_email function...
+2022-08-04 14:35:31,978 :: package: mysql.connector.plugins
+2022-08-04 14:35:31,980 :: plugin_name: caching_sha2_password
+2022-08-04 14:35:31,981 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 14:35:31,983 :: Accessed database in get_user_by_email function...
+2022-08-04 17:06:39,067 :: package: mysql.connector.plugins
+2022-08-04 17:06:39,068 :: plugin_name: caching_sha2_password
+2022-08-04 17:06:39,070 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 17:06:39,073 :: Accessed database in get_user_by_email function...
+2022-08-04 17:07:18,303 :: New user (id: 9) was inserted into database...
+2022-08-04 17:10:02,065 :: Accessed database in get_user_by_email function...
+2022-08-04 17:10:29,174 :: Accessed database in get_user_by_email function...
+2022-08-04 17:10:29,382 :: Unpaid order found and retrieved as cart.
+2022-08-04 17:10:29,408 :: New order (order_id: 16) was inserted into database...
+2022-08-04 17:10:29,426 :: Fetched order id=16 from database
+2022-08-04 17:10:39,561 :: User's order history accessed in DB and retrieved.
+2022-08-04 17:13:08,451 :: package: mysql.connector.plugins
+2022-08-04 17:13:08,451 :: plugin_name: caching_sha2_password
+2022-08-04 17:13:08,452 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 17:13:08,454 :: Accessed database in get_user_by_email function...
+2022-08-04 17:13:08,662 :: Unpaid order found and retrieved as cart.
+2022-08-04 17:13:11,225 :: User's order history accessed in DB and retrieved.
+2022-08-04 17:13:16,804 :: User's order history accessed in DB and retrieved.
+2022-08-04 17:14:24,676 :: User's order history accessed in DB and retrieved.
+2022-08-04 17:14:47,316 :: package: mysql.connector.plugins
+2022-08-04 17:14:47,316 :: plugin_name: caching_sha2_password
+2022-08-04 17:14:47,318 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 17:14:47,319 :: Accessed database in get_user_by_email function...
+2022-08-04 17:14:47,527 :: Unpaid order found and retrieved as cart.
+2022-08-04 17:15:35,200 :: package: mysql.connector.plugins
+2022-08-04 17:15:35,200 :: plugin_name: caching_sha2_password
+2022-08-04 17:15:35,202 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 17:15:35,203 :: Accessed database in get_user_by_email function...
+2022-08-04 17:15:35,411 :: Unpaid order found and retrieved as cart.
+2022-08-04 17:15:38,364 :: User's order history accessed in DB and retrieved.
+2022-08-04 17:15:46,589 :: Retrieved order items from order: 16
+2022-08-04 17:19:14,792 :: package: mysql.connector.plugins
+2022-08-04 17:19:14,792 :: plugin_name: caching_sha2_password
+2022-08-04 17:19:14,794 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-04 17:19:14,795 :: Accessed database in get_user_by_email function...
+2022-08-04 17:19:15,002 :: Unpaid order found and retrieved as cart.
+2022-08-04 17:19:18,389 :: Retrieved order items from order: 16
+2022-08-04 17:19:23,553 :: Retrieved order items from order: 16
+2022-08-04 17:19:26,954 :: Retrieved order items from order: 16
+2022-08-04 17:19:28,648 :: Retrieved order items from order: 16
+2022-08-05 00:54:06,171 :: package: mysql.connector.plugins
+2022-08-05 00:54:06,171 :: plugin_name: caching_sha2_password
+2022-08-05 00:54:06,173 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 00:54:06,175 :: Accessed database in get_user_by_email function...
+2022-08-05 00:54:06,385 :: Unpaid order found and retrieved as cart.
+2022-08-05 00:58:21,584 :: package: mysql.connector.plugins
+2022-08-05 00:58:21,585 :: plugin_name: caching_sha2_password
+2022-08-05 00:58:21,586 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 00:58:21,588 :: Accessed database in get_user_by_email function...
+2022-08-05 00:58:21,798 :: Unpaid order found and retrieved as cart.
+2022-08-05 00:59:46,985 :: Retrieved order items from order: 16
+2022-08-05 01:00:29,170 :: Retrieved order items from order: 16
+2022-08-05 01:00:31,509 :: Retrieved order items from order: 16
+2022-08-05 01:00:32,350 :: Retrieved order items from order: 16
+2022-08-05 01:00:33,135 :: Retrieved order items from order: 16
+2022-08-05 01:00:33,921 :: Retrieved order items from order: 16
+2022-08-05 01:00:53,016 :: package: mysql.connector.plugins
+2022-08-05 01:00:53,016 :: plugin_name: caching_sha2_password
+2022-08-05 01:00:53,018 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:00:53,019 :: Accessed database in get_user_by_email function...
+2022-08-05 01:01:04,439 :: Accessed database in get_user_by_email function...
+2022-08-05 01:01:04,648 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:03:33,972 :: package: mysql.connector.plugins
+2022-08-05 01:03:33,972 :: plugin_name: caching_sha2_password
+2022-08-05 01:03:33,974 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:03:33,975 :: Accessed database in get_user_by_email function...
+2022-08-05 01:03:34,182 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:07:22,487 :: package: mysql.connector.plugins
+2022-08-05 01:07:22,487 :: plugin_name: caching_sha2_password
+2022-08-05 01:07:22,488 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:07:22,490 :: Accessed database in get_user_by_email function...
+2022-08-05 01:07:22,704 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:09:19,090 :: package: mysql.connector.plugins
+2022-08-05 01:09:19,090 :: plugin_name: caching_sha2_password
+2022-08-05 01:09:19,092 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:09:19,093 :: Accessed database in get_user_by_email function...
+2022-08-05 01:09:19,307 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:12:17,106 :: package: mysql.connector.plugins
+2022-08-05 01:12:17,106 :: plugin_name: caching_sha2_password
+2022-08-05 01:12:17,108 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:12:17,109 :: Accessed database in get_user_by_email function...
+2022-08-05 01:12:17,324 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:14:01,526 :: package: mysql.connector.plugins
+2022-08-05 01:14:01,527 :: plugin_name: caching_sha2_password
+2022-08-05 01:14:01,528 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:14:01,530 :: Accessed database in get_user_by_email function...
+2022-08-05 01:14:01,744 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:19:10,739 :: package: mysql.connector.plugins
+2022-08-05 01:19:10,739 :: plugin_name: caching_sha2_password
+2022-08-05 01:19:10,740 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:19:10,742 :: Accessed database in get_user_by_email function...
+2022-08-05 01:19:10,948 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:21:47,167 :: package: mysql.connector.plugins
+2022-08-05 01:21:47,167 :: plugin_name: caching_sha2_password
+2022-08-05 01:21:47,169 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:21:47,171 :: Accessed database in get_user_by_email function...
+2022-08-05 01:21:57,892 :: Accessed database in get_user_by_email function...
+2022-08-05 01:21:58,100 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:24:47,090 :: package: mysql.connector.plugins
+2022-08-05 01:24:47,090 :: plugin_name: caching_sha2_password
+2022-08-05 01:24:47,091 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:24:47,093 :: Accessed database in get_user_by_email function...
+2022-08-05 01:24:47,306 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:24:59,748 :: Retrieved order items from order: 16
+2022-08-05 01:25:24,578 :: Retrieved order items from order: 16
+2022-08-05 01:25:56,961 :: Retrieved order items from order: 16
+2022-08-05 01:29:57,678 :: package: mysql.connector.plugins
+2022-08-05 01:29:57,678 :: plugin_name: caching_sha2_password
+2022-08-05 01:29:57,680 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:29:57,681 :: Accessed database in get_user_by_email function...
+2022-08-05 01:29:57,889 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:33:29,133 :: package: mysql.connector.plugins
+2022-08-05 01:33:29,133 :: plugin_name: caching_sha2_password
+2022-08-05 01:33:29,134 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:33:29,136 :: Accessed database in get_user_by_email function...
+2022-08-05 01:33:29,344 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:33:39,707 :: Retrieved order items from order: 16
+2022-08-05 01:35:03,443 :: 1) record was updated in the database...
+2022-08-05 01:35:03,462 :: New orderItem (id: 22) was inserted into database...
+2022-08-05 01:38:09,679 :: package: mysql.connector.plugins
+2022-08-05 01:38:09,679 :: plugin_name: caching_sha2_password
+2022-08-05 01:38:09,681 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:38:09,682 :: Accessed database in get_user_by_email function...
+2022-08-05 01:38:09,889 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:38:53,436 :: package: mysql.connector.plugins
+2022-08-05 01:38:53,436 :: plugin_name: caching_sha2_password
+2022-08-05 01:38:53,437 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:38:53,439 :: Accessed database in get_user_by_email function...
+2022-08-05 01:38:53,647 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:39:44,644 :: package: mysql.connector.plugins
+2022-08-05 01:39:44,644 :: plugin_name: caching_sha2_password
+2022-08-05 01:39:44,646 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:39:44,647 :: Accessed database in get_user_by_email function...
+2022-08-05 01:39:44,856 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:39:53,552 :: Retrieved order items from order: 16
+2022-08-05 01:40:26,997 :: Total price for order: 16 retrieved
+2022-08-05 01:42:22,395 :: package: mysql.connector.plugins
+2022-08-05 01:42:22,395 :: plugin_name: caching_sha2_password
+2022-08-05 01:42:22,397 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:42:22,398 :: Accessed database in get_user_by_email function...
+2022-08-05 01:42:22,605 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:45:27,005 :: package: mysql.connector.plugins
+2022-08-05 01:45:27,006 :: plugin_name: caching_sha2_password
+2022-08-05 01:45:27,007 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:45:27,009 :: Accessed database in get_user_by_email function...
+2022-08-05 01:45:27,216 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:45:32,897 :: Retrieved order items from order: 16
+2022-08-05 01:45:36,648 :: Total price for order: 16 retrieved
+2022-08-05 01:45:42,919 :: Retrieved order items from order: 16
+2022-08-05 01:45:55,453 :: Retrieved book from orderitem: 22
+2022-08-05 01:46:02,892 :: OrderItem: 22's quantity was changed to 2 in the database
+2022-08-05 01:46:02,921 :: Retrieved order items from order: 16
+2022-08-05 01:46:07,363 :: Total price for order: 16 retrieved
+2022-08-05 01:46:10,218 :: New orderItem (id: 17) was inserted into database...
+2022-08-05 01:47:21,103 :: User's order history accessed in DB and retrieved.
+2022-08-05 01:47:32,160 :: User's order history accessed in DB and retrieved.
+2022-08-05 01:47:34,351 :: Retrieved order items from order: 16
+2022-08-05 01:47:54,799 :: User's order history accessed in DB and retrieved.
+2022-08-05 01:53:48,529 :: package: mysql.connector.plugins
+2022-08-05 01:53:48,529 :: plugin_name: caching_sha2_password
+2022-08-05 01:53:48,531 :: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2022-08-05 01:53:48,533 :: Accessed database in get_user_by_email function...
+2022-08-05 01:53:48,742 :: Unpaid order found and retrieved as cart.
+2022-08-05 01:53:51,707 :: Retrieved order items from order: 17
+2022-08-05 01:54:18,232 :: 1) record was updated in the database...
+2022-08-05 01:54:18,249 :: New orderItem (id: 23) was inserted into database...
