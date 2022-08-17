@@ -73,7 +73,7 @@ Room for improvement:
 - Refactor methods to avoid repeated code
 - Optimize controllers by increasing modularity
 
-To do:
+Additional Features to Work On:
 - Admin functionality:
     - Permission granting
     - Stats (best sellers, loyal customers, etc)
