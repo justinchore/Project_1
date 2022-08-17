@@ -15,7 +15,7 @@ Command line interface bookstore using mySQL and python 3
 ## General Information
 - This project is a command line interface for a fictional book store.
 - The goal of this project is to demonstrate handling of mySQL queries, user input handling, admin permissions, and persisting data
-- Implemented an MVC (Model-View-Controller) architectural pattern for clear, logical separation of tasks
+- Implemented MVC (Model-View-Controller) architectural pattern for clear, logical separation of tasks
 <!-- - Why did you undertake it? -->
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
