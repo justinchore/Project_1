@@ -3,29 +3,6 @@ import sys
 import logging
 import controllers.UserController
 
-
-# class Connection(object):
-#     def __init__(self, cnx=mysql.connector.connect(user=c.user, password=c.password, host=c.host, database='test'), cursor=None) -> None:
-#         self.cnx = cnx
-#         self.cursor = self.cnx.cursor()
-        
-#     @property
-#     def cnx(self):
-#         return self.cnx
-    
-#     @property
-#     def cursor(self):
-#         return self.cursor
-    
-#     def close_cursor(self):
-#         self.cursor.close()
-    
-#     def close_connection(self):
-#         self.cnx.close
-        
-
-##Start Connection:
-
 def main():
     logging.basicConfig(filename="BookStore.log",level=logging.INFO, format='%(asctime)s :: %(message)s')
     
