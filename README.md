@@ -1,9 +1,5 @@
 # The Little Command Line Book Store on the Corner 
-Command line interface bookstore featuring:
-    - Account creation, login
-    - Cart and checkout functionality
-    - Input validation
-    - Persisted data
+Command line interface bookstore using mySQL and python 3
 
 
 <!-- ## Table of Contents
@@ -17,21 +13,19 @@ Command line interface bookstore featuring:
 
 
 ## General Information
-- This project is a command line interface for a fictional bank.
-- The goal of this project is to demonstrate file read/write capabilities, user input handling  and object orientated programming. 
+- This project is a command line interface for a fictional book store.
+- The goal of this project is to demonstrate handling of mySQL queries, user input handling, admin permissions, and persisting data
 <!-- - Why did you undertake it? -->
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
 - Python - 3.10.5
-
-
-## Features
-<!-- List the ready features here: -->
-- User input checking with Regex
-- Password hashing with bcrypt
-- Persisting data with JSON
+- mySQL (Reading/writing functionality with database)
+- Regex (User input validations)
+- bcrypt (Hashing user passwords for security)
+- logging (Tracking application interaction with mySQL)
+- PrettyTable/emoji (Formatted output for user experience)
 
 
 <!-- ## Screenshots
@@ -45,10 +39,11 @@ Command line interface bookstore featuring:
 Proceed to describe how to install / setup one's local environment / get started with the project. -->
 To run the program, clone or copy project folder onto local machine. Then:
 
-For password hashing:
+Installing packages:
 ```
 pip install bcrypt
-```
+pip install PrettyTable
+pip install emoji
 
 To execute program:
 ```
@@ -71,14 +66,15 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 <!-- Include areas you believe need improvement / could be improved. Also add TODOs for future development. -->
 
 Room for improvement:
-- JSON file formatting
-- Refactoring try except blocks for input errors
+- Refactor methods to avoid repeated code
+- Optimize controllers by increasing modularity
 
 To do:
-- Account deletion
-- Account editing
-- Password reset with email service
-- More robust interface (sounds, images, colors)
+- Admin functionality:
+    - Permission granting
+    - Stats (best sellers, loyal customers, etc)
+    - Delete/Add Users
+    - Delete/Edit Orders
 
 
 <!-- ## Acknowledgements
