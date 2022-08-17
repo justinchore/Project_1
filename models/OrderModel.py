@@ -49,15 +49,18 @@ class Order(object):
             cnx = self.connect_to_db()
             cursor = cnx.cursor()
             #Check for same book inside order
-            sql = f"SELECT order_id, quantity From OrderItems WHERE book_id = {book_id}"
+            sql = f"SELECT order_id, quantity, orderItem_id From OrderItems WHERE book_id = {book_id} AND order_id={order_id}"
             cursor.execute(sql)
             record = cursor.fetchone()
             if record != None:
+                logging.info('orderitem record: {record}')
                 prev_quantity = record[1]
-                sql1 = f"UPDATE OrderItems SET quantity = {prev_quantity + quantity}"
+                orderItemId = record[2]
+                sql1 = f"UPDATE OrderItems SET quantity = {prev_quantity + quantity} WHERE orderItem_id = {orderItemId}"
                 cursor.execute(sql1)
                 logging.info("Duplicate book found in orderItems. Updated the quantity instead of creating new order")
             else: 
+                logging.info('orderitem record: {record}')
                 sql2 = "INSERT INTO OrderItems (order_id, book_id, quantity, book_price) VALUES (%s, %s, %s, %s)"
                 values = (order_id, book_id, quantity, book_price)
                 cursor.execute(sql2, values)
