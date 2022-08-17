@@ -45,9 +45,12 @@ pip install bcrypt
 pip install PrettyTable
 pip install emoji
 
+```
 To execute program:
+
 ```
 python main.py
+
 ```
 
 
